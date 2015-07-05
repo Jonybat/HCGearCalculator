@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heroes>
+
+    <hero name="Admiral" stars="1">
+        <set name="Purple">
+            <equipment name="Ball Lightning"/>
+            <equipment name="Dirks of Cicero"/>
+            <equipment name="Vastro Tooth"/>
+            <equipment name="Spark of Tyr"/>
+            <equipment name="Fireseed"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Moonglow"/>
+            <equipment name="Pipe"/>
+            <equipment name="Moon of Lulithan"/>
+            <equipment name="Sanadorian Warden Helm"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Dragon Glass"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Kreln Masher"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Kreln Horn"/>
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="Vastro Tooth"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Crusade Shield"/>
+            <equipment name="Titan's Axe"/>
+            <equipment name="Moonglow"/>
+            <equipment name="Heaven's Halberd"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--             <equipment name="?"/> -->
+            <equipment name="Immortal Guardian"/>
+            <equipment name="Dragon's Scale"/>
+            <equipment name="Emerald Pendant"/>
+            <equipment name="Holy Garment"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+
+</heroes>
