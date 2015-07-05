@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gear>
+
+
+	<!-- WHITE REELS -->
+	<equipment name="Pendant of Kenaris Reel" color="white"/>
+	<equipment name="Torc of Sight Reel" color="white"/>
+	<equipment name="Wrist of Boaz Reel" color="white"/>
+	<equipment name="Recovery towel Reel" color="white"/>
+
+
+	
+	
+	<!-- WHITE BASIC -->
+	<equipment name="Wak-dol Blade" color="white"/>
+	<equipment name="Inho Berry" color="white"/>
+	<equipment name="Emerald Torc" color="white"/>
+	<equipment name="Solak Soulbranch" color="white"/>
+	<equipment name="Fist of Tyre" color="white"/>
+	<equipment name="Fleet Feet" color="white"/>
+	<equipment name="Buckler" color="white"/>
+	<equipment name="Mask of Orrelhim" color="white"/>
+	<equipment name="Psionist's Cape" color="white"/>
+	<equipment name="Ceramic Bracelet" color="white"/>
+	<equipment name="Recovery Ring" color="white"/>
+	<equipment name="Shoes" color="white"/>
+	<equipment name="Bearknuckles" color="white"/>
+
+	
+	
+	
+	<!-- WHITE CRAFT -->
+	<equipment name="Pendant of Kenaris" color="white">
+		<equipment name="Pendant of Kenaris Reel"/>
+		<equipment name="Psionist's Cape"/>
+		<equipment name="Emerald Torc"/>
+	</equipment>
+
+	<equipment name="Recovery towel" color="white">
+		<equipment name="Recovery towel Reel"/>
+		<equipment name="Recovery Ring"/>
+		<equipment name="Inho Berry"/>
+	</equipment>
+
+	<equipment name="Torc of Sight" color="white">
+		<equipment name="Torc of Sight Reel"/>
+		<equipment name="Fleet Feet"/>
+		<equipment name="Emerald Torc"/>
+	</equipment>
+
+	<equipment name="Wrist of Boaz" color="white">
+		<equipment name="Wrist of Boaz Reel"/>
+		<equipment name="Fist of Tyre"/>
+		<equipment name="Emerald Torc"/>
+	</equipment>
+
+	<equipment name="Coward's Shield" color="white">
+		<equipment name="Buckler"/>
+		<equipment name="Fleet Feet" quantity="2"/>
+	</equipment>
+
+	<equipment name="Bellath's Fang" color="white">
+		<equipment name="Ceramic Bracelet"/>
+		<equipment name="Mask of Orrelhim"/>
+	</equipment>
+
+
+	
+	
+	<!-- GREEN REELS -->
+	<equipment name="Magic Wand Reel" color="green"/>
+	<equipment name="Simple Band Reel" color="green"/>
+	<equipment name="Banded Buckler Reel" color="green"/>
+	<equipment name="Brazer of Zarrad Reel" color="green"/>
+	<equipment name="Bulwak War-Drum Reel" color="green"/>
+	<equipment name="Mask of Madness Reel" color="green"/>
+	<equipment name="Pendant of the Quinnard Reel" color="green"/>
+	<equipment name="Hood of Jachin Reel" color="green"/>
+	<equipment name="Ascendant of Kron Medal Reel" color="green"/>
+	<equipment name="Transmer of Amuns Reel" color="green"/>
+	<equipment name="Chulashi'ta-ok Reel" color="green"/>
+
+
+	
+	
+	<!-- GREEN BASIC -->
+	<equipment name="War Signet of Kreln" color="green"/>
+	<equipment name="Hole Stompers" color="green"/>
+	<equipment name="Hood of Dark Sight" color="green"/>
+	<equipment name="Gloves of Haste" color="green"/>
+	<equipment name="Zarrodic Hood" color="green"/>
+	<equipment name="Void Gem" color="green"/>
+	<equipment name="Tusk Sigil" color="green"/>
+	<equipment name="Gul'tak Tir" color="green"/>
+	<equipment name="Bramblestick" color="green"/>
+	<equipment name="Helm of Magnus Thorne" color="green"/>
+	<equipment name="Pure Earth" color="green"/>
+	<equipment name="Gol'can Tir" color="green"/>
+	<equipment name="Chest Scale" color="green"/>
+	<equipment name="Signet Ring" color="green"/>
+	<equipment name="Bal'gorn Tir" color="green"/>
+
+
+	
+	
+	<!-- GREEN CRAFT -->
+    <equipment name="Pendant of Quinnard" color="green">
+        <equipment name="Pendant of Quinnard"/>
+        <equipment name="Recovery towel"/>
+        <equipment name="Inho Berry"/>
+    </equipment>
+    
+	<equipment name="Magic Wand" color="green">
+		<equipment name="Magic Wand Reel"/>
+		<equipment name="Solak Soulbranch"/>
+		<equipment name="Inho Berry" quantity="2"/>
+	</equipment>
+	
+	<equipment name="Simple Band" color="green">
+		<equipment name="Simple Band Reel"/>
+		<equipment name="Recovery Ring"/>
+		<equipment name="Mask of Orrelhim"/>
+	</equipment>
+	
+	<equipment name="Banded Buckler" color="green">
+		<equipment name="Banded Buckler Reel"/>
+		<equipment name="Chest Scale"/>
+		<equipment name="Inho Berry"/>
+	</equipment>
+	
+	<equipment name="Brazer of Zarrad" color="green">
+		<equipment name="Brazer of Zarrad Reel"/>
+		<equipment name="Mask of Orrelhim"/>
+		<equipment name="Fist of Tyre" quantity="2"/>
+	</equipment>
+	
+	<equipment name="Emerald Boots" color="green">
+		<equipment name="Shoes"/>
+		<equipment name="Ceramic Bracelet"/>
+		<equipment name="Recovery Ring"/>
+	</equipment>
+	
+	<equipment name="Bully Stick" color="green">
+		<equipment name="Bramblestick"/>
+		<equipment name="Mask of Orrelhim"/>
+		<equipment name="Hood of Dark Sight"/>
+	</equipment>
+	
+	<equipment name="Bulwak War-Drum" color="green">
+		<equipment name="Bulwak War-Drum Reel"/>
+		<equipment name="Wrist of Boaz"/>
+		<equipment name="Emerald Torc"/>
+	</equipment>
+	
+	<equipment name="Corax's Sight" color="green">
+		<equipment name="Torc of Sight"/>
+		<equipment name="Bellath's Fang"/>
+	</equipment>
+	
+	<equipment name="Phase Boots" color="green">
+		<equipment name="Shoes"/>
+		<equipment name="Bearknuckles" quantity="2"/>
+	</equipment>
+	
+	<equipment name="Sanadorian Warden Helm" color="green">
+		<equipment name="Tusk Sigil"/>
+		<equipment name="Helm of Magnus Thorne"/>
+	</equipment>
+	
+	<equipment name="Mask of Madness" color="green">
+		<equipment name="Mask of Madness Reel"/>
+		<equipment name="Tusk Sigil"/>
+	</equipment>
+	
+	<equipment name="Training Boots" color="green">
+		<equipment name="Shoes"/>
+		<equipment name="Gloves of Haste"/>
+		<equipment name="War Signet of Kreln"/>
+	</equipment>
+	
+	<equipment name="Emerald Training Boots" color="green">
+		<equipment name="Shoes"/>
+		<equipment name="Gloves of Haste"/>
+		<equipment name="Hole Stompers"/>
+	</equipment>
+	
+	<equipment name="Hazad'ar Acolyte Mask" color="green">
+		<equipment name="Signet Ring"/>
+		<equipment name="Recovery Ring" quantity="2"/>
+		<equipment name="Zarrodic Hood"/>
+	</equipment>
+	
+	<equipment name="Death Kite" color="green">
+		<equipment name="Buckler"/>
+		<equipment name="Gol'can Tir"/>
+		<equipment name="Signet Ring"/>
+	</equipment>
+	
+	<equipment name="Pendant of the Quinnard" color="green">
+		<equipment name="Pendant of the Quinnard Reel"/>
+		<equipment name="Recovery towel"/>
+		<equipment name="Banded Buckler"/>
+	</equipment>
+	
+	<equipment name="Swiftboots" color="green">
+		<equipment name="Shoes"/>
+		<equipment name="Pure Earth"/>
+	</equipment>
+	
+	<equipment name="Fireseed" color="green">
+		<equipment name="Signet Ring"/>
+		<equipment name="Void Gem"/>	
+	</equipment>
+	
+	<equipment name="Hood of Jachin" color="green">
+		<equipment name="Hood of Jachin Reel"/>
+		<equipment name="Tusk Sigil"/>
+		<equipment name="Recovery Ring"/>
+		<equipment name="Bellath's Fang"/>
+	</equipment>
+	
+	<equipment name="Ascendant of Kron Medal" color="green">
+		<equipment name="Ascendant of Kron Medal Reel"/>
+		<equipment name="Chest Scale"/>
+		<equipment name="Mask of Orrelhim"/>
+	</equipment>
+
+	
+	
+	
+	<!-- BLUE FRAGMENTS -->
+	<equipment name="Ogre Axe Fragment" color="blue"/>
+	<equipment name="Blade of Alacrity Fragment" color="blue"/>
+	<equipment name="Staff of Wizardry Fragment" color="blue"/>
+	<equipment name="Longsword Fragment" color="blue"/>
+	<equipment name="Spark of Tyr Fragment" color="blue"/>
+	<equipment name="Chest Plate Fragment" color="blue"/>
+	<equipment name="Spear Fragment" color="blue"/>
+	<equipment name="Hammer Fragment" color="blue"/>
+	<equipment name="Opposing Pendant Fragment" color="blue"/>
+	<equipment name="Boaz Startap Fragment" color="blue"/>
+	<equipment name="Marksman's Ring Fragment" color="blue"/>
+
+	<equipment name="Nedan's Tear Reel Fragment" color="blue"/>
+	<equipment name="Kreln Masher Reel Fragment" color="blue"/>
+	<equipment name="Eul's Scepter of Divinity Reel Fragment" color="blue"/>
+	<equipment name="Jammer Grips Reel Fragment" color="blue"/>
+	<equipment name="Lulithan's Toothpick Reel Fragment" color="blue"/>
+	<equipment name="Corvus Amok Reel Fragment" color="blue"/>
+	<equipment name="Stone of Boaz Reel Fragment" color="blue"/>
+	<equipment name="Mote Reel Fragment" color="blue"/>
+	<equipment name="Jachin's Ruby Reel Fragment" color="blue"/>
+	<equipment name="Kreln Amuk Reel Fragment" color="blue"/>
+	<equipment name="Charges of Shadow Wardens Reel Fragment" color="blue"/>
+	<equipment name="Pale Gazer Reel Fragment" color="blue"/>
+	<equipment name="Hazad'ar Boots Reel Fragment" color="blue"/>
+
+
+	
+	
+	<!-- BLUE REELS -->
+	<equipment name="Nedan's Tear Reel" color="blue">
+		<equipment name="Nedan's Tear Reel Fragment" quantity="5"/>
+	</equipment>
+
+	<equipment name="Kreln Masher Reel" color="blue">
+		<equipment name="Kreln Masher Reel Fragment" quantity="5"/>
+	</equipment>
+
+	<equipment name="Eul's Scepter of Divinity Reel" color="blue">
+		<equipment name="Eul's Scepter of Divinity Reel Fragment" quantity="5"/>
+	</equipment>
+
+	<equipment name="Jammer Grips Reel" color="blue">
+		<equipment name="Jammer Grips Reel Fragment" quantity="5"/>
+	</equipment>
+
+	<equipment name="Lulithan's Toothpick Reel" color="blue">
+		<equipment name="Lulithan's Toothpick Reel Fragment" quantity="5"/>
+	</equipment>
+
+	<equipment name="Corvus Amok Reel" color="blue">
+		<equipment name="Corvus Amok Reel Fragment" quantity="5"/>
+	</equipment>
+
+	<equipment name="Stone of Boaz Reel" color="blue">
+		<equipment name="Stone of Boaz Reel Fragment" quantity="5"/>
+	</equipment>
+
+	<equipment name="Mote Reel" color="blue">
+		<equipment name="Mote Reel Fragment" quantity="5"/>
+	</equipment>
+
+	<equipment name="Jachin's Ruby Reel" color="blue">
+		<equipment name="Jachin's Ruby Reel Fragment" quantity="5"/>
+	</equipment>
+
+	<equipment name="Kreln Amuk Reel" color="blue">
+		<equipment name="Kreln Amuk Reel Fragment" quantity="5"/>
+	</equipment>
+	
+	<equipment name="Charges of Shadow Wardens Reel" color="blue">
+		<equipment name="Charges of Shadow Wardens Reel Fragment" quantity="5"/>
+	</equipment>
+	
+	<equipment name="Pale Gazer Reel" color="blue">
+		<equipment name="Pale Gazer Reel Fragment" quantity="5"/>
+	</equipment>
+
+	<equipment name="Hazad'ar Boots Reel" color="blue">
+		<equipment name="Hazad'ar Boots Reel Fragment" quantity="5"/>
+	</equipment>
+
+	
+	
+
+	<!-- BLUE FRAGMENT CRAFT-->
+	<equipment name="Mark of Corvus" color="blue">
+		<equipment name="Staff of Wizardry Fragment" quantity="5"/>
+	</equipment>
+
+	<equipment name="Ogre Axe" color="blue">
+		<equipment name="Ogre Axe Fragment" quantity="5"/>
+	</equipment>
+
+	<equipment name="Hammer" color="blue">
+		<equipment name="Hammer Fragment" quantity="5"/>
+	</equipment>
+
+	<equipment name="Boaz Startap" color="blue">
+		<equipment name="Boaz Startap Fragment" quantity="5"/>
+	</equipment>
+
+	<equipment name="Blade of Alacrity" color="blue">
+		<equipment name="Blade of Alacrity Fragment" quantity="5"/>
+	</equipment>
+
+	<equipment name="Spark of Tyr" color="blue">
+		<equipment name="Spark of Tyr Fragment" quantity="5"/>
+	</equipment>
+
+	<equipment name="Spear" color="blue">
+		<equipment name="Spear Fragment" quantity="5"/>
+	</equipment>
+
+	<equipment name="Longsword" color="blue">
+		<equipment name="Longsword Fragment" quantity="5"/>
+	</equipment>
+
+	<equipment name="Chest Plate" color="blue">
+		<equipment name="Chest Plate Fragment" quantity="5"/>
+	</equipment>
+
+	<equipment name="Opposing Pendant" color="blue">
+		<equipment name="Opposing Pendant Fragment" quantity="5"/>
+	</equipment>
+
+	<equipment name="Marksman's Ring" color="blue">
+		<equipment name="Marksman's Ring Fragment" quantity="5"/>
+	</equipment>
+
+
+	
+	
+	<!-- BLUE CRAFT -->
+	<equipment name="Transmer of Amuns" color="blue">
+		<equipment name="Transmer of Amuns Reel"/>
+		<equipment name="War Signet of Kreln"/>
+		<equipment name="Ogre Axe"/>
+	</equipment>
+
+	<equipment name="Chulashi'ta-ok" color="blue">
+		<equipment name="Chulashi'ta-ok Reel"/>
+		<equipment name="Hole Stompers"/>
+		<equipment name="Blade of Alacrity"/>
+	</equipment>
+
+	<equipment name="Jammer Grips" color="blue">
+		<equipment name="Jammer Grips Reel"/>
+		<equipment name="Gloves of Haste"/>
+		<equipment name="Bearknuckles"/>
+		<equipment name="Helm of Magnus Thorne"/>
+	</equipment>
+
+	<equipment name="Nedan's Tear" color="blue">
+		<equipment name="Nedan's Tear Reel"/>
+		<equipment name="Longsword"/>
+		<equipment name="Bearknuckles"/>
+	</equipment>
+
+	<equipment name="Blade Mail" color="blue">
+		<equipment name="Longsword"/>
+		<equipment name="Chest Scale"/>
+		<equipment name="Hood of Dark Sight"/>
+	</equipment>
+
+	<equipment name="Corvus Amok" color="blue">
+		<equipment name="Corvus Amok Reel"/>
+		<equipment name="Mark of Corvus"/>
+		<equipment name="Recovery Ring"/>
+	</equipment>
+
+	<equipment name="Hazad'ar Boots" color="blue">
+		<equipment name="Hazad'ar Boots Reel"/>
+		<equipment name="Shoes"/>
+	</equipment>
+
+	<equipment name="Jachin's Ruby" color="blue">
+		<equipment name="Jachin's Ruby Reel"/>
+		<equipment name="Mark of Corvus"/>
+		<equipment name="Pendant of Kenaris"/>
+	</equipment>
+
+	<equipment name="Eul's Scepter of Divinity" color="blue">
+		<equipment name="Eul's Scepter of Divinity Reel"/>
+		<equipment name="Mark of Corvus"/>
+		<equipment name="Void Gem"/>
+		<equipment name="Mask of Orrelhim"/>
+	</equipment>
+
+	<equipment name="Vastro Tooth" color="blue">
+		<equipment name="Spark of Tyr"/>
+		<equipment name="Opposing Pendant"/>
+	</equipment>
+
+	<equipment name="Pale Gazer" color="blue">
+		<equipment name="Pale Gazer Reel"/>
+		<equipment name="Ogre Axe"/>
+		<equipment name="Hammer"/>
+	</equipment>
+
+	<equipment name="Blood Rock" color="blue">
+		<equipment name="Pure Earth"/>
+		<equipment name="Gol'can Tir"/>
+		<equipment name="Gul'tak Tir"/>
+	</equipment>
+
+	<equipment name="Lulithan's Toothpick" color="blue">
+		<equipment name="Lulithan's Toothpick Reel"/>
+		<equipment name="Blade of Alacrity" quantity="2"/>
+		<equipment name="Hood of Dark Sight"/>
+	</equipment>
+
+	<equipment name="Moon of Lulithan" color="blue">
+		<equipment name="Fireseed"/>
+		<equipment name="Longsword"/>
+		<equipment name="Spark of Tyr"/>
+	</equipment>
+
+	<equipment name="Charges of Shadow Wardens" color="blue">
+		<equipment name="Charges of Shadow Wardens Reel"/>
+		<equipment name="Mark of Corvus"/>
+		<equipment name="War Signet of Kreln"/>
+	</equipment>
+
+	<equipment name="Dirks of Cicero" color="blue">
+		<equipment name="Transmer of Amuns"/>
+		<equipment name="Chulashi'ta-ok"/>
+	</equipment>
+
+	<equipment name="Jachin's Stone Rod" color="blue">
+		<equipment name="Gul'tak Tir"/>
+		<equipment name="Ogre Axe"/>
+		<equipment name="Blade of Alacrity"/>
+		<equipment name="Mark of Corvus"/>
+	</equipment>
+
+	<equipment name="Rod of Atos" color="blue">
+		<equipment name="Mark of Corvus" quantity="2"/>
+		<equipment name="Gul'tak Tir"/>
+	</equipment>
+
+	<equipment name="Stone of Boaz" color="blue">
+		<equipment name="Stone of Boaz Reel"/>
+		<equipment name="Spear"/>
+		<equipment name="War Signet of Kreln"/>
+	</equipment>
+
+	<equipment name="Kreln Amuk" color="blue">
+		<equipment name="Kreln Amuk Reel"/>
+		<equipment name="Helm of Magnus Thorne"/>
+		<equipment name="Hood of Dark Sight" quantity="2"/>
+	</equipment>
+
+	<equipment name="Mote" color="blue">
+		<equipment name="Mote Reel"/>
+		<equipment name="Hammer" quantity="2"/>
+	</equipment>
+
+	<equipment name="Geometry of Fire" color="blue">
+		<equipment name="Fireseed"/>
+		<equipment name="Blood Rock"/>
+	</equipment>
+
+	<equipment name="Pendant of the Quinnard LV 2" color="blue">
+		<equipment name="Pendant of Quinnard" quantity="2"/>
+	</equipment>
+
+	<equipment name="Kreln Masher" color="blue">
+		<equipment name="Kreln Masher Reel"/>
+		<equipment name="Gloves of Haste"/>
+		<equipment name="Hammer"/>
+	</equipment>
+
+
+
+
+	<!-- ##### WIP ##### -->
+	<!-- PURPLE FRAGMENTS -->
+	<equipment name="Stone of Orrelhim Fragment" color="purple"/>
+	<equipment name="Bloody Eye Fragment" color="purple"/>
+	<equipment name="Demon Edge Fragment" color="purple"/>
+	<equipment name="Ice Staff Fragment" color="purple"/>
+	<equipment name="Rough Hewn Axe Fragment" color="purple"/>
+	<equipment name="Fanged Harp Fragment" color="purple"/>
+	<equipment name="Staff of Rawlis Fragment" color="purple"/>
+	<equipment name="Silver Lance Fragment" color="purple"/>
+	<equipment name="Wizard's Hat Fragment" color="purple"/>
+	<equipment name="Emerald Pendant Fragment" color="purple"/>
+	<equipment name="Holy Garment Fragment" color="purple"/>
+	<equipment name="Demon's Arrow Fragment" color="purple"/>
+	<equipment name="Holy Seed Fragment" color="purple"/>
+	<equipment name="Wizard's Book Fragment" color="purple"/>
+	<equipment name="Kelossian Crusher Reel Fragment" color="purple"/>
+	<equipment name="Stainless Axe Reel Fragment" color="purple"/>
+	<equipment name="Pipe Reel Fragment" color="purple"/>
+	<equipment name="Emerald Fork Reel Fragment" color="purple"/>
+	<equipment name="Nedan Bone Chest Reel Fragment" color="purple"/>
+	<equipment name="Ball Lightning Reel Fragment" color="purple"/>
+	<equipment name="Dragon Glass Reel Fragment" color="purple"/>
+	<equipment name="Copper Cudgel Reel Fragment" color="purple"/>
+	<equipment name="Sol'sketh Reel Fragment" color="purple"/>
+	<equipment name="Bag of Holding Reel Fragment" color="purple"/>
+	<equipment name="Yew Bolt Thrower Reel Fragment" color="purple"/>
+	<equipment name="Kreln Horn Reel Fragment" color="purple"/>
+	<equipment name="Moonglow Reel Fragment" color="purple"/>
+	<equipment name="Gullak Aertahn Reel Fragment" color="purple"/>
+	<equipment name="Eternal Icicle Fragment" color="purple"/>
+    <equipment name="Corgieran Glaive Fragment" color="purple"/>
+	
+	
+	
+	
+	<!-- PURPLE REELS -->
+	<equipment name="Kelossian Crusher Reel" color="purple">
+		<equipment name="Kelossian Crusher Reel Fragment" quantity="20"/>
+	</equipment>
+	
+	<equipment name="Stainless Axe Reel" color="purple">
+		<equipment name="Stainless Axe Reel Fragment" quantity="20"/>
+	</equipment>
+	
+	<equipment name="Pipe Reel" color="purple">
+		<equipment name="Pipe Reel Fragment" quantity="20"/>
+	</equipment>
+	
+	<equipment name="Emerald Fork Reel" color="purple">
+		<equipment name="Emerald Fork Reel Fragment" quantity="20"/>
+	</equipment>
+	
+	<equipment name="Nedan Bone Chest Reel" color="purple">
+		<equipment name="Nedan Bone Chest Reel Fragment" quantity="20"/>
+	</equipment>
+	
+	<equipment name="Ball Lightning Reel" color="purple">
+		<equipment name="Ball Lightning Reel Fragment" quantity="20"/>
+	</equipment>
+	
+	<equipment name="Dragon Glass Reel" color="purple">
+		<equipment name="Dragon Glass Reel Fragment" quantity="20"/>
+	</equipment>
+	
+	<equipment name="Copper Cudgel Reel" color="purple">
+		<equipment name="Copper Cudgel Reel Fragment" quantity="20"/>
+	</equipment>
+	
+	<equipment name="Sol'sketh Reel" color="purple">
+		<equipment name="Sol'sketh Reel Fragment" quantity="20"/>
+	</equipment>
+	
+	<equipment name="Bag of Holding Reel" color="purple">
+		<equipment name="Bag of Holding Reel Fragment" quantity="50"/>
+	</equipment>
+	
+	<equipment name="Yew Bolt Thrower Reel" color="purple">
+		<equipment name="Yew Bolt Thrower Reel Fragment" quantity="50"/>
+	</equipment>
+	
+	<equipment name="Kreln Horn Reel" color="purple">
+		<equipment name="Kreln Horn Reel Fragment" quantity="50"/>
+	</equipment>
+	
+	<equipment name="Moonglow Reel" color="purple">
+		<equipment name="Moonglow Reel Fragment" quantity="50"/>
+	</equipment>
+	
+	<equipment name="Gullak Aertahn Reel" color="purple">
+		<equipment name="Gullak Aertahn Reel Fragment" quantity="50"/>
+	</equipment>
+
+	
+	
+	
+	<!-- PURPLE FRAGMENT CRAFT -->
+	<equipment name="Stone of Orrelhim" color="purple">
+		<equipment name="Stone of Orrelhim Fragment" quantity="20"/>
+	</equipment>
+
+	<equipment name="Bloody Eye" color="purple">
+		<equipment name="Bloody Eye Fragment" quantity="20"/>
+	</equipment>
+
+	<equipment name="Demon Edge" color="purple">
+		<equipment name="Demon Edge Fragment" quantity="20"/>
+	</equipment>
+
+	<equipment name="Ice Staff" color="purple">
+		<equipment name="Ice Staff Fragment" quantity="20"/>
+	</equipment>
+
+	<equipment name="Rough Hewn Axe" color="purple">
+		<equipment name="Rough Hewn Axe Fragment" quantity="50"/>
+	</equipment>
+
+	<equipment name="Fanged Harp" color="purple">
+		<equipment name="Fanged Harp Fragment" quantity="50"/>
+	</equipment>
+
+	<equipment name="Staff of Rawlis" color="purple">
+		<equipment name="Staff of Rawlis Fragment" quantity="50"/>
+	</equipment>
+
+	<equipment name="Silver Lance" color="purple">
+		<equipment name="Silver Lance Fragment" quantity="50"/>
+	</equipment>
+
+	<equipment name="Wizard's Hat" color="purple">
+		<equipment name="Wizard's Hat Fragment" quantity="50"/>
+	</equipment>
+	
+	<equipment name="Emerald Pendant" color="purple">
+		<equipment name="Emerald Pendant Fragment" quantity="50"/>
+	</equipment>
+
+	<equipment name="Holy Garment" color="purple">
+		<equipment name="Holy Garment Fragment" quantity="50"/>
+	</equipment>
+
+	<equipment name="Demon's Arrow" color="purple">
+		<equipment name="Demon's Arrow Fragment" quantity="20"/>
+	</equipment>
+
+	<equipment name="Holy Seed" color="purple">
+		<equipment name="Holy Seed Fragment" quantity="50"/>
+	</equipment>
+
+	<equipment name="Wizard's Book" color="purple">
+		<equipment name="Wizard's Book Fragment" quantity="20"/>
+	</equipment>
+
+	<equipment name="Eternal Icicle" color="purple">
+		<equipment name="Eternal Icicle Fragment" quantity="50"/>
+	</equipment>
+	
+	<equipment name="Emerald Fork Reel" color="purple">
+		<equipment name="Emerald Fork Reel Fragment" quantity="20"/>
+	</equipment>
+
+	<equipment name="Rough Hewn Axe" color="purple">
+		<equipment name="Rough Hewn Axe Fragment" quantity="50"/>
+	</equipment>
+	
+	<equipment name="Corgieran Glaive" color="purple">
+		<equipment name="Corgieran Glaive Fragment" quantity="20"/>
+	</equipment>
+	
+	
+	
+	
+	<!-- PURPLE CRAFT -->
+	<equipment name="Nedan Bone Chest" color="purple">
+		<equipment name="Nedan Bone Chest Reel"/>
+		<equipment name="Corgieran Glaive"/>
+		<equipment name="Chest Plate"/>
+		<equipment name="Chest Scale"/>
+	</equipment>
+	
+	<equipment name="Sol'sketh" color="purple">
+		<equipment name="Sol'sketh Reel"/>
+		<equipment name="Ice Staff"/>
+		<equipment name="Bloody Eye"/>
+		<equipment name="Void Gem"/>
+	</equipment>
+	
+	<equipment name="Pipe" color="purple">
+		<equipment name="Pipe Reel"/>
+		<equipment name="Hazad'ar Acolyte Mask"/>
+		<equipment name="Recovery towel"/>
+	</equipment>
+	
+	<equipment name="Stainless Axe" color="purple">
+		<equipment name="Stainless Axe Reel"/>
+		<equipment name="Chulashi'ta-ok"/>
+		<equipment name="Bloody Eye"/>
+	</equipment>
+	
+	<equipment name="Jachin's Ruby LV 2" color="purple">
+		<equipment name="Jachin's Ruby" quantity="2"/>
+	</equipment>
+	
+	<equipment name="Jachin's Ruby LV 3" color="purple">
+		<equipment name="Jachin's Ruby LV 2" quantity="2"/>
+	</equipment>
+	
+	<equipment name="Jachin's Ruby Level 4" color="purple">
+		<equipment name="Jachin's Ruby LV 3" quantity="2"/>
+	</equipment>
+	
+	<equipment name="Heaven's Halberd" color="purple">
+		<equipment name="Transmer of Amuns"/>
+		<equipment name="Stone of Orrelhim"/>
+	</equipment>
+	
+	<equipment name="Ball Lightning" color="purple">
+		<equipment name="Ball Lightning Reel"/>
+		<equipment name="Fireseed"/>
+		<equipment name="Bloody Eye"/>
+	</equipment>
+	
+	<equipment name="Kelossian Crusher" color="purple">
+		<equipment name="Kelossian Crusher Reel"/>
+		<equipment name="Kreln Masher"/>
+		<equipment name="Corgieran Glaive"/>
+	</equipment>
+	
+	<equipment name="Copper Cudgel" color="purple">
+		<equipment name="Copper Cudgel Reel"/>
+		<equipment name="Spear" quantity="2"/>
+		<equipment name="Demon Edge"/>
+	</equipment>
+	
+	<equipment name="Shazad'amok" color="purple">
+		<equipment name="Bloody Eye" quantity="2"/>
+		<equipment name="Gul'tak Tir"/>
+		<equipment name="Bal'gorn Tir"/>
+	</equipment>
+	
+	<equipment name="Pendant of the Quinnard LV 3" color="purple">
+		<equipment name="Pendant of the Quinnard LV 2" quantity="2"/>
+	</equipment>
+	
+	<equipment name="Pendant of the Quinnard Level 4" color="purple">
+		<equipment name="Pendant of the Quinnard LV 3" quantity="2"/>
+	</equipment>
+	
+	<equipment name="Lulithan's Toothpick LV 2" color="purple">
+		<equipment name="Lulithan's Toothpick" quantity="2"/>
+	</equipment>
+	
+	<equipment name="Lulithan's Toothpick LV 3" color="purple">
+		<equipment name="Lulithan's Toothpick LV 2" quantity="2"/>
+	</equipment>
+	
+	<equipment name="Dragon Glass" color="purple">
+		<equipment name="Dragon Glass Reel" quantity="20"/>
+		<equipment name="Fireseed"/>
+		<equipment name="Bully Stick"/>
+	</equipment>
+	
+	<equipment name="Emerald Fork" color="purple">
+		<equipment name="Emerald Fork Reel"/>
+		<equipment name="Bully Stick" quantity="2"/>
+	</equipment>
+	
+	<equipment name="Charges of Shadow Wardens LV 3" color="purple">
+		<equipment name="Charges of Shadow Wardens LV 2" quantity="2"/>
+	</equipment>
+	
+	<equipment name="Charges of Shadow Wardens LV 2" color="purple">
+		<equipment name="Charges of Shadow Wardens" quantity="2"/>
+	</equipment>
+	
+	<equipment name="Bag of Holding" color="purple">
+		<equipment name="Bag of Holding Reel"/>
+		<equipment name="Ice Staff"/>
+		<equipment name="Chest Plate"/>
+	</equipment>
+	
+	<equipment name="The Negotiator" color="purple">
+		<equipment name="Fanged Harp"/>
+		<equipment name="Boaz Startap"/>
+	</equipment>
+
+	<equipment name="Gullak Aertahn" color="purple">
+		<equipment name="Gullak Aertahn Reel"/>
+		<equipment name="Staff of Rawlis"/>
+	</equipment>
+	
+	<equipment name="Moonglow" color="purple">
+		<equipment name="Moonglow Reel"/>
+		<equipment name="Gol'can Tir"/>
+		<equipment name="Rough Hewn Axe"/>
+	</equipment>
+	
+	<equipment name="Kreln Leaf" color="purple">
+		<equipment name="Fanged Harp"/>
+		<equipment name="Stone of Orrelhim"/>
+		<equipment name="Bramblestick"/>
+	</equipment>
+	
+	<equipment name="Yew Bolt Thrower" color="purple">
+		<equipment name="Yew Bolt Thrower Reel"/>
+		<equipment name="Demon Edge"/>
+		<equipment name="Nedan's Tear"/>
+	</equipment>
+	
+	<equipment name="Kreln Horn" color="purple">
+		<equipment name="Kreln Horn Reel"/>
+		<equipment name="Sanadorian Warden Helm"/>
+		<equipment name="Rough Hewn Axe"/>
+	</equipment>
+	
+	<equipment name="Underworld Book" color="purple">
+		<equipment name="Fiend Wills"/>
+		<equipment name="Wizard's Hat"/>
+		<equipment name="Wizard's Book"/>
+	</equipment>
+
+	<equipment name="Raven's Beak" color="purple">
+		<equipment name="Staff of Rawlis"/>
+		<equipment name="Stone of Boaz"/>
+	</equipment>
+	
+	<equipment name="Queen's Dress" color="purple">
+		<equipment name="Wizard's Hat"/>
+		<equipment name="Dragon Glass"/>
+		<equipment name="Geometry of Fire"/>
+		<equipment name="Simple Band"/>
+	</equipment>
+	
+	<equipment name="Dragon's Scale" color="purple">
+		<equipment name="Eternal Icicle"/>
+		<equipment name="Moonglow"/>
+		<equipment name="Bloody Eye"/>
+	</equipment>
+	
+	<equipment name="All Around Shoes" color="purple">
+		<equipment name="Hazad'ar Boots"/>
+		<equipment name="Demon Edge"/>
+		<equipment name="Corgieran Glaive"/>
+		<equipment name="Ice Staff"/>
+	</equipment>
+	
+	<equipment name="Angel's Sword" color="purple">
+		<equipment name="Silver Lance"/>
+		<equipment name="Staff of Rawlis"/>
+		<equipment name="Nedan's Tear"/>
+		<equipment name="Mote"/>
+	</equipment>
+	
+	<equipment name="Void Crystal" color="purple">
+		<equipment name="The Negotiator"/>
+		<equipment name="Jachin's Ruby Level 4"/>
+		<equipment name="Sol'sketh"/>
+		<equipment name="Nedan Bone Chest"/>
+	</equipment>
+	
+	<equipment name="Destruction Amulet" color="purple">
+		<equipment name="Wizard's Hat"/>
+		<equipment name="Wizard's Book"/>
+		<equipment name="Charges of Shadow Wardens LV 3"/>
+	</equipment>
+	
+	<equipment name="Shadow Book" color="purple">
+		<equipment name="Eternal Icicle"/>
+		<equipment name="Charges of Shadow Wardens LV 3"/>
+		<equipment name="Fireseed"/>
+	</equipment>
+	
+	<!-- ORANGE FRAGMENTS -->
+	<equipment name="Crystal Ball Fragment" color="orange"/>
+	<equipment name="Sapphire Staff Fragment" color="orange"/>
+	<equipment name="Titan's Axe Fragment" color="orange"/>	
+	<equipment name="Eagle Ring Fragment" color="orange"/>	
+	
+
+	
+	
+	<!-- ORANGE FRAGMENT CRAFT -->	
+	<equipment name="Eagle Ring" color="orange">
+		<equipment name="Eagle Ring Fragment" quantity="60"/>
+	</equipment>
+
+	<equipment name="Titan's Axe" color="orange">
+		<equipment name="Titan's Axe Fragment" quantity="60"/>
+	</equipment>
+	
+	<equipment name="Sapphire Staff" color="orange">
+		<equipment name="Sapphire Staff Fragment" quantity="80"/>
+	</equipment>
+	
+	<equipment name="Crystal Ball" color="orange">
+		<equipment name="Crystal Ball Fragment" quantity="60"/>
+	</equipment>
+	
+	
+	
+	<!-- ORANGE CRAFT -->
+	<equipment name="Crystal Tower" color="orange">
+		<equipment name="Crystal Ball"/>
+		<equipment name="Holy Seed"/>
+		<equipment name="Rough Hewn Axe"/>
+		<equipment name="Pendant of the Quinnard Level 4"/>
+	</equipment>
+	
+	<equipment name="Deceiver's Sword" color="orange">
+		<equipment name="Titan's Axe"/>
+		<equipment name="Silver Lance"/>
+		<equipment name="Kreln Horn"/>
+	</equipment>
+	
+	<equipment name="Nightless Staff" color="orange">
+		<equipment name="Crystal Ball"/>
+		<equipment name="Wizard's Hat"/>
+		<equipment name="Ice Staff"/>
+	</equipment>
+	
+	<equipment name="Star Sword" color="orange">
+		<equipment name="Eagle Ring"/>
+		<equipment name="Silver Lance"/>
+		<equipment name="Marksman's Ring"/>
+	</equipment>
+	
+	<equipment name="Crusade Shield" color="orange">
+		<equipment name="Titan's Axe"/>
+		<equipment name="Moonglow"/>
+		<equipment name="Death Kite"/>
+	</equipment>
+
+	<equipment name="Dark Moon Amulet" color="orange">
+		<equipment name="Sapphire Staff"/>
+		<equipment name="Emerald Fork"/>
+		<equipment name="Kreln Amuk"/>
+	</equipment>
+
+	<equipment name="Burning Hammer" color="orange">
+		<equipment name="Ancient Rune"/>
+		<equipment name="Holy Bible"/>
+		<equipment name="Wizard's Hat"/>
+	</equipment>
+
+	<equipment name="Lucifer's Wings" color="orange">
+		<equipment name="Ancient Rune"/>
+		<equipment name="Earth Helm"/>
+		<equipment name="Dragon Relic"/>
+		<equipment name="Eternal Icicle"/>
+	</equipment>
+	
+	
+	
+	
+	<!-- OTHERS -->
+	<equipment name="Holy Bible" color="purple" type="GA"/>
+	<equipment name="Ancient Rune" color="orange" type="GA"/>
+	<equipment name="Earth Helm" color="purple" type="GA"/>
+	<equipment name="Fiend Wills" color="purple" type="GA"/>
+	<equipment name="Dragon Relic" color="purple" type="GA"/>
+</gear>
