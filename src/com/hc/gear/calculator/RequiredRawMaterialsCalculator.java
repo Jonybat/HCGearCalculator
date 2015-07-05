@@ -139,6 +139,11 @@ public class RequiredRawMaterialsCalculator {
             IncrementerHashMap inventory) {
 
         int itemsInInventory = inventory.get(material);
+
+        if (itemsInInventory == 0) {
+            return quantity;
+        }
+
         if (itemsInInventory < quantity) {
 
             int newQuantityRequired = quantity - itemsInInventory;
