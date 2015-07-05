@@ -1,4 +1,4 @@
-package com.hc.test.calculateRequired;
+package com.hc.test.calculaterequired;
 
 import static org.junit.Assert.assertEquals;
 
