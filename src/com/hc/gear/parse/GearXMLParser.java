@@ -15,6 +15,10 @@ import org.xml.sax.helpers.DefaultHandler;
 
 import com.hc.gear.AbstractEquipment;
 
+/**
+ * Parses xml file describing existing gear.<br />
+ * After parsing, existing gear can be obtained through {@link #gear()}
+ */
 public class GearXMLParser extends DefaultHandler {
 
     private Map<String, AbstractEquipment> gear = new HashMap<>();
@@ -30,6 +34,16 @@ public class GearXMLParser extends DefaultHandler {
 
     private Map<String, String> attributes = new HashMap<>();
 
+    /**
+     * Parses xml file describing existing gear.<br />
+     * After parsing, existing gear can be obtained through {@link #gear()}
+     *
+     * @param filepath
+     *            path to xml file describing gear
+     * @throws ParserConfigurationException
+     * @throws SAXException
+     * @throws IOException
+     */
     public GearXMLParser(String filepath)
             throws ParserConfigurationException, SAXException,
             IOException {

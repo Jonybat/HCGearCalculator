@@ -13,56 +13,90 @@ public class IncrementerHashMap extends
      */
     private static final long serialVersionUID = -5496145504350325114L;
 
+    /**
+     * Adds {@code quantity} to the {@code equipment} in this map.<br />
+     *
+     * @throws IllegalArgumentException
+     *             if the {@code quantity} is negative or null
+     */
     @Override
-    public Integer put(AbstractEquipment key, Integer value) {
-        if (value == null || value < 1) {
+    public Integer put(AbstractEquipment equipment, Integer quantity) {
+        if (quantity == null || quantity < 1) {
             throw new IllegalArgumentException(
                     "Only positive values are accepted");
         }
-        Integer previousValue = get(key);
-        int newValue = value
+        Integer previousValue = get(equipment);
+        int newValue = quantity
                 + (previousValue == null ? 0 : previousValue);
-        return super.put(key, newValue);
+        return super.put(equipment, newValue);
     }
 
+    /**
+     *
+     * Removes {@code quantity} from the existing {@code equipment} in this map.
+     *
+     * @throws IllegalArgumentException
+     *             if {@code equipment} is null or not an
+     *             {@link AbstractEquipment} <br />
+     *             if {@code quantity} is null or not an
+     *             {@link AbstractEquipment}<br />
+     *             if {@code quantity} is negative or if there is an attempt to
+     *             remove more {@code equipment} than it has
+     *
+     */
     @Override
-    public boolean remove(Object key, Object value) {
-        if (!(key instanceof AbstractEquipment)
-                || !(value instanceof Integer)) {
-            return false;
+    public boolean remove(Object equipment, Object quantity) {
+        if (!(equipment instanceof AbstractEquipment)
+                || !(quantity instanceof Integer)) {
+
+            String equipmentClass = equipment == null ? "null"
+                    : equipment.getClass().getCanonicalName();
+            String quantityClass = quantity == null ? "null" : quantity
+                    .getClass().getCanonicalName();
+            String msg = String
+                    .format("Equipment must be an %s and quantity must be an %s. Equipment is %s and quantity is %s",
+                            AbstractEquipment.class.getCanonicalName(),
+                            Integer.class.getCanonicalName(),
+                            equipmentClass, quantityClass);
+            throw new IllegalArgumentException(msg);
         }
 
-        AbstractEquipment equipment = (AbstractEquipment) key;
-        int removedQuantity = (Integer) value;
+        AbstractEquipment equip = (AbstractEquipment) equipment;
+        int removedQuantity = (Integer) quantity;
 
         if (removedQuantity < 0) {
             String msg = String
                     .format("Attempting to remove %d items: Can't remove negative quantities",
-                            value);
+                            quantity);
             throw new IllegalArgumentException(msg);
         }
 
-        int oldQuantity = get(equipment);
+        int oldQuantity = get(equip);
         if (oldQuantity < removedQuantity) {
             String msg = String.format(
                     "Can't remove %d %s: only %d exist",
-                    removedQuantity, equipment.getClass()
-                            .getSimpleName(), oldQuantity);
+                    removedQuantity, equip.getClass().getSimpleName(),
+                    oldQuantity);
             throw new IllegalArgumentException(msg);
         }
         int newQuantity = oldQuantity - removedQuantity;
 
         if (newQuantity == 0) {
-            super.remove(equipment);
+            super.remove(equip);
         } else {
-            super.put(equipment, newQuantity);
+            super.put(equip, newQuantity);
         }
         return true;
     }
 
+    /**
+     * Returns how many of the {@code equipment} this map has.<br />
+     * Having zero of the {@code equipment} results in this map's
+     * {@link #keySet()} not containing the {@code equipment}
+     */
     @Override
-    public Integer get(Object key) {
-        Integer quantity = super.get(key);
+    public Integer get(Object equipment) {
+        Integer quantity = super.get(equipment);
         if (quantity == null) {
             return 0;
         }

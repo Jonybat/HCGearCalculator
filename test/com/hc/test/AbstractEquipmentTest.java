@@ -1,14 +1,14 @@
 package com.hc.test;
 
-import static com.hc.gear.Equipment.DECEIVERS_SWORD;
-import static com.hc.gear.Equipment.GLOVES_OF_HASTE;
-import static com.hc.gear.Equipment.HELM_OF_MAGNUS_THORNE;
-import static com.hc.gear.Equipment.KRELN_HORN_REEL_FRAGMENT;
-import static com.hc.gear.Equipment.ROUGH_HEWN_AXE_FRAGMENT;
-import static com.hc.gear.Equipment.SANADORIAN_WARDEN_HELM;
-import static com.hc.gear.Equipment.SILVER_LANCE_FRAGMENT;
-import static com.hc.gear.Equipment.TITANS_AXE_FRAGMENT;
-import static com.hc.gear.Equipment.TUSK_SIGIL;
+import static com.hc.gear.EquipmentConstants.DECEIVERS_SWORD;
+import static com.hc.gear.EquipmentConstants.GLOVES_OF_HASTE;
+import static com.hc.gear.EquipmentConstants.HELM_OF_MAGNUS_THORNE;
+import static com.hc.gear.EquipmentConstants.KRELN_HORN_REEL_FRAGMENT;
+import static com.hc.gear.EquipmentConstants.ROUGH_HEWN_AXE_FRAGMENT;
+import static com.hc.gear.EquipmentConstants.SANADORIAN_WARDEN_HELM;
+import static com.hc.gear.EquipmentConstants.SILVER_LANCE_FRAGMENT;
+import static com.hc.gear.EquipmentConstants.TITANS_AXE_FRAGMENT;
+import static com.hc.gear.EquipmentConstants.TUSK_SIGIL;
 
 import java.io.IOException;
 import java.util.Collections;
@@ -21,6 +21,11 @@ import org.xml.sax.SAXException;
 import com.hc.gear.AbstractEquipment;
 import com.hc.gear.parse.GearXMLParser;
 
+/**
+ * Common base for all unit tests using equipment, providing easy to use
+ * equipment handlers
+ *
+ */
 public class AbstractEquipmentTest {
 
     private Map<String, AbstractEquipment> gear;
@@ -60,6 +65,10 @@ public class AbstractEquipmentTest {
         }
     }
 
+    /**
+     *
+     * @return unmodifiable copy of the parsed gear
+     */
     protected Map<String, AbstractEquipment> getGear() {
         return Collections.unmodifiableMap(gear);
     }

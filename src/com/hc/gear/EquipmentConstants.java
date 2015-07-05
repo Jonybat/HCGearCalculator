@@ -1,6 +1,9 @@
 package com.hc.gear;
 
-public class Equipment {
+/**
+ * Equipment name constants
+ */
+public class EquipmentConstants {
     public final static String ALL_AROUND_SHOES = "All Around Shoes";
     public final static String ANCIENT_RUNE = "Ancient Rune";
     public final static String ANGELS_SWORD = "Angel's Sword";

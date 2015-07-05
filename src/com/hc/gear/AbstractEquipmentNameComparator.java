@@ -2,7 +2,11 @@ package com.hc.gear;
 
 import java.util.Comparator;
 
-public class AbstractEquipmentComparator implements
+/**
+ * Compares {@link AbstractEquipment} based on their
+ * {@link AbstractEquipment#name()} only
+ */
+public class AbstractEquipmentNameComparator implements
         Comparator<AbstractEquipment> {
 
     @Override

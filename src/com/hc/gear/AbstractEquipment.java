@@ -6,6 +6,11 @@ import java.util.Map;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
+import com.hc.gear.parse.GearXMLParser;
+
+/**
+ * Instance of equipment parsed by {@link GearXMLParser}
+ */
 public class AbstractEquipment {
     private String name;
     private String color;
@@ -33,27 +38,49 @@ public class AbstractEquipment {
         tmpmaterials = materials;
     }
 
+    /**
+     * @return name of the equipment
+     */
     public String name() {
         return name;
     }
 
+    /**
+     *
+     * @return type of the equipment, or null if it is a regular item
+     */
     public String type() {
         return type;
     }
 
+    /**
+     * @return color of the equipment
+     */
     public String color() {
         return color;
     }
 
+    /**
+     * Sets the internal state of this equipment based on {@code gear}
+     *
+     * @param equipment
+     *            all existing gear.
+     */
     public void setup(Map<String, AbstractEquipment> equipment) {
         if (tmpmaterials == null || materials != null) {
             throw new IllegalStateException("Already setup");
         }
-        materials = new TreeMap<>(new AbstractEquipmentComparator());
+        materials = new TreeMap<>(new AbstractEquipmentNameComparator());
         _setup(equipment);
         tmpmaterials = null;
     }
 
+    /**
+     * Sets the internal state of this equipment based on {@code gear}
+     *
+     * @param equipment
+     *            all existing gear.
+     */
     private void _setup(Map<String, AbstractEquipment> equipment) {
 
         for (Map.Entry<String, Integer> entry : tmpmaterials.entrySet()) {
@@ -71,18 +98,39 @@ public class AbstractEquipment {
         }
     }
 
+    /**
+     *
+     * Returns Map of needed {@code equipment} required to craft this equipment.<br />
+     * The map returned uses {@link AbstractEquipment} as key, and the number of
+     * that equipment needed to be crafted as value.
+     *
+     * @return Map of needed {@code equipment} required to craft this equipment
+     */
     public Map<AbstractEquipment, Integer> materials() {
         return Collections.unmodifiableMap(materials);
     }
 
+    /**
+     * @return xml line number where this equipment was described
+     */
     public int getXmlLineNumber() {
         return xmlLineNumber;
     }
 
+    /**
+     * Sets the {@code xmlLineNumber} where this equipment was described
+     *
+     * @param xmlLineNumber
+     */
     public void setXmlLineNumber(int xmlLineNumber) {
         this.xmlLineNumber = xmlLineNumber;
     }
 
+    /**
+     *
+     * @return true if this equipment cannot be crafted, meaning, it can only be
+     *         found or bought as is.
+     */
     public boolean isRaw() {
         return materials.isEmpty();
     }

@@ -36,6 +36,10 @@ public class TestCalculateRequiredRawMaterials extends
         assertEquals(expected, materials.get(equipment).intValue());
     }
 
+    /**
+     * Tests all required materials to craft a Deceiver's Sword having nothing
+     * in the inventory
+     */
     @Test
     public void testCalculateDeceiversSwordRawMaterials() {
 
@@ -52,6 +56,10 @@ public class TestCalculateRequiredRawMaterials extends
         assertEquals(6, rawMaterials.entrySet().size());
     }
 
+    /**
+     * Tests all required materials to craft a Deceiver's Sword having 3
+     * Sanadorian Warden Helm and 15 Kreln Horn Reel Fragment in the inventory
+     */
     @Test
     public void testCalculateDeceiversSwordRawMaterials_HavingSanadorianWardenHelm_KrelnHornReelFragment() {
 
