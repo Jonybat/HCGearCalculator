@@ -251,56 +251,57 @@
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
-    <hero name="Chaplain"/>
-    <set name="Purple"/>
-        <equipment name="Sol'Sketh"/>
-        <equipment name="Pendant of the Quinnard Level 3"/>
-        <equipment name="Corvus Amok"/>
-        <equipment name="Chest Plate"/>
-        <equipment name="Gol'Can Tir"/>
-        <equipment name="Blessed Training Boots"/>
-    </set>
-    <equipment name="Purple+1"/>
-        <equipment name="Moonglow"/>
-        <equipment name="Nedan Bone Chest"/>
-        <equipment name="Ice Staff"/>
-        <equipment name="Fireseed"/>
-        <equipment name="Pure Earth"/>
-        <equipment name="Hazad'ar Boots"/>
-    </set>
-    <set name="Purple+2"/>
-        <equipment name="Pendant of the Quinnard Level 4"/>
-        <equipment name="Ball Lightning"/>
-        <equipment name="Bloody Eye"/>
-        <equipment name="Mark of Corvus"/>
-        <equipment name="Hazad'ar Acolyte Mask"/>
-        <equipment name="Hazad'ar Boots"/>
-    </set>
-    <set name="Purple+3"/>
-        <equipment name="Bag of Holding"/>
-        <equipment name="Pipe"/>
-        <equipment name="Sol'Sketh"/>
-        <equipment name="Corvus Amok"/>
-        <equipment name="Jachin's Stone Rod"/>
-        <equipment name="Hazad'ar Boots"/>
-    </set>
-    <set name="Purple+4"/>
-        <equipment name="Crystal Tower"/>
-        <equipment name="Crystal Ball"/>
-        <equipment name="Wizard's Hat"/>
-        <equipment name="Ball Lightning"/>
-        <equipment name="Emerald Fork"/>
-        <equipment name="All Around Shoes"/>
-    </set>
-    <set name="Orange"/>
-<!--         <equipment name="?"/> -->
-        <equipment name="Dark Moon Amulet"/>
-        <equipment name="Queen's Dress"/>
-        <equipment name="Emerald Pendant"/>
-        <equipment name="Bloody Eye"/>
-        <equipment name="All Around Shoes"/>
-    </set>
-    <hero name="Cleric"/>
+    <hero name="Chaplain">
+        <set name="Purple"/>
+            <equipment name="Sol'Sketh"/>
+            <equipment name="Pendant of the Quinnard Level 3"/>
+            <equipment name="Corvus Amok"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Gol'Can Tir"/>
+            <equipment name="Blessed Training Boots"/>
+        </set>
+        <equipment name="Purple+1"/>
+            <equipment name="Moonglow"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Fireseed"/>
+            <equipment name="Pure Earth"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2"/>
+            <equipment name="Pendant of the Quinnard Level 4"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Mark of Corvus"/>
+            <equipment name="Hazad'ar Acolyte Mask"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3"/>
+            <equipment name="Bag of Holding"/>
+            <equipment name="Pipe"/>
+            <equipment name="Sol'Sketh"/>
+            <equipment name="Corvus Amok"/>
+            <equipment name="Jachin's Stone Rod"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4"/>
+            <equipment name="Crystal Tower"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Wizard's Hat"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Emerald Fork"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange"/>
+    <!--         <equipment name="?"/> -->
+            <equipment name="Dark Moon Amulet"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Emerald Pendant"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Cleric">
         <set name="Purple"/>
             <equipment name="Pendant of The Quinnard Level 3"/>
             <equipment name="Ball Lightning"/>
@@ -342,7 +343,7 @@
             <equipment name="All Around Shoes"/>
         </set>
         <set name="Orange"/>
-            <equipment name="?"/>
+<!--             <equipment name="?"/> -->
             <equipment name="Immortal Guardian"/>
             <equipment name="Shadow Book"/>
             <equipment name="Holy Garment"/>
@@ -387,7 +388,7 @@
             <equipment name="Bloody Eye"/>
             <equipment name="All Around Shoes"/>
         <set name="Orange"/>
-            <equipment name="?"/>
+<!--             <equipment name="?"/> -->
             <equipment name="Thunder Sword"/>
             <equipment name="Angel's Sword"/>
             <equipment name="Kreln Horn"/>
@@ -395,7 +396,7 @@
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
-    <hero name="Commando"/>
+    <hero name="Commando">
         <set name="Purple"/>
             <equipment name="Kelossian Crusher"/>
             <equipment name="Stainless Axe"/>
@@ -437,7 +438,7 @@
             <equipment name="All Around Shoes"/>
         </set>
         <set name="Orange"/>
-            <equipment name="?"/>
+<!--             <equipment name="?"/> -->
             <equipment name="Thunder Sword"/>
             <equipment name="Gullak Aertahn"/>
             <equipment name="Stainless Axe"/>
@@ -445,5 +446,4 @@
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
-</hero>
 </heroes>
