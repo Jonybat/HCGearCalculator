@@ -300,5 +300,55 @@
         <equipment name="Bloody Eye"/>
         <equipment name="All Around Shoes"/>
     </set>
+    <hero name="Cleric"/>
+        <set name="Purple"/>
+            <equipment name="Pendant of The Quinnard Level 3"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Ogre Axe"/>
+            <equipment name="Mark of Corvus"/>
+            <equipment name="Fireseed"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1"/>
+            <equipment name="Bag of Holding"/>
+            <equipment name="Dragon Glass"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2"/>
+            <equipment name="Pendant of The Quinnard Level 4"/>
+            <equipment name="Sol'Sketh"/>
+            <equipment name="Rough Hewn Axe"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3"/>
+            <equipment name="Moonglow"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Corvus Amok"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4"/>
+            <equipment name="Crystal Tower"/>
+            <equipment name="Titan's Axe"/>
+            <equipment name="Dragon's Scale"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Demon Edge"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange"/>
+            <equipment name="?"/>
+            <equipment name="Immortal Guardian"/>
+            <equipment name="Shadow Book"/>
+            <equipment name="Holy Garment"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
 </hero>
 </heroes>
