@@ -151,4 +151,54 @@
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
+    <hero name="Bear Warrior" stars="3">
+        <set name="Purple">
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Fireseed"/>
+            <equipment name="Ogre Axe"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Moonglow"/>
+            <equipment name="Moon of Lulithan"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Jammer Grips"/>
+            <equipment name="Gol'can Tir"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Raven's Beak"/>
+            <equipment name="Pipe"/>
+            <equipment name="Vastro Tooth"/>
+            <equipment name="Hammer"/>
+            <equipment name="Hood of Jachin"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Moonglow"/>
+            <equipment name="Kreln Leaf"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Deceiver's Sword"/>
+            <equipment name="Titan's Axe"/>
+            <equipment name="Kreln Horn"/>
+            <equipment name="Raven's Beak"/>
+            <equipment name="Marksman's Ring"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--             <equipment name="?"/> -->
+            <equipment name="Thunder Sword"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
 </heroes>
