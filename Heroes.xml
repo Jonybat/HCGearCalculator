@@ -1596,4 +1596,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Mountain">
+		<set name="Purple">
+			<equipment name="Nedan Bone Chest"/>
+			<equipment name="Kelossian Crusher"/>
+			<equipment name="Vastro Tooth"/>
+			<equipment name="Moon of Lulithan"/>
+			<equipment name="Gol'can Tir"/>
+			<equipment name="Phase Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Bag of Holding"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Blade Mail"/>
+			<equipment name="Eul's Scepter of Divinity"/>
+			<equipment name="Pendant of Kenaris"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Yew Bolt Thrower"/>
+			<equipment name="Copper Cudgel"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Dirks of Cicero"/>
+			<equipment name="Fist of Tyre"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Moonglow"/>
+			<equipment name="Kreln Horn"/>
+			<equipment name="Blade Mail"/>
+			<equipment name="Jachin's Stone Rod"/>
+			<equipment name="Death Kite"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Crusade Shield"/>
+			<equipment name="Titan's Axe"/>
+			<equipment name="Gullak Aertahn"/>
+			<equipment name="Wizard's Hat"/>
+			<equipment name="Dragon Glass"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Immortal Guardian"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Bag of Holding"/>
+			<equipment name="Demon Edge"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
