@@ -1346,4 +1346,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Lightning Master">
+		<set name="Purple">
+			<equipment name="Sol'sketh"/>
+			<equipment name="Charges of Shadow Wardens Level 2"/>
+			<equipment name="Jachin's Stone Rod"/>
+			<equipment name="Mark of Corvus"/>
+			<equipment name="Simple Band"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Charges of Shadow Wardens Level 3"/>
+			<equipment name="Dragon Glass"/>
+			<equipment name="Bloody Eye"/>
+			<equipment name="Geometry of Fire"/>
+			<equipment name="Pure Earth"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Jachin's Ruby Level 3"/>
+			<equipment name="Ice Staff"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Bully Stick"/>
+			<equipment name="Pure Earth"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Moonglow"/>
+			<equipment name="Bag of Holding"/>
+			<equipment name="Shazad'amok"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Jachin's Stone Rod"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Nightless Staff"/>
+			<equipment name="Crystal Ball"/>
+			<equipment name="Queen's Dress"/>
+			<equipment name="Wizard's Hat"/>
+			<equipment name="Sol'sketh"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Emerald Ring"/>
+			<equipment name="Destruction Amulet"/>
+			<equipment name="Bag of Holding"/>
+			<equipment name="Ice Staff"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
