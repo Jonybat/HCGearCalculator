@@ -2446,4 +2446,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Sniper">
+		<set name="Purple">
+			<equipment name="Stainless Axe"/>
+			<equipment name="Copper Cudgel"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Spark of Tyr"/>
+			<equipment name="Longsword"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Kreln Leaf"/>
+			<equipment name="Demon Edge"/>
+			<equipment name="Mote"/>
+			<equipment name="Dirks of Cicero"/>
+			<equipment name="Chest Plate"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="The Negotiator"/>
+			<equipment name="Nedan Bone Chest"/>
+			<equipment name="Nedan's Tear"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Spear"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Yew Bolt Thrower"/>
+			<equipment name="Stainless Axe"/>
+			<equipment name="Copper Cudgel"/>
+			<equipment name="Kelossian Crusher"/>
+			<equipment name="Vastro Tooth"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Star Sword"/>
+			<equipment name="Eagle Ring"/>
+			<equipment name="Angel's Sword"/>
+			<equipment name="Wizard's Book"/>
+			<equipment name="Heaven's Halberd"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Thunder Sword"/>
+			<equipment name="Kreln Horn"/>
+			<equipment name="Staff of Rawlis"/>
+			<equipment name="Demon Edge"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
