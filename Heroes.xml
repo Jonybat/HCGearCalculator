@@ -2696,4 +2696,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Vanguard Warrior">
+		<set name="Purple">
+			<equipment name="Ball Lightning"/>
+			<equipment name="Nedan Bone Chest"/>
+			<equipment name="Gol'can Tir"/>
+			<equipment name="Kreln Masher"/>
+			<equipment name="Dirks of Cicero"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Moonglow"/>
+			<equipment name="Stone of Boaz"/>
+			<equipment name="Chest Plate"/>
+			<equipment name="Kelossian Crusher"/>
+			<equipment name="Nedan's Tear"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Rough Hewn Axe"/>
+			<equipment name="Staff of Rawlis"/>
+			<equipment name="Raven's Beak"/>
+			<equipment name="Jammer Grips"/>
+			<equipment name="Ascendant of Kron Medal"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Kreln Horn"/>
+			<equipment name="Gullak Aertahn"/>
+			<equipment name="Heaven's Halberd"/>
+			<equipment name="Moon of Lulithan"/>
+			<equipment name="Blade Mail"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Copper Cudgel"/>
+			<equipment name="Crusade Shield"/>
+			<equipment name="Yew Bolt Thrower"/>
+			<equipment name="Moonglow"/>
+			<equipment name="Pipe"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Angel's Sword"/>
+			<equipment name="Immortal Guardian"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Demon Edge"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
