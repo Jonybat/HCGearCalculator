@@ -2646,4 +2646,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Tusked Storm">
+		<set name="Purple">
+			<equipment name="Nedan Bone Chest"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Demon Edge"/>
+			<equipment name="Death Kite"/>
+			<equipment name="Bellath's Fang"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Kreln Leaf"/>
+			<equipment name="Moon of Lulithan"/>
+			<equipment name="Mote"/>
+			<equipment name="Jammer Grips"/>
+			<equipment name="Longsword"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Raven's Beak"/>
+			<equipment name="Pipe"/>
+			<equipment name="Vastro Tooth"/>
+			<equipment name="Hammer"/>
+			<equipment name="Hood of Jachin"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Yew Bolt Thrower"/>
+			<equipment name="Moonglow"/>
+			<equipment name="Copper Cudgel"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Death Kite"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Deceiver's Sword"/>
+			<equipment name="Eagle Ring"/>
+			<equipment name="Kreln Horn"/>
+			<equipment name="Moonglow"/>
+			<equipment name="Marksman's Ring"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Thunder Sword"/>
+			<equipment name="Angel's Sword"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Demon's Arrow"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
