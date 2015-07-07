@@ -996,4 +996,54 @@
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
+	<hero name="Forest Guardian">
+		<set name="Purple">
+			<equipment name="Sol'sketh"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Jachin's Ruby"/>
+			<equipment name="Gul'tak Tir"/>
+			<equipment name="Pure Earth"/>
+			<equipment name="Blessed Training Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Bag of Holding"/>
+			<equipment name="Blood Rock"/>
+			<equipment name name="Jachin's Ruby LV 2">
+			<equipment name name="Jaclyn's Stone Rod">
+			<equipment name="Boaz Startap"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Moonglow"/>
+			<equipment name name="Jachin's Ruby LV 3">
+			<equipment name="Ice Staff"/>
+			<equipment name name="Bulwark War Drum">
+			<equipment name="Corvus Amok"/>
+			<equipment name name="Hazad'ra Boots">
+		</set>
+		<set name="Purple+3">
+			<equipment name name="Jachin's Ruby LV 4">
+			<equipment name="Sol'sketh"/>
+			<equipment name="Emerald Fork"/>
+			<equipment name="Blood Rock"/>
+			<equipment name="Brazer of Zarrad"/>
+			<equipment name name="Hazad'ra Boots">
+		</set>
+		<set name="Purple+4">
+			<equipment name="Nightless Staff"/>
+			<equipment name="Crystal Ball"/>
+			<equipment name="Queen's Dress"/>
+			<equipment name="Shazad'amok"/>
+			<equipment name="Ice Staff"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Dark Moon Amulet"/>
+			<equipment name="Wizard's Hat"/>
+			<equipment name="Destruction Amulet"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
