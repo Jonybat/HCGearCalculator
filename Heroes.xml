@@ -2246,4 +2246,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Shadow Shaman">
+		<set name="Purple">
+			<equipment name="Pendant of The Quinnard Level 3"/>
+			<equipment name="Charges of Shadow Wardens Level 2"/>
+			<equipment name="Ice Staff"/>
+			<equipment name="Chest Plate"/>
+			<equipment name="Pendant of Kenaris"/>
+			<equipment name="Swiftboots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Bag of Holding"/>
+			<equipment name="Pipe"/>
+			<equipment name="Chest Plate"/>
+			<equipment name="Mark of Corvus"/>
+			<equipment name="Bully Stick"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Kreln Horn"/>
+			<equipment name="Emerald Fork"/>
+			<equipment name="Nedan Bone Chest"/>
+			<equipment name="Mote"/>
+			<equipment name="Death Kite"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Charges of Shadow Wardens Level 3"/>
+			<equipment name="Pendant of The Quinnard Level 4"/>
+			<equipment name="Sol'sketh"/>
+			<equipment name="Shazad'amok"/>
+			<equipment name="Jachin's Stone Rod"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Crystal Tower"/>
+			<equipment name="Crystal Ball"/>
+			<equipment name="Wizard's Hat"/>
+			<equipment name="Dragon Glass"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Dark Moon Amulet"/>
+			<equipment name="Ice Staff"/>
+			<equipment name="Emerald Fork"/>
+			<equipment name="Queen's Dress"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
