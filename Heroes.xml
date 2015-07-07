@@ -596,4 +596,54 @@
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
+    <hero name="Deathgore">
+        <set name="Purple">
+            <equipment name="Ball Lightning"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Fireseed"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Moonglow"/>
+            <equipment name="Pipe"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Nedan's Tear"/>
+            <equipment name="Wrist of Boaz"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Kreln Horn"/>
+            <equipment name="Staff of Rawlis"/>
+            <equipment name="Dragon Glass"/>
+            <equipment name="Jammer Grips"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Moonglow"/>
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Heaven's Halberd"/>
+            <equipment name="Moon of Lulithan"/>
+            <equipment name="Blade Mail"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Crusade Shield"/>
+            <equipment name="Titan's Axe"/>
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Dragon's Scale"/>
+            <equipment name="Pipe"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--             <equipment name="?"/> -->
+            <equipment name="Immortal Guardian"/>
+            <equipment name="Holy Garment"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
 </heroes>
