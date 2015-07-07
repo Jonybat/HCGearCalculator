@@ -1046,4 +1046,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Frost Mage">
+		<set name="Purple">
+			<equipment name="Dragon Glass"/>
+			<equipment name="Sol'sketh"/>
+			<equipment name="Chest Plate"/>
+			<equipment name="Death Kite"/>
+			<equipment name="Hazad'ar Acolyte Mask"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Bag of Holding"/>
+			<equipment name="Pipe"/>
+			<equipment name="Bloody Eye"/>
+			<equipment name="Kreln Amuk"/>
+			<equipment name="Bulwak War Drum"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Jachin's Ruby Level 3"/>
+			<equipment name="Emerald Fork"/>
+			<equipment name="Charges of Shadow Wardens Level 2"/>
+			<equipment name="Rod of Atos"/>
+			<equipment name="Recovery Towel"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Jachin's Ruby Level 4"/>
+			<equipment name="Charges of Shadow Wardens Level 3"/>
+			<equipment name="Sol'sketh"/>
+			<equipment name="Jachin's Stone Rod"/>
+			<equipment name="Death Kite"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Nightless Staff"/>
+			<equipment name="Crystal Ball"/>
+			<equipment name="Queen's Dress"/>
+			<equipment name="Wizard's Hat"/>
+			<equipment name="Destruction Amulet"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Dark Moon Amulet"/>
+			<equipment name="Ice Staff"/>
+			<equipment name="Bag of Holding"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
