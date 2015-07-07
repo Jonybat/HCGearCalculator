@@ -23,11 +23,13 @@ public class EquipmentConstants {
     public final static String BLADE_MAIL = "Blade Mail";
     public final static String BLADE_OF_ALACRITY_FRAGMENT = "Blade of Alacrity Fragment";
     public final static String BLADE_OF_ALACRITY = "Blade of Alacrity";
+    public final static String BLOOD_TRAINING_BOOTS = "Blessed Training Boots";
     public final static String BLOOD_ROCK = "Blood Rock";
     public final static String BLOODY_EYE_FRAGMENT = "Bloody Eye Fragment";
     public final static String BLOODY_EYE = "Bloody Eye";
     public final static String BOAZ_STARTAP_FRAGMENT = "Boaz Startap Fragment";
     public final static String BOAZ_STARTAP = "Boaz Startap";
+    public final static String BOOK_OF_THE_SUN = "Book of the Sun";
     public final static String BRAMBLESTICK = "Bramblestick";
     public final static String BRAZER_OF_ZARRAD_REEL = "Brazer of Zarrad Reel";
     public final static String BRAZER_OF_ZARRAD = "Brazer of Zarrad";
@@ -77,6 +79,7 @@ public class EquipmentConstants {
     public final static String DRAGONS_SCALE = "Dragon's Scale";
     public final static String EAGLE_RING_FRAGMENT = "Eagle Ring Fragment";
     public final static String EAGLE_RING = "Eagle Ring";
+    public final static String EARTH_HAMMER = "Earth Hammer";
     public final static String EARTH_HELM = "Earth Helm";
     public final static String EMERALD_BOOTS = "Emerald Boots";
     public final static String EMERALD_FORK_REEL_FRAGMENT = "Emerald Fork Reel Fragment";
@@ -84,6 +87,7 @@ public class EquipmentConstants {
     public final static String EMERALD_FORK = "Emerald Fork";
     public final static String EMERALD_PENDANT_FRAGMENT = "Emerald Pendant Fragment";
     public final static String EMERALD_PENDANT = "Emerald Pendant";
+    public final static String EMERALD_RING = "Emerald Ring";
     public final static String EMERALD_TORC = "Emerald Torc";
     public final static String EMERALD_TRAINING_BOOTS = "Emerald Training Boots";
     public final static String ETERNAL_ICICLE_FRAGMENT = "Eternal Icicle Fragment";
@@ -122,6 +126,7 @@ public class EquipmentConstants {
     public final static String HOOD_OF_JACHIN = "Hood of Jachin";
     public final static String ICE_STAFF_FRAGMENT = "Ice Staff Fragment";
     public final static String ICE_STAFF = "Ice Staff";
+    public final static String IMMORTAL_GUARDIAN = "Immortal Guardian";
     public final static String INHO_BERRY = "Inho Berry";
     public final static String JACHINS_RUBY_LEVEL_4 = "Jachin's Ruby Level 4";
     public final static String JACHINS_RUBY_LV_2 = "Jachin's Ruby LV 2";
@@ -208,6 +213,8 @@ public class EquipmentConstants {
     public final static String SANADORIAN_WARDEN_HELM = "Sanadorian Warden Helm";
     public final static String SAPPHIRE_STAFF_FRAGMENT = "Sapphire Staff Fragment";
     public final static String SAPPHIRE_STAFF = "Sapphire Staff";
+    public final static String SCIMITAR = "Scimitar";
+    public final static String SCIMITAR_FRAGMENT = "Scimitar Fragment";
     public final static String SHADOW_BOOK = "Shadow Book";
     public final static String SHAZADAMOK = "Shazad'amok";
     public final static String SHOES = "Shoes";
@@ -238,6 +245,7 @@ public class EquipmentConstants {
     public final static String STONE_OF_ORRELHIM = "Stone of Orrelhim";
     public final static String SWIFTBOOTS = "Swiftboots";
     public final static String THE_NEGOTIATOR = "The Negotiator";
+    public final static String THUNDER_SWORD = "Thunder Sword";
     public final static String TITANS_AXE_FRAGMENT = "Titan's Axe Fragment";
     public final static String TITANS_AXE = "Titan's Axe";
     public final static String TORC_OF_SIGHT_REEL = "Torc of Sight Reel";

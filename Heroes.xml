@@ -252,11 +252,11 @@
     </hero>
     <hero name="Chaplain" stars="1">
         <set name="Purple">
-            <equipment name="Sol'Sketh"/>
-            <equipment name="Pendant of the Quinnard Level 3"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Pendant of the Quinnard LV 3"/>
             <equipment name="Corvus Amok"/>
             <equipment name="Chest Plate"/>
-            <equipment name="Gol'Can Tir"/>
+            <equipment name="Gol'can Tir"/>
             <equipment name="Blessed Training Boots"/>
         </set>
         <set name="Purple+1">
@@ -278,7 +278,7 @@
         <set name="Purple+3">
             <equipment name="Bag of Holding"/>
             <equipment name="Pipe"/>
-            <equipment name="Sol'Sketh"/>
+            <equipment name="Sol'sketh"/>
             <equipment name="Corvus Amok"/>
             <equipment name="Jachin's Stone Rod"/>
             <equipment name="Hazad'ar Boots"/>
@@ -302,7 +302,7 @@
     </hero>
     <hero name="Cleric" stars="1">
         <set name="Purple">
-            <equipment name="Pendant of The Quinnard Level 3"/>
+            <equipment name="Pendant of the Quinnard LV 3"/>
             <equipment name="Ball Lightning"/>
             <equipment name="Ogre Axe"/>
             <equipment name="Mark of Corvus"/>
@@ -318,8 +318,8 @@
             <equipment name="Hazad'ar Boots"/>
         </set>
         <set name="Purple+2">
-            <equipment name="Pendant of The Quinnard Level 4"/>
-            <equipment name="Sol'Sketh"/>
+            <equipment name="Pendant of the Quinnard Level 4"/>
+            <equipment name="Sol'sketh"/>
             <equipment name="Rough Hewn Axe"/>
             <equipment name="Chest Plate"/>
             <equipment name="Death Kite"/>
@@ -358,13 +358,15 @@
             <equipment name="Corvus Amok"/>
             <equipment name="Hole Stompers"/>
             <equipment name="Emerald Training Boots"/>
+        </set>
         <set name="Purple+1">
             <equipment name="Kreln Leaf"/>
             <equipment name="Demon Edge"/>
             <equipment name="Stone of Boaz"/>
             <equipment name="Mote"/>
-            <equipment name="Bulwak War Drum"/>
+            <equipment name="Bulwak War-Drum"/>
             <equipment name="Hazad'ar Boots"/>
+        </set>
         <set name="Purple+2">
             <equipment name="Gullak Aertahn"/>
             <equipment name="Copper Cudgel"/>
@@ -372,6 +374,7 @@
             <equipment name="Spark of Tyr"/>
             <equipment name="Hood of Jachin"/>
             <equipment name="Hazad'ar Boots"/>
+        </set>
         <set name="Purple+3">
             <equipment name="Moonglow"/>
             <equipment name="Heaven's Halberd"/>
@@ -379,6 +382,7 @@
             <equipment name="Pale Gazer"/>
             <equipment name="Sanadorian Warden Helm"/>
             <equipment name="Hazad'ar Boots"/>
+        </set>
         <set name="Purple+4">
             <equipment name="Deceiver's Sword"/>
             <equipment name="Eagle Ring"/>
@@ -386,6 +390,7 @@
             <equipment name="Stainless Axe"/>
             <equipment name="Bloody Eye"/>
             <equipment name="All Around Shoes"/>
+        </set>
         <set name="Orange">
 <!--             <equipment name="?"/> -->
             <equipment name="Thunder Sword"/>
@@ -407,15 +412,15 @@
         <set name="Purple+1">
             <equipment name="Kreln Leaf"/>
             <equipment name="Ball Lightning"/>
-            <equipment name="Lulithan's Toothpick Level 2"/>
+            <equipment name="Lulithan's Toothpick LV 2"/>
             <equipment name="Longsword"/>
             <equipment name="Torc of Sight"/>
             <equipment name="Hazad'ar Boots"/>
         </set>
         <set name="Purple+2">
             <equipment name="Yew Bolt Thrower"/>
-            <equipment name="Shazad'Amok"/>
-            <equipment name="Lulithan's Toothpick Level 3"/>
+            <equipment name="Shazad'amok"/>
+            <equipment name="Lulithan's Toothpick LV 3"/>
             <equipment name="Spark of Tyr"/>
             <equipment name="Hole Stompers"/>
             <equipment name="Hazad'ar Boots"/>
@@ -451,7 +456,7 @@
             <equipment name="Emerald Fork"/>
             <equipment name="Jachin's Ruby"/>
             <equipment name="Corvus Amok"/>
-            <equipment name="Gol'Can Tir"/>
+            <equipment name="Gol'can Tir"/>
             <equipment name="Training Boots"/>
         </set>
         <set name="Purple+1">
@@ -459,12 +464,12 @@
             <equipment name="Pipe"/>
             <equipment name="Jachin's Ruby"/>
             <equipment name="Blood Rock"/>
-            <equipment name="Bulwak War Drum"/>
+            <equipment name="Bulwak War-Drum"/>
             <equipment name="Hazad'ar Boots"/>
         </set>
         <set name="Purple+2">
             <equipment name="Moonglow"/>
-            <equipment name="Jachin's Ruby Level 3"/>
+            <equipment name="Jachin's Ruby LV 3"/>
             <equipment name="Pale Gazer"/>
             <equipment name="Charges of Shadow Wardens"/>
             <equipment name="Death Kite"/>
@@ -475,14 +480,14 @@
             <equipment name="Kreln Horn"/>
             <equipment name="Heaven's Halberd"/>
             <equipment name="Moon of Lulithan"/>
-            <equipment name="Bulwak War Drum"/>
+            <equipment name="Bulwak War-Drum"/>
             <equipment name="Hazad'ar Boots"/>
         </set>
         <set name="Purple+4">
             <equipment name="Crusade Shield"/>
             <equipment name="Crystal Ball"/>
             <equipment name="Queen's Dress"/>
-            <equipment name="Shazad'Amok"/>
+            <equipment name="Shazad'amok"/>
             <equipment name="Marksman's Ring"/>
             <equipment name="All Around Shoes"/>
         </set>
@@ -497,7 +502,7 @@
     </hero>
     <hero name="Death Knight" stars="3">
         <set name="Purple">
-            <equipment name="Pendant of The Quinnard Level 3"/>
+            <equipment name="Pendant of the Quinnard LV 3"/>
             <equipment name="Ball Lightning"/>
             <equipment name="Ogre Axe"/>
             <equipment name="Mark of Corvus"/>
@@ -515,13 +520,13 @@
         <set name="Purple+2">
             <equipment name="Moonglow"/>
             <equipment name="Staff of Rawlis"/>
-            <equipment name="Sol'Sketh"/>
+            <equipment name="Sol'sketh"/>
             <equipment name="Chest Plate"/>
             <equipment name="Death Kite"/>
             <equipment name="Hazad'ar Boots"/>
         </set>
         <set name="Purple+3">
-            <equipment name="Pendant of The Quinnard Level 4"/>
+            <equipment name="Pendant of the Quinnard Level 4"/>
             <equipment name="Gullak Aertahn"/>
             <equipment name="Ball Lightning"/>
             <equipment name="Corvus Amok"/>
@@ -547,18 +552,18 @@
     </hero>
     <hero name="Death Mage" stars="2">
         <set name="Purple">
-            <equipment name="Sol'Sketh"/>
+            <equipment name="Sol'sketh"/>
             <equipment name="Emerald Fork"/>
             <equipment name="Bloody Eye"/>
-            <equipment name="Gul'Tak Tir"/>
+            <equipment name="Gul'tak Tir"/>
             <equipment name="Pendant of Kenaris"/>
             <equipment name="Blessed Training Boots"/>
         </set>
         <set name="Purple+1">
             <equipment name="Bag of Holding"/>
-            <equipment name="Charges of Shadow Wardens Level 2"/>
+            <equipment name="Charges of Shadow Wardens LV 2"/>
             <equipment name="Stainless Axe"/>
-            <equipment name="Pendant of The Quinnard"/>
+            <equipment name="Pendant of the Quinnard"/>
             <equipment name="Boaz Startap"/>
             <equipment name="Hazad'ar Boots"/>
         </set>
@@ -566,13 +571,13 @@
             <equipment name="The Negotiator"/>
             <equipment name="Ball Lightning"/>
             <equipment name="Ice Staff"/>
-            <equipment name="Bulwak War Drum"/>
+            <equipment name="Bulwak War-Drum"/>
             <equipment name="Mark of Corvus"/>
             <equipment name="Hazad'ar Boots"/>
         </set>
         <set name="Purple+3">
             <equipment name="Moonglow"/>
-            <equipment name="Charges of Shadow Wardens Level 3"/>
+            <equipment name="Charges of Shadow Wardens LV 3"/>
             <equipment name="Dragon Glass"/>
             <equipment name="Pale Gazer"/>
             <equipment name="Brazer of Zarrad"/>
@@ -582,7 +587,7 @@
             <equipment name="Nightless Staff"/>
             <equipment name="Crystal Ball"/>
             <equipment name="Bag of Holding"/>
-            <equipment name="Sol'Sketh"/>
+            <equipment name="Sol'sketh"/>
             <equipment name="Wizard's Hat"/>
             <equipment name="All Around Shoes"/>
         </set>
@@ -647,7 +652,7 @@
     </hero>
     <hero name="Depths Voice" stars="2">
         <set name="Purple">
-            <equipment name="Lulithan's Toothpick Level 2"/>
+            <equipment name="Lulithan's Toothpick LV 2"/>
             <equipment name="Copper Cudgel"/>
             <equipment name="Fireseed"/>
             <equipment name="Death Kite"/>
@@ -664,17 +669,17 @@
         </set>
         <set name="Purple+2">
             <equipment name="Yew Bolt Thrower"/>
-            <equipment name="Lulithan's Toothpick Level 3"/>
+            <equipment name="Lulithan's Toothpick LV 3"/>
             <equipment name="Nedan Bone Chest"/>
             <equipment name="Chest Plate"/>
-            <equipment name="Gol'Can Tir"/>
+            <equipment name="Gol'can Tir"/>
             <equipment name="Hazad'ar Boots"/>
         </set>
         <set name="Purple+3">
             <equipment name="Kreln Leaf"/>
             <equipment name="Moonglow"/>
             <equipment name="Gullak Aertahn"/>
-            <equipment name="Shazad'Amok"/>
+            <equipment name="Shazad'amok"/>
             <equipment name="Death Kite"/>
             <equipment name="Hazad'ar Boots"/>
         </set>
@@ -706,23 +711,23 @@
         </set>
         <set name="Purple+1">
             <equipment name="Bag of Holding"/>
-            <equipment name="Pendant of The Quinnard Level 3"/>
+            <equipment name="Pendant of the Quinnard LV 3"/>
             <equipment name="Mark of Corvus"/>
-            <equipment name="Gol'Can Tir"/>
-            <equipment name="Recovery Towel"/>
+            <equipment name="Gol'can Tir"/>
+            <equipment name="Recovery towel"/>
             <equipment name="Hazad'ar Boots"/>
         </set>
         <set name="Purple+2">
             <equipment name="Moonglow"/>
-            <equipment name="Jachin's Ruby Level 3"/>
+            <equipment name="Jachin's Ruby LV 3"/>
             <equipment name="Charges of Shadow Wardens"/>
-            <equipment name="Bulwak War Drum"/>
+            <equipment name="Bulwak War-Drum"/>
             <equipment name="Pendant of Kenaris"/>
             <equipment name="Hazad'ar Boots"/>
         </set>
         <set name="Purple+3">
             <equipment name="Jachin's Ruby Level 4"/>
-            <equipment name="Pendant of The Quinnard Level 4"/>
+            <equipment name="Pendant of the Quinnard Level 4"/>
             <equipment name="Jachin's Stone Rod"/>
             <equipment name="Geometry of Fire"/>
             <equipment name="Brazer of Zarrad"/>
@@ -733,7 +738,7 @@
             <equipment name="Crystal Ball"/>
             <equipment name="Destruction Amulet"/>
             <equipment name="Wizard's Hat"/>
-            <equipment name="Sol'Sketh"/>
+            <equipment name="Sol'sketh"/>
             <equipment name="All Around Shoes"/>
         </set>
         <set name="Orange">
@@ -836,7 +841,7 @@
             <equipment name="Demon Edge"/>
             <equipment name="All Around Shoes"/>
         </set>
-        <set name="Orange"">
+        <set name="Orange">
     <!--         <equipment name="?"/> -->
             <equipment name="Crusade Shield"/>
             <equipment name="Angel's Sword"/>
@@ -845,107 +850,107 @@
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
-	<hero name="Emberstar" stars="1">
-		<set name="Purple">
-			<equipment name="Dragon Glass"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="Corvus Amok"/>
-			<equipment name="Pure Earth"/>
-			<equipment name="Simple Band"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="Bully Stick"/>
-			<equipment name="Bully Stick"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Jachin's Ruby Level 3"/>
-			<equipment name="The Negotiator"/>
-			<equipment name="Emerald Fork"/>
-			<equipment name="Chest Plate"/>
-			<equipment name="Boaz Startap"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Jachin's Ruby Level 4"/>
-			<equipment name="Moonglow"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="Jachin's Stone Rod"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Nightless Staff"/>
-			<equipment name="Crystal Ball"/>
-			<equipment name="Wizard's Hat"/>
-			<equipment name="Emerald Fork"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Emerald Ring"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="Void Crystal"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Fallen Dominion" stars="3">
-		<set name="Purple">
-			<equipment name="Kelossian Crusher"/>
-			<equipment name="Fanged Harp"/>
-			<equipment name="Jachin's Ruby"/>
-			<equipment name="Vastro Tooth"/>
-			<equipment name="Sanadorian Warden Helm"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Kreln Leaf"/>
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Staff of Rawlis"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Hole Stompers"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Moonglow"/>
-			<equipment name="Raven's Beak"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="Dirks of Cicero"/>
-			<equipment name="Chest Plate"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Moonglow"/>
-			<equipment name="Gullak Aertahn"/>
-			<equipment name="Shazad'amok"/>
-			<equipment name="Vastro Tooth"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Deceiver's Sword"/>
-			<equipment name="Eagle Ring"/>
-			<equipment name="Raven's Beak"/>
-			<equipment name="Kreln Horn"/>
-			<equipment name="Marksman's Ring"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Earth Hammer"/>
-			<equipment name="Stainless Axe"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Silver Lance"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-        <hero name="Ferryman" stars="2">
+    <hero name="Emberstar" stars="1">
+        <set name="Purple">
+            <equipment name="Dragon Glass"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Corvus Amok"/>
+            <equipment name="Pure Earth"/>
+            <equipment name="Simple Band"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Bully Stick"/>
+            <equipment name="Bully Stick"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Jachin's Ruby LV 3"/>
+            <equipment name="The Negotiator"/>
+            <equipment name="Emerald Fork"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Boaz Startap"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Jachin's Ruby Level 4"/>
+            <equipment name="Moonglow"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Jachin's Stone Rod"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Nightless Staff"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Wizard's Hat"/>
+            <equipment name="Emerald Fork"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Emerald Ring"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Void Crystal"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Fallen Dominion" stars="3">
+        <set name="Purple">
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="Fanged Harp"/>
+            <equipment name="Jachin's Ruby"/>
+            <equipment name="Vastro Tooth"/>
+            <equipment name="Sanadorian Warden Helm"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Kreln Leaf"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Staff of Rawlis"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Hole Stompers"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Moonglow"/>
+            <equipment name="Raven's Beak"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Dirks of Cicero"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Moonglow"/>
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Shazad'amok"/>
+            <equipment name="Vastro Tooth"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Deceiver's Sword"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Raven's Beak"/>
+            <equipment name="Kreln Horn"/>
+            <equipment name="Marksman's Ring"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Earth Hammer"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Silver Lance"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Ferryman" stars="2">
         <set name="Purple">
             <equipment name="Kelossian Crusher"/>
             <equipment name="Nedan Bone Chest"/>
@@ -987,7 +992,7 @@
             <equipment name="All Around Shoes"/>
         </set>
         <set name="Orange">
-    <!--        <equipment name="?" /> --->
+    <!--        <equipment name="?" /> -->
             <equipment name="Thunder Sword"/>
             <equipment name="Silver Lance"/>
             <equipment name="Copper Cudgel"/>
@@ -995,1006 +1000,1006 @@
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
-	<hero name="Forest Guardian" stars="1">
-		<set name="Purple">
-			<equipment name="Sol'sketh"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Jachin's Ruby"/>
-			<equipment name="Gul'tak Tir"/>
-			<equipment name="Pure Earth"/>
-			<equipment name="Blessed Training Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Blood Rock"/>
-			<equipment name name="Jachin's Ruby LV 2">
-			<equipment name name="Jaclyn's Stone Rod">
-			<equipment name="Boaz Startap"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Moonglow"/>
-			<equipment name name="Jachin's Ruby LV 3">
-			<equipment name="Ice Staff"/>
-			<equipment name name="Bulwark War Drum">
-			<equipment name="Corvus Amok"/>
-			<equipment name name="Hazad'ra Boots">
-		</set>
-		<set name="Purple+3">
-			<equipment name name="Jachin's Ruby LV 4">
-			<equipment name="Sol'sketh"/>
-			<equipment name="Emerald Fork"/>
-			<equipment name="Blood Rock"/>
-			<equipment name="Brazer of Zarrad"/>
-			<equipment name name="Hazad'ra Boots">
-		</set>
-		<set name="Purple+4">
-			<equipment name="Nightless Staff"/>
-			<equipment name="Crystal Ball"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="Shazad'amok"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Dark Moon Amulet"/>
-			<equipment name="Wizard's Hat"/>
-			<equipment name="Destruction Amulet"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Frost Mage" stars="2">
-		<set name="Purple">
-			<equipment name="Dragon Glass"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="Chest Plate"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Hazad'ar Acolyte Mask"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Pipe"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="Kreln Amuk"/>
-			<equipment name="Bulwak War Drum"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Jachin's Ruby Level 3"/>
-			<equipment name="Emerald Fork"/>
-			<equipment name="Charges of Shadow Wardens Level 2"/>
-			<equipment name="Rod of Atos"/>
-			<equipment name="Recovery Towel"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Jachin's Ruby Level 4"/>
-			<equipment name="Charges of Shadow Wardens Level 3"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="Jachin's Stone Rod"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Nightless Staff"/>
-			<equipment name="Crystal Ball"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="Wizard's Hat"/>
-			<equipment name="Destruction Amulet"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Dark Moon Amulet"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Bag of Holding"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Hidden Needle" stars="3">
-		<set name="Purple">
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Nedan Bone Chest"/>
-			<equipment name="Moon of Lulithan"/>
-			<equipment name="Spark of Tyr"/>
-			<equipment name="Hole Stompers"/>
-			<equipment name="Emerald Training Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Kreln Leaf"/>
-			<equipment name="Demon Edge"/>
-			<equipment name="Stone of Boaz"/>
-			<equipment name="Mote"/>
-			<equipment name="Sanadorian Warden Helm"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Yew Bolt Thrower"/>
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Dirks of Cicero"/>
-			<equipment name="Spark of Tyr"/>
-			<equipment name="Hood of Jachin"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Moonglow"/>
-			<equipment name="Heaven's Halberd"/>
-			<equipment name="Kelossian Crusher"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Deceiver's Sword"/>
-			<equipment name="Eagle Ring"/>
-			<equipment name="Raven's Beak"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="Demon Edge"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-			<equipment name="Thunder Sword"/>
-			<equipment name="Angel's Sword"/>
-			<equipment name="Fanged Harp"/>
-			<equipment name="Kreln Horn"/>
-			<equipment name="All Around Shoes"/>
-<!--   		<equipment name="?" /> --->
-		</set>
-	</hero>
-	<hero name="Ice Mage" stars="2">
-		<set name="Purple">
-			<equipment name="Ball Lightning"/>
-			<equipment name="Rod of Atos"/>
-			<equipment name="Jachin's Ruby"/>
-			<equipment name="Boaz Startap"/>
-			<equipment name="Pure Earth"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Jachin's Ruby Level 2"/>
-			<equipment name="Geometry of Fire"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Pipe"/>
-			<equipment name="Dragon Glass"/>
-			<equipment name="Jachin's Ruby Level 3"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="Mark of Corvus"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Moonglow"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="Jachin's Ruby Level 4"/>
-			<equipment name="Eul's Scepter of Divinity"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Nightless Staff"/>
-			<equipment name="Crystal Ball"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Emerald Fork"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Emerald Ring"/>
-			<equipment name="Shazad'amok"/>
-			<equipment name="Wizard's Hat"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Imperial Executioner" stars="2">
-		<set name="Purple">
-			<equipment name="Charges of Shadow Wardens Level 2"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="Corvus Amok"/>
-			<equipment name="Pure Earth"/>
-			<equipment name="Hood of Dark Sight"/>
-			<equipment name="Swiftboots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Geometry of Fire"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Magic Wand"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Jachin's Ruby Level 3"/>
-			<equipment name="The Negotiator"/>
-			<equipment name="Dragon Glass"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="Boaz Startap"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Jachin's Ruby Level 4"/>
-			<equipment name="Charges of Shadow Wardens Level 3"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="Jachin's Stone Rod"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Nightless Staff"/>
-			<equipment name="Crystal Ball"/>
-			<equipment name="Wizard's Hat"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="Shazad'amok"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Emerald Ring"/>
-			<equipment name="Emerald Fork"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Iron Hoof" stars="3">
-		<set name="Purple">
-			<equipment name="Ball Lightning"/>
-			<equipment name="Pipe"/>
-			<equipment name="Nedan's Tear"/>
-			<equipment name="Gul'tak Tir"/>
-			<equipment name="Fireseed"/>
-			<equipment name="Training Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Dragon Glass"/>
-			<equipment name="Transmer of Amuns"/>
-			<equipment name="Spark of Tyr"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Kreln Horn"/>
-			<equipment name="Rough Hewn Axe"/>
-			<equipment name="Heaven's Halberd"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Sanadorian Warden Helm"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Moonglow"/>
-			<equipment name="Gullak Aertahn"/>
-			<equipment name="Pipe"/>
-			<equipment name="Moon of Lulithan"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Crusade Shield"/>
-			<equipment name="Titan's Axe"/>
-			<equipment name="Moonglow"/>
-			<equipment name="Yew Bolt Thrower"/>
-			<equipment name="Rough Hewn Axe"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Immortal Guardian"/>
-			<equipment name="Dragon's Scale"/>
-			<equipment name="Gullak Aertahn"/>
-			<equipment name="Eternal Icicle"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Lightning Elemental" stars="3">
-		<set name="Purple">
-			<equipment name="Pipe"/>
-			<equipment name="Kelossian Crusher"/>
-			<equipment name="Chulashi'ta ok"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Bramblestick"/>
-			<equipment name="Phase Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Kreln Leaf"/>
-			<equipment name="Stainless Axe"/>
-			<equipment name="Nedan's Tear"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Torc of Sight"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Yew Bolt Thrower"/>
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Blade of Alacrity"/>
-			<equipment name="Ogre Axe"/>
-			<equipment name="Gol'can Tir"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Gullak Aertahn"/>
-			<equipment name="Moonglow"/>
-			<equipment name="Jachin's Stone Rod"/>
-			<equipment name="Blade Mail"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Deceiver's Sword"/>
-			<equipment name="Eagle Ring"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="Nedan Bone Chest"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Thunder Sword"/>
-			<equipment name="Angel's Sword"/>
-			<equipment name="Fanged Harp"/>
-			<equipment name="Stainless Axe"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Lightning Master" stars="1">
-		<set name="Purple">
-			<equipment name="Sol'sketh"/>
-			<equipment name="Charges of Shadow Wardens Level 2"/>
-			<equipment name="Jachin's Stone Rod"/>
-			<equipment name="Mark of Corvus"/>
-			<equipment name="Simple Band"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Charges of Shadow Wardens Level 3"/>
-			<equipment name="Dragon Glass"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="Geometry of Fire"/>
-			<equipment name="Pure Earth"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Jachin's Ruby Level 3"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Bully Stick"/>
-			<equipment name="Pure Earth"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Moonglow"/>
-			<equipment name="Bag of Holding"/>
-			<equipment name="Shazad'amok"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Jachin's Stone Rod"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Nightless Staff"/>
-			<equipment name="Crystal Ball"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="Wizard's Hat"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Emerald Ring"/>
-			<equipment name="Destruction Amulet"/>
-			<equipment name="Bag of Holding"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Lightning Spirit" stars="1">
-		<set name="Purple">
-			<equipment name="Sol'sketh"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Kreln Masher"/>
-			<equipment name="Chest Plate"/>
-			<equipment name="Pendant of Kenaris"/>
-			<equipment name="Blessed Training Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Kelossian Crusher"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="Corvus Amok"/>
-			<equipment name="Spear"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Jachin's Ruby Level 3"/>
-			<equipment name="Shazad'amok"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="Bag of Holding"/>
-			<equipment name="Spear"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Jachin's Ruby Level 4"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="Bag of Holding"/>
-			<equipment name="Geometry of Fire"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Nightless Staff"/>
-			<equipment name="Crystal Ball"/>
-			<equipment name="Jachin's Ruby Level 4"/>
-			<equipment name="Gullak Aertahn"/>
-			<equipment name="Geometry of Fire"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Emerald Ring"/>
-			<equipment name="Silver Lance"/>
-			<equipment name="Destruction Amulet"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Lunar Guardian" stars="3">
-		<set name="Purple">
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Stainless Axe"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Hazad'ar Acolyte Mask"/>
-			<equipment name="Corax's Sight"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Kreln Leaf"/>
-			<equipment name="Dragon Glass"/>
-			<equipment name="Vastro Tooth"/>
-			<equipment name="Longsword"/>
-			<equipment name="Torc of Sight"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Kreln Horn"/>
-			<equipment name="Yew Bolt Thrower"/>
-			<equipment name="Dirks of Cicero"/>
-			<equipment name="Spark of Tyr"/>
-			<equipment name="Hole Stompers"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Moonglow"/>
-			<equipment name="The Negotiator"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Jachin's Stone Rod"/>
-			<equipment name="Sanadorian Warden Helm"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Deceiver's Sword"/>
-			<equipment name="Eagle Ring"/>
-			<equipment name="Staff of Rawlis"/>
-			<equipment name="Void Crystal"/>
-			<equipment name="Kelossian Crusher"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Thunder Sword"/>
-			<equipment name="Gullak Aertahn"/>
-			<equipment name="Fanged Harp"/>
-			<equipment name="Demon Edge"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Machinist" stars="1">
-		<set name="Purple">
-			<equipment name="Jachin's Ruby Level 2"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Kreln Amuk"/>
-			<equipment name="Pendant of The Quinnard"/>
-			<equipment name="Pure Earth"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Bully Stick"/>
-			<equipment name="Ogre Axe"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Jachin's Ruby Level 3"/>
-			<equipment name="Stainless Axe"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="Bully Stick"/>
-			<equipment name="Mark of Corvus"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Jachin's Ruby Level 4"/>
-			<equipment name="Shazad'amok"/>
-			<equipment name="Emerald Fork"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Nightless Staff"/>
-			<equipment name="Crystal Ball"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="Destruction Amulet"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Dark Moon Amulet"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Master Mage" stars="3">
-		<set name="Purple">
-			<equipment name="Ball Lightning"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Corvus Amok"/>
-			<equipment name="Bully Stick"/>
-			<equipment name="Pendant of Kenaris"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Shazad'amok"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="Mark of Corvus"/>
-			<equipment name="Hood of Dark Sight"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="The Negotiator"/>
-			<equipment name="Emerald Fork"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Kreln Amuk"/>
-			<equipment name="Hood of Dark Sight"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Moonglow"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="Dragon Glass"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Boaz Startap"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Nightless Staff"/>
-			<equipment name="Crystal Ball"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Shazad'amok"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Dark Moon Amulet"/>
-			<equipment name="Bag of Holding"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Mountain" stars="3">
-		<set name="Purple">
-			<equipment name="Nedan Bone Chest"/>
-			<equipment name="Kelossian Crusher"/>
-			<equipment name="Vastro Tooth"/>
-			<equipment name="Moon of Lulithan"/>
-			<equipment name="Gol'can Tir"/>
-			<equipment name="Phase Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Blade Mail"/>
-			<equipment name="Eul's Scepter of Divinity"/>
-			<equipment name="Pendant of Kenaris"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Yew Bolt Thrower"/>
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Dirks of Cicero"/>
-			<equipment name="Fist of Tyre"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Moonglow"/>
-			<equipment name="Kreln Horn"/>
-			<equipment name="Blade Mail"/>
-			<equipment name="Jachin's Stone Rod"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Crusade Shield"/>
-			<equipment name="Titan's Axe"/>
-			<equipment name="Gullak Aertahn"/>
-			<equipment name="Wizard's Hat"/>
-			<equipment name="Dragon Glass"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Immortal Guardian"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Bag of Holding"/>
-			<equipment name="Demon Edge"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Mystic" stars="1">
-		<set name="Purple">
-			<equipment name="Shazad'amok"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Jachin's Ruby"/>
-			<equipment name="Bulwak War Drum"/>
-			<equipment name="Pendant of Kenaris"/>
-			<equipment name="Phase Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="Jachin's Ruby Level 2"/>
-			<equipment name="Pendant of The Quinnard"/>
-			<equipment name="Recovery Towel"/>
-			<equipment name="Phase Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Nedan Bone Chest"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="Jachin's Ruby Level 3"/>
-			<equipment name="Geometry of Fire"/>
-			<equipment name="Hood of Jachin"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Moonglow"/>
-			<equipment name="Pipe"/>
-			<equipment name="Jachin's Ruby Level 4"/>
-			<equipment name="Charges of Shadow Wardens"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Nightless Staff"/>
-			<equipment name="Crystal Ball"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Emerald Fork"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Emerald Ring"/>
-			<equipment name="Wizard's Hat"/>
-			<equipment name="Shazad'amok"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Necromancer" stars="2">
-		<set name="Purple">
-			<equipment name="Charges of Shadow Wardens Level 2"/>
-			<equipment name="Jachin's Ruby Level 2"/>
-			<equipment name="Corvus Amok"/>
-			<equipment name="Gol'can Tir"/>
-			<equipment name="Pure Earth"/>
-			<equipment name="Swiftboots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Charges of Shadow Wardens Level 3"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Boaz Startap"/>
-			<equipment name="Pendant of The Quinnard"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="The Negotiator"/>
-			<equipment name="Jachin's Ruby Level 3"/>
-			<equipment name="Pipe"/>
-			<equipment name="Mark of Corvus"/>
-			<equipment name="Ogre Axe"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Jachin's Ruby Level 4"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="Jachin's Stone Rod"/>
-			<equipment name="Pendant of The Quinnard"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Nightless Staff"/>
-			<equipment name="Crystal Ball"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="The Negotiator"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Dark Moon Amulet"/>
-			<equipment name="Destruction Amulet"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Ninja Assassin" stars="3">
-		<set name="Purple">
-			<equipment name="Emerald Training Boots"/>
-			<equipment name="Spark of Tyr"/>
-			<equipment name="Nedan Bone Chest"/>
-			<equipment name="Hole Stompers"/>
-			<equipment name="Moon of Lulithan"/>
-			<equipment name="Copper Cudgel"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Kreln Leaf"/>
-			<equipment name="Demon Edge"/>
-			<equipment name="Stone of Boaz"/>
-			<equipment name="Mote"/>
-			<equipment name="Bulwak War Drum"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Hazad'ar Boots"/>
-			<equipment name="Hood of Jachin"/>
-			<equipment name="Spark of Tyr"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Yew Bolt Thrower"/>
-			<equipment name="Raven's Beak"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Hazad'ar Boots"/>
-			<equipment name="Sanadorian Warden Helm"/>
-			<equipment name="Stainless Axe"/>
-			<equipment name="Kelossian Crusher"/>
-			<equipment name="Kreln Horn"/>
-			<equipment name="Gullak Aertahn"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="All Around Shoes"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="Stainless Axe"/>
-			<equipment name="Yew Bolt Thrower"/>
-			<equipment name="Eagle Ring"/>
-			<equipment name="Star Sword"/>
-		</set>
-		<set name="Orange">
-			<equipment name="All Around Shoes"/>
-			<equipment name="Nedan's Tear"/>
-			<equipment name="Kreln Horn"/>
-			<equipment name="Angel's Sword"/>
-			<equipment name="Thunder Sword"/>
-<!--   		<equipment name="?" /> --->
-		</set>
-	</hero>
-	<hero name="Old Curse" stars="2">
-		<set name="Purple">
-			<equipment name="Pipe"/>
-			<equipment name="Charges of Shadow Wardens Level 2"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Rod of Atos"/>
-			<equipment name="Chest Plate"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Jachin's Ruby Level 2"/>
-			<equipment name="Eul's Scepter of Divinity"/>
-			<equipment name="Pendant of Kenaris"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Charges of Shadow Wardens Level 3"/>
-			<equipment name="Stainless Axe"/>
-			<equipment name="Jachin's Ruby Level 3"/>
-			<equipment name="Bulwak War Drum"/>
-			<equipment name="Pendant of Kenaris"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Moonglow"/>
-			<equipment name="Shazad'amok"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Jachin's Ruby Level 4"/>
-			<equipment name="Brazer of Zarrad"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Nightless Staff"/>
-			<equipment name="Crystal Ball"/>
-			<equipment name="Wizard's Hat"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Emerald Ring"/>
-			<equipment name="Emerald Pendant"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Phoenix" stars="1">
-		<set name="Purple">
-			<equipment name="Ball Lightning"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Jachin's Ruby"/>
-			<equipment name="Corvus Amok"/>
-			<equipment name="Gol'can Tir"/>
-			<equipment name="Training Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Pipe"/>
-			<equipment name="Jachin's Ruby Level 2"/>
-			<equipment name="Blood Rock"/>
-			<equipment name="Bulwak War Drum"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Moonglow"/>
-			<equipment name="Jachin's Ruby Level 3"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Charges of Shadow Wardens"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="Bulwak War Drum"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Nightless Staff"/>
-			<equipment name="Crystal Ball"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="Shazad'amok"/>
-			<equipment name="Emerald Fork"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Emerald Ring"/>
-			<equipment name="Wizard's Hat"/>
-			<equipment name="Eternal Icicle"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Pilot" stars="2">
-		<set name="Purple">
-			<equipment name="Pipe"/>
-			<equipment name="Fanged Harp"/>
-			<equipment name="Dirks of Cicero"/>
-			<equipment name="Fireseed"/>
-			<equipment name="Bramblestick"/>
-			<equipment name="Phase Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Kreln Leaf"/>
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Spark of Tyr"/>
-			<equipment name="Chest Scale"/>
-			<equipment name="Sanadorian Warden Helm"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Kreln Horn"/>
-			<equipment name="Gullak Aertahn"/>
-			<equipment name="Dirks of Cicero"/>
-			<equipment name="Nedan's Tear"/>
-			<equipment name="Bramblestick"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Yew Bolt Thrower"/>
-			<equipment name="Raven's Beak"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="Vastro Tooth"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Star Sword"/>
-			<equipment name="Eagle Ring"/>
-			<equipment name="Stainless Axe"/>
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Demon Edge"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Earth Hammer"/>
-			<equipment name="Angel's Sword"/>
-			<equipment name="Corgieran Glaive"/>
-			<equipment name="Demon's Arrow"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Poisoned One" stars="3">
-		<set name="Purple">
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Nedan Bone Chest"/>
-			<equipment name="Dirks of Cicero"/>
-			<equipment name="Bulwak War Drum"/>
-			<equipment name="Hole Stompers"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Staff of Rawlis"/>
-			<equipment name="Pipe"/>
-			<equipment name="Spear"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Torc of Sight"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Gullak Aertahn"/>
-			<equipment name="Yew Bolt Thrower"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Bramblestick"/>
-			<equipment name="Torc of Sight"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Kreln Leaf"/>
-			<equipment name="Moonglow"/>
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Deceiver's Sword"/>
-			<equipment name="Eagle Ring"/>
-			<equipment name="Raven's Beak"/>
-			<equipment name="Dragon Glass"/>
-			<equipment name="Kelossian Crusher"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Thunder Sword"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Demon's Arrow"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
+    <hero name="Forest Guardian" stars="1">
+        <set name="Purple">
+            <equipment name="Sol'sketh"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Jachin's Ruby"/>
+            <equipment name="Gul'tak Tir"/>
+            <equipment name="Pure Earth"/>
+            <equipment name="Blessed Training Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Blood Rock"/>
+            <equipment name="Jachin's Ruby LV 2"/>
+            <equipment name="Jachin's Stone Rod"/>
+            <equipment name="Boaz Startap"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Moonglow"/>
+            <equipment name="Jachin's Ruby LV 3"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Bulwak War-Drum"/>
+            <equipment name="Corvus Amok"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Jachin's Ruby Level 4"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Emerald Fork"/>
+            <equipment name="Blood Rock"/>
+            <equipment name="Brazer of Zarrad"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Nightless Staff"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Shazad'amok"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Dark Moon Amulet"/>
+            <equipment name="Wizard's Hat"/>
+            <equipment name="Destruction Amulet"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Frost Mage" stars="2">
+        <set name="Purple">
+            <equipment name="Dragon Glass"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Acolyte Mask"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Pipe"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Kreln Amuk"/>
+            <equipment name="Bulwak War-Drum"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Jachin's Ruby LV 3"/>
+            <equipment name="Emerald Fork"/>
+            <equipment name="Charges of Shadow Wardens LV 2"/>
+            <equipment name="Rod of Atos"/>
+            <equipment name="Recovery towel"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Jachin's Ruby Level 4"/>
+            <equipment name="Charges of Shadow Wardens LV 3"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Jachin's Stone Rod"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Nightless Staff"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Wizard's Hat"/>
+            <equipment name="Destruction Amulet"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Dark Moon Amulet"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Bag of Holding"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Hidden Needle" stars="3">
+        <set name="Purple">
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Moon of Lulithan"/>
+            <equipment name="Spark of Tyr"/>
+            <equipment name="Hole Stompers"/>
+            <equipment name="Emerald Training Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Kreln Leaf"/>
+            <equipment name="Demon Edge"/>
+            <equipment name="Stone of Boaz"/>
+            <equipment name="Mote"/>
+            <equipment name="Sanadorian Warden Helm"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Dirks of Cicero"/>
+            <equipment name="Spark of Tyr"/>
+            <equipment name="Hood of Jachin"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Moonglow"/>
+            <equipment name="Heaven's Halberd"/>
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Deceiver's Sword"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Raven's Beak"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Demon Edge"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+            <equipment name="Thunder Sword"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Fanged Harp"/>
+            <equipment name="Kreln Horn"/>
+            <equipment name="All Around Shoes"/>
+<!--           <equipment name="?" /> -->
+        </set>
+    </hero>
+    <hero name="Ice Mage" stars="2">
+        <set name="Purple">
+            <equipment name="Ball Lightning"/>
+            <equipment name="Rod of Atos"/>
+            <equipment name="Jachin's Ruby"/>
+            <equipment name="Boaz Startap"/>
+            <equipment name="Pure Earth"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Jachin's Ruby LV 2"/>
+            <equipment name="Geometry of Fire"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Pipe"/>
+            <equipment name="Dragon Glass"/>
+            <equipment name="Jachin's Ruby LV 3"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Mark of Corvus"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Moonglow"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Jachin's Ruby Level 4"/>
+            <equipment name="Eul's Scepter of Divinity"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Nightless Staff"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Emerald Fork"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Emerald Ring"/>
+            <equipment name="Shazad'amok"/>
+            <equipment name="Wizard's Hat"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Imperial Executioner" stars="2">
+        <set name="Purple">
+            <equipment name="Charges of Shadow Wardens LV 2"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Corvus Amok"/>
+            <equipment name="Pure Earth"/>
+            <equipment name="Hood of Dark Sight"/>
+            <equipment name="Swiftboots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Geometry of Fire"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Magic Wand"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Jachin's Ruby LV 3"/>
+            <equipment name="The Negotiator"/>
+            <equipment name="Dragon Glass"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Boaz Startap"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Jachin's Ruby Level 4"/>
+            <equipment name="Charges of Shadow Wardens LV 3"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Jachin's Stone Rod"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Nightless Staff"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Wizard's Hat"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Shazad'amok"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Emerald Ring"/>
+            <equipment name="Emerald Fork"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Iron Hoof" stars="3">
+        <set name="Purple">
+            <equipment name="Ball Lightning"/>
+            <equipment name="Pipe"/>
+            <equipment name="Nedan's Tear"/>
+            <equipment name="Gul'tak Tir"/>
+            <equipment name="Fireseed"/>
+            <equipment name="Training Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Dragon Glass"/>
+            <equipment name="Transmer of Amuns"/>
+            <equipment name="Spark of Tyr"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Kreln Horn"/>
+            <equipment name="Rough Hewn Axe"/>
+            <equipment name="Heaven's Halberd"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Sanadorian Warden Helm"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Moonglow"/>
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Pipe"/>
+            <equipment name="Moon of Lulithan"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Crusade Shield"/>
+            <equipment name="Titan's Axe"/>
+            <equipment name="Moonglow"/>
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Rough Hewn Axe"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Immortal Guardian"/>
+            <equipment name="Dragon's Scale"/>
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Eternal Icicle"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Lightning Elemental" stars="3">
+        <set name="Purple">
+            <equipment name="Pipe"/>
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="Chulashi'ta-ok"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Bramblestick"/>
+            <equipment name="Phase Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Kreln Leaf"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Nedan's Tear"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Torc of Sight"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Blade of Alacrity"/>
+            <equipment name="Ogre Axe"/>
+            <equipment name="Gol'can Tir"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Moonglow"/>
+            <equipment name="Jachin's Stone Rod"/>
+            <equipment name="Blade Mail"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Deceiver's Sword"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Thunder Sword"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Fanged Harp"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Lightning Master" stars="1">
+        <set name="Purple">
+            <equipment name="Sol'sketh"/>
+            <equipment name="Charges of Shadow Wardens LV 2"/>
+            <equipment name="Jachin's Stone Rod"/>
+            <equipment name="Mark of Corvus"/>
+            <equipment name="Simple Band"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Charges of Shadow Wardens LV 3"/>
+            <equipment name="Dragon Glass"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Geometry of Fire"/>
+            <equipment name="Pure Earth"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Jachin's Ruby LV 3"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Bully Stick"/>
+            <equipment name="Pure Earth"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Moonglow"/>
+            <equipment name="Bag of Holding"/>
+            <equipment name="Shazad'amok"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Jachin's Stone Rod"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Nightless Staff"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Wizard's Hat"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Emerald Ring"/>
+            <equipment name="Destruction Amulet"/>
+            <equipment name="Bag of Holding"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Lightning Spirit" stars="1">
+        <set name="Purple">
+            <equipment name="Sol'sketh"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Kreln Masher"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Pendant of Kenaris"/>
+            <equipment name="Blessed Training Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Corvus Amok"/>
+            <equipment name="Spear"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Jachin's Ruby LV 3"/>
+            <equipment name="Shazad'amok"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Bag of Holding"/>
+            <equipment name="Spear"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Jachin's Ruby Level 4"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Bag of Holding"/>
+            <equipment name="Geometry of Fire"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Nightless Staff"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Jachin's Ruby Level 4"/>
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Geometry of Fire"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Emerald Ring"/>
+            <equipment name="Silver Lance"/>
+            <equipment name="Destruction Amulet"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Lunar Guardian" stars="3">
+        <set name="Purple">
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Hazad'ar Acolyte Mask"/>
+            <equipment name="Corax's Sight"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Kreln Leaf"/>
+            <equipment name="Dragon Glass"/>
+            <equipment name="Vastro Tooth"/>
+            <equipment name="Longsword"/>
+            <equipment name="Torc of Sight"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Kreln Horn"/>
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Dirks of Cicero"/>
+            <equipment name="Spark of Tyr"/>
+            <equipment name="Hole Stompers"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Moonglow"/>
+            <equipment name="The Negotiator"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Jachin's Stone Rod"/>
+            <equipment name="Sanadorian Warden Helm"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Deceiver's Sword"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Staff of Rawlis"/>
+            <equipment name="Void Crystal"/>
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Thunder Sword"/>
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Fanged Harp"/>
+            <equipment name="Demon Edge"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Machinist" stars="1">
+        <set name="Purple">
+            <equipment name="Jachin's Ruby LV 2"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Kreln Amuk"/>
+            <equipment name="Pendant of the Quinnard"/>
+            <equipment name="Pure Earth"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Bully Stick"/>
+            <equipment name="Ogre Axe"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Jachin's Ruby LV 3"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Bully Stick"/>
+            <equipment name="Mark of Corvus"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Jachin's Ruby Level 4"/>
+            <equipment name="Shazad'amok"/>
+            <equipment name="Emerald Fork"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Nightless Staff"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Destruction Amulet"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Dark Moon Amulet"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Master Mage" stars="3">
+        <set name="Purple">
+            <equipment name="Ball Lightning"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Corvus Amok"/>
+            <equipment name="Bully Stick"/>
+            <equipment name="Pendant of Kenaris"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Shazad'amok"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Mark of Corvus"/>
+            <equipment name="Hood of Dark Sight"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="The Negotiator"/>
+            <equipment name="Emerald Fork"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Kreln Amuk"/>
+            <equipment name="Hood of Dark Sight"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Moonglow"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Dragon Glass"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Boaz Startap"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Nightless Staff"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Shazad'amok"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Dark Moon Amulet"/>
+            <equipment name="Bag of Holding"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Mountain" stars="3">
+        <set name="Purple">
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="Vastro Tooth"/>
+            <equipment name="Moon of Lulithan"/>
+            <equipment name="Gol'can Tir"/>
+            <equipment name="Phase Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Blade Mail"/>
+            <equipment name="Eul's Scepter of Divinity"/>
+            <equipment name="Pendant of Kenaris"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Dirks of Cicero"/>
+            <equipment name="Fist of Tyre"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Moonglow"/>
+            <equipment name="Kreln Horn"/>
+            <equipment name="Blade Mail"/>
+            <equipment name="Jachin's Stone Rod"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Crusade Shield"/>
+            <equipment name="Titan's Axe"/>
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Wizard's Hat"/>
+            <equipment name="Dragon Glass"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Immortal Guardian"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Bag of Holding"/>
+            <equipment name="Demon Edge"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Mystic" stars="1">
+        <set name="Purple">
+            <equipment name="Shazad'amok"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Jachin's Ruby"/>
+            <equipment name="Bulwak War-Drum"/>
+            <equipment name="Pendant of Kenaris"/>
+            <equipment name="Phase Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Jachin's Ruby LV 2"/>
+            <equipment name="Pendant of the Quinnard"/>
+            <equipment name="Recovery towel"/>
+            <equipment name="Phase Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Jachin's Ruby LV 3"/>
+            <equipment name="Geometry of Fire"/>
+            <equipment name="Hood of Jachin"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Moonglow"/>
+            <equipment name="Pipe"/>
+            <equipment name="Jachin's Ruby Level 4"/>
+            <equipment name="Charges of Shadow Wardens"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Nightless Staff"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Emerald Fork"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Emerald Ring"/>
+            <equipment name="Wizard's Hat"/>
+            <equipment name="Shazad'amok"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Necromancer" stars="2">
+        <set name="Purple">
+            <equipment name="Charges of Shadow Wardens LV 2"/>
+            <equipment name="Jachin's Ruby LV 2"/>
+            <equipment name="Corvus Amok"/>
+            <equipment name="Gol'can Tir"/>
+            <equipment name="Pure Earth"/>
+            <equipment name="Swiftboots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Charges of Shadow Wardens LV 3"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Boaz Startap"/>
+            <equipment name="Pendant of the Quinnard"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="The Negotiator"/>
+            <equipment name="Jachin's Ruby LV 3"/>
+            <equipment name="Pipe"/>
+            <equipment name="Mark of Corvus"/>
+            <equipment name="Ogre Axe"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Jachin's Ruby Level 4"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Jachin's Stone Rod"/>
+            <equipment name="Pendant of the Quinnard"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Nightless Staff"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="The Negotiator"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Dark Moon Amulet"/>
+            <equipment name="Destruction Amulet"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Ninja Assassin" stars="3">
+        <set name="Purple">
+            <equipment name="Emerald Training Boots"/>
+            <equipment name="Spark of Tyr"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Hole Stompers"/>
+            <equipment name="Moon of Lulithan"/>
+            <equipment name="Copper Cudgel"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Kreln Leaf"/>
+            <equipment name="Demon Edge"/>
+            <equipment name="Stone of Boaz"/>
+            <equipment name="Mote"/>
+            <equipment name="Bulwak War-Drum"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Hazad'ar Boots"/>
+            <equipment name="Hood of Jachin"/>
+            <equipment name="Spark of Tyr"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Raven's Beak"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Hazad'ar Boots"/>
+            <equipment name="Sanadorian Warden Helm"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="Kreln Horn"/>
+            <equipment name="Gullak Aertahn"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="All Around Shoes"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Star Sword"/>
+        </set>
+        <set name="Orange">
+            <equipment name="All Around Shoes"/>
+            <equipment name="Nedan's Tear"/>
+            <equipment name="Kreln Horn"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Thunder Sword"/>
+<!--           <equipment name="?" /> -->
+        </set>
+    </hero>
+    <hero name="Old Curse" stars="2">
+        <set name="Purple">
+            <equipment name="Pipe"/>
+            <equipment name="Charges of Shadow Wardens LV 2"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Rod of Atos"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Jachin's Ruby LV 2"/>
+            <equipment name="Eul's Scepter of Divinity"/>
+            <equipment name="Pendant of Kenaris"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Charges of Shadow Wardens LV 3"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Jachin's Ruby LV 3"/>
+            <equipment name="Bulwak War-Drum"/>
+            <equipment name="Pendant of Kenaris"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Moonglow"/>
+            <equipment name="Shazad'amok"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Jachin's Ruby Level 4"/>
+            <equipment name="Brazer of Zarrad"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Nightless Staff"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Wizard's Hat"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Emerald Ring"/>
+            <equipment name="Emerald Pendant"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Phoenix" stars="1">
+        <set name="Purple">
+            <equipment name="Ball Lightning"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Jachin's Ruby"/>
+            <equipment name="Corvus Amok"/>
+            <equipment name="Gol'can Tir"/>
+            <equipment name="Training Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Pipe"/>
+            <equipment name="Jachin's Ruby LV 2"/>
+            <equipment name="Blood Rock"/>
+            <equipment name="Bulwak War-Drum"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Moonglow"/>
+            <equipment name="Jachin's Ruby LV 3"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Charges of Shadow Wardens"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Bulwak War-Drum"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Nightless Staff"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Shazad'amok"/>
+            <equipment name="Emerald Fork"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Emerald Ring"/>
+            <equipment name="Wizard's Hat"/>
+            <equipment name="Eternal Icicle"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Pilot" stars="2">
+        <set name="Purple">
+            <equipment name="Pipe"/>
+            <equipment name="Fanged Harp"/>
+            <equipment name="Dirks of Cicero"/>
+            <equipment name="Fireseed"/>
+            <equipment name="Bramblestick"/>
+            <equipment name="Phase Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Kreln Leaf"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Spark of Tyr"/>
+            <equipment name="Chest Scale"/>
+            <equipment name="Sanadorian Warden Helm"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Kreln Horn"/>
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Dirks of Cicero"/>
+            <equipment name="Nedan's Tear"/>
+            <equipment name="Bramblestick"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Raven's Beak"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Vastro Tooth"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Star Sword"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Demon Edge"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Earth Hammer"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Corgieran Glaive"/>
+            <equipment name="Demon's Arrow"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Poisoned One" stars="3">
+        <set name="Purple">
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Dirks of Cicero"/>
+            <equipment name="Bulwak War-Drum"/>
+            <equipment name="Hole Stompers"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Staff of Rawlis"/>
+            <equipment name="Pipe"/>
+            <equipment name="Spear"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Torc of Sight"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Bramblestick"/>
+            <equipment name="Torc of Sight"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Kreln Leaf"/>
+            <equipment name="Moonglow"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Deceiver's Sword"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Raven's Beak"/>
+            <equipment name="Dragon Glass"/>
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Thunder Sword"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Demon's Arrow"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
     <hero name="Professional Killer" stars="3">
         <set name="Purple">
             <equipment name="Shazad'amok"/>
@@ -2037,7 +2042,7 @@
             <equipment name="All Around Shoes"/>
         </set>
         <set name="Orange">
-    <!--        <equipment name="?" /> --->
+    <!--        <equipment name="?" /> -->
             <equipment name="Thunder Sword"/>
             <equipment name="Fanged Harp"/>
             <equipment name="Silver Lance"/>
@@ -2050,7 +2055,7 @@
             <equipment name="Copper Cudgel"/>
             <equipment name="Nedan Bone Chest"/>
             <equipment name="Brazer of Zarrad"/>
-            <equipment name="Bulwak War Drum"/>
+            <equipment name="Bulwak War-Drum"/>
             <equipment name="Hole Stompers"/>
             <equipment name="Emerald Training Boots"/>
         </set>
@@ -2066,7 +2071,7 @@
             <equipment name="Yew Bolt Thrower"/>
             <equipment name="Stainless Axe"/>
             <equipment name="Dirks of Cicero"/>
-            <equipment name="Bulwak War Drum"/>
+            <equipment name="Bulwak War-Drum"/>
             <equipment name="Torc of Sight"/>
             <equipment name="Hazad'ar Boots"/>
         </set>
@@ -2087,7 +2092,7 @@
             <equipment name="All Around Shoes"/>
         </set>
         <set name="Orange">
-    <!--        <equipment name="?" /> --->
+    <!--        <equipment name="?" /> -->
             <equipment name="Thunder Sword"/>
             <equipment name="Gullak Aertahn"/>
             <equipment name="Ball Lightning"/>
@@ -2095,904 +2100,904 @@
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
-	<hero name="Psychopath" stars="1">
-		<set name="Purple">
-			<equipment name="Emerald Fork"/>
-			<equipment name="Pipe"/>
-			<equipment name="Charges of Shadow Wardens Level 2"/>
-			<equipment name="Mark of Corvus"/>
-			<equipment name="Chest Plate"/>
-			<equipment name="Swiftboots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Charges of Shadow Wardens Level 3"/>
-			<equipment name="Bag of Holding"/>
-			<equipment name="Dragon Glass"/>
-			<equipment name="Jachin's Stone Rod"/>
-			<equipment name="Pure Earth"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Jachin's Ruby Level 3"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Mark of Corvus"/>
-			<equipment name="Bulwak War Drum"/>
-			<equipment name="Pendant of Kenaris"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Moonglow"/>
-			<equipment name="Jachin's Ruby Level 4"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Jachin's Stone Rod"/>
-			<equipment name="Hood of Jachin"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Crusade Shield"/>
-			<equipment name="Crystal Ball"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="Destruction Amulet"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Emerald Ring"/>
-			<equipment name="Bag of Holding"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Emerald Pendant"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Rifleman" stars="1">
-		<set name="Purple">
-			<equipment name="Stainless Axe"/>
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Spark of Tyr"/>
-			<equipment name="Longsword"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Kreln Leaf"/>
-			<equipment name="Demon Edge"/>
-			<equipment name="Mote"/>
-			<equipment name="Dirks of Cicero"/>
-			<equipment name="Chest Plate"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Kreln Horn"/>
-			<equipment name="Nedan Bone Chest"/>
-			<equipment name="Nedan's Tear"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Spear"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Yew Bolt Thrower"/>
-			<equipment name="Kreln Leaf"/>
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Stainless Axe"/>
-			<equipment name="Nedan's Tear"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Star Sword"/>
-			<equipment name="Eagle Ring"/>
-			<equipment name="Void Crystal"/>
-			<equipment name="Kelossian Crusher"/>
-			<equipment name="Nedan Bone Chest"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Earth Hammer"/>
-			<equipment name="Gullak Aertahn"/>
-			<equipment name="Yew Bolt Thrower"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Savage One" stars="2">
-		<set name="Purple">
-			<equipment name="Kelossian Crusher"/>
-			<equipment name="Dirks of Cicero"/>
-			<equipment name="Nedan's Tear"/>
-			<equipment name="Bulwak War Drum"/>
-			<equipment name="Wrist of Boaz"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Moonglow"/>
-			<equipment name="Demon Edge"/>
-			<equipment name="Spark of Tyr"/>
-			<equipment name="Hammer"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Kreln Horn"/>
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Fireseed"/>
-			<equipment name="Fireseed"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Yew Bolt Thrower"/>
-			<equipment name="Nedan Bone Chest"/>
-			<equipment name="Moon of Lulithan"/>
-			<equipment name="Moon of Lulithan"/>
-			<equipment name="Mote"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Deceiver's Sword"/>
-			<equipment name="Titan's Axe"/>
-			<equipment name="Angel's Sword"/>
-			<equipment name="Moonglow"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Book of The Sun"/>
-			<equipment name="Dragon's Scale"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Demon Edge"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Shadow Shaman" stars="2">
-		<set name="Purple">
-			<equipment name="Pendant of The Quinnard Level 3"/>
-			<equipment name="Charges of Shadow Wardens Level 2"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Chest Plate"/>
-			<equipment name="Pendant of Kenaris"/>
-			<equipment name="Swiftboots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Pipe"/>
-			<equipment name="Chest Plate"/>
-			<equipment name="Mark of Corvus"/>
-			<equipment name="Bully Stick"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Kreln Horn"/>
-			<equipment name="Emerald Fork"/>
-			<equipment name="Nedan Bone Chest"/>
-			<equipment name="Mote"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Charges of Shadow Wardens Level 3"/>
-			<equipment name="Pendant of The Quinnard Level 4"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="Shazad'amok"/>
-			<equipment name="Jachin's Stone Rod"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Crystal Tower"/>
-			<equipment name="Crystal Ball"/>
-			<equipment name="Wizard's Hat"/>
-			<equipment name="Dragon Glass"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Dark Moon Amulet"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Emerald Fork"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Shadowleaf" stars="1">
-		<set name="Purple">
-			<equipment name="Hammer"/>
-			<equipment name="Spark of Tyr"/>
-			<equipment name="Heaven's Halberd"/>
-			<equipment name="Nedan's Tear"/>
-			<equipment name="Kreln Masher"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Blade of Alacrity"/>
-			<equipment name="Longsword"/>
-			<equipment name="Kreln Leaf"/>
-			<equipment name="Lulithan's Toothpick"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Bramblestick"/>
-			<equipment name="Chest Plate"/>
-			<equipment name="Yew Bolt Thrower"/>
-			<equipment name="Kelossian Crusher"/>
-			<equipment name="Mote"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Vastro Tooth"/>
-			<equipment name="Mote"/>
-			<equipment name="Kreln Horn"/>
-			<equipment name="Nedan Bone Chest"/>
-			<equipment name="Stainless Axe"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Star Sword"/>
-			<equipment name="Eagle Ring"/>
-			<equipment name="Demon Edge"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Emerald Fork"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Thunder Sword"/>
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Demon's Arrow"/>
-			<equipment name="Silver Lance"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Shallows Keeper" stars="3">
-		<set name="Purple">
-			<equipment name="Dragon Glass"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Chest Plate"/>
-			<equipment name="Fireseed"/>
-			<equipment name="War Signet of Kreln"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Pipe"/>
-			<equipment name="Chest Scale"/>
-			<equipment name="Transmer of Amuns"/>
-			<equipment name="Wrist of Boaz"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Moonglow"/>
-			<equipment name="Kreln Horn"/>
-			<equipment name="Dirks of Cicero"/>
-			<equipment name="Death Kite"/>
-			<equipment name="War Signet of Kreln"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Moonglow"/>
-			<equipment name="Gullak Aertahn"/>
-			<equipment name="Pipe"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Blade Mail"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Crusade Shield"/>
-			<equipment name="Titan's Axe"/>
-			<equipment name="Dragon's Scale"/>
-			<equipment name="Kreln Horn"/>
-			<equipment name="Stainless Axe"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Immortal Guardian"/>
-			<equipment name="Raven's Beak"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Silencer" stars="2">
-		<set name="Purple">
-			<equipment name="Sol'sketh"/>
-			<equipment name="Pipe"/>
-			<equipment name="Dragon Glass"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Chest Plate"/>
-			<equipment name="Swiftboots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Nedan Bone Chest"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Bulwak War Drum"/>
-			<equipment name="Bully Stick"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Jachin's Ruby Level 3"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Corvus Amok"/>
-			<equipment name="Bully Stick"/>
-			<equipment name="Mark of Corvus"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Moonglow"/>
-			<equipment name="Jachin's Ruby Level 4"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Nightless Staff"/>
-			<equipment name="Crystal Ball"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="Bag of Holding"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Dark Moon Amulet"/>
-			<equipment name="Moonglow"/>
-			<equipment name="Wizard's Hat"/>
-			<equipment name="Eternal Icicle"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Sniper" stars="1">
-		<set name="Purple">
-			<equipment name="Stainless Axe"/>
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Spark of Tyr"/>
-			<equipment name="Longsword"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Kreln Leaf"/>
-			<equipment name="Demon Edge"/>
-			<equipment name="Mote"/>
-			<equipment name="Dirks of Cicero"/>
-			<equipment name="Chest Plate"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="The Negotiator"/>
-			<equipment name="Nedan Bone Chest"/>
-			<equipment name="Nedan's Tear"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Spear"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Yew Bolt Thrower"/>
-			<equipment name="Stainless Axe"/>
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Kelossian Crusher"/>
-			<equipment name="Vastro Tooth"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Star Sword"/>
-			<equipment name="Eagle Ring"/>
-			<equipment name="Angel's Sword"/>
-			<equipment name="Wizard's Book"/>
-			<equipment name="Heaven's Halberd"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Thunder Sword"/>
-			<equipment name="Kreln Horn"/>
-			<equipment name="Staff of Rawlis"/>
-			<equipment name="Demon Edge"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Soulhunter" stars="3">
-		<set name="Purple">
-			<equipment name="Pendant of The Quinnard Level 3"/>
-			<equipment name="Pipe"/>
-			<equipment name="Jachin's Ruby Level 2"/>
-			<equipment name="Gol'can Tir"/>
-			<equipment name="Void Gem"/>
-			<equipment name="Blessed Training Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Moonglow"/>
-			<equipment name="Bag of Holding"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Pure Earth"/>
-			<equipment name="Chest Plate"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Pendant of The Quinnard Level 4"/>
-			<equipment name="Jachin's Ruby Level 3"/>
-			<equipment name="Mark of Corvus"/>
-			<equipment name="Ogre Axe"/>
-			<equipment name="Hazad'ar Acolyte Mask"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Gullak Aertahn"/>
-			<equipment name="Jachin's Ruby Level 4"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Jachin's Stone Rod"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Crystal Tower"/>
-			<equipment name="Crystal Ball"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="Pipe"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Emerald Ring"/>
-			<equipment name="Moonglow"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Succubus" stars="3">
-		<set name="Purple">
-			<equipment name="Jachin's Ruby Level 2"/>
-			<equipment name="Charges of Shadow Wardens Level 2"/>
-			<equipment name="Kreln Amuk"/>
-			<equipment name="Bully Stick"/>
-			<equipment name="Pendant of Kenaris"/>
-			<equipment name="Blessed Training Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Mark of Corvus"/>
-			<equipment name="Bully Stick"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Jachin's Ruby Level 3"/>
-			<equipment name="Charges of Shadow Wardens LV3" />
-			<equipment name="Emerald Fork" />
-			<equipment name="Ice Staff" />
-			<equipment name="Mark of Corvus" />
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Jachin's Ruby Level 4"/>
-			<equipment name="Moonglow"/>
-			<equipment name="Shazad'amok"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Boaz Startap"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Nightless Staff"/>
-			<equipment name="Crystal Ball"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="Emerald Fork"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Emerald Ring"/>
-			<equipment name="Wizard's Hat"/>
-			<equipment name="Destruction Amulet"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Swordmaster" stars="3">
-		<set name="Purple">
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Moon of Lulithan"/>
-			<equipment name="Mask of Madness"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Torc of Sight"/>
-			<equipment name="Emerald Training Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Kreln Leaf"/>
-			<equipment name="Nedan Bone Chest"/>
-			<equipment name="Stone of Boaz"/>
-			<equipment name="Spark of Tyr"/>
-			<equipment name="Sanadorian Warden Helm"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Kreln Horn"/>
-			<equipment name="Dragon Glass"/>
-			<equipment name="Stainless Axe"/>
-			<equipment name="Jachin's Stone Rod"/>
-			<equipment name="Torc of Sight"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Raven's Beak"/>
-			<equipment name="Moonglow"/>
-			<equipment name="Moon of Lulithan"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Crusade Shield"/>
-			<equipment name="Eagle Ring"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Holy Seed"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Earth Hammer"/>
-			<equipment name="Scimitar"/>
-			<equipment name="Corgieran Glaive"/>
-			<equipment name="Fanged Harp"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Tusked Storm" stars="1">
-		<set name="Purple">
-			<equipment name="Nedan Bone Chest"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Demon Edge"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Bellath's Fang"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Kreln Leaf"/>
-			<equipment name="Moon of Lulithan"/>
-			<equipment name="Mote"/>
-			<equipment name="Jammer Grips"/>
-			<equipment name="Longsword"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Raven's Beak"/>
-			<equipment name="Pipe"/>
-			<equipment name="Vastro Tooth"/>
-			<equipment name="Hammer"/>
-			<equipment name="Hood of Jachin"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Yew Bolt Thrower"/>
-			<equipment name="Moonglow"/>
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Deceiver's Sword"/>
-			<equipment name="Eagle Ring"/>
-			<equipment name="Kreln Horn"/>
-			<equipment name="Moonglow"/>
-			<equipment name="Marksman's Ring"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Thunder Sword"/>
-			<equipment name="Angel's Sword"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Demon's Arrow"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Vanguard Warrior" stars="1">
-		<set name="Purple">
-			<equipment name="Ball Lightning"/>
-			<equipment name="Nedan Bone Chest"/>
-			<equipment name="Gol'can Tir"/>
-			<equipment name="Kreln Masher"/>
-			<equipment name="Dirks of Cicero"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Moonglow"/>
-			<equipment name="Stone of Boaz"/>
-			<equipment name="Chest Plate"/>
-			<equipment name="Kelossian Crusher"/>
-			<equipment name="Nedan's Tear"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Rough Hewn Axe"/>
-			<equipment name="Staff of Rawlis"/>
-			<equipment name="Raven's Beak"/>
-			<equipment name="Jammer Grips"/>
-			<equipment name="Ascendant of Kron Medal"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Kreln Horn"/>
-			<equipment name="Gullak Aertahn"/>
-			<equipment name="Heaven's Halberd"/>
-			<equipment name="Moon of Lulithan"/>
-			<equipment name="Blade Mail"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Crusade Shield"/>
-			<equipment name="Yew Bolt Thrower"/>
-			<equipment name="Moonglow"/>
-			<equipment name="Pipe"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Angel's Sword"/>
-			<equipment name="Immortal Guardian"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Demon Edge"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Vengeance Spirit" stars="3">
-		<set name="Purple">
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="Hammer"/>
-			<equipment name="Bramblestick"/>
-			<equipment name="Torc of Sight"/>
-			<equipment name="Emerald Training Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Kreln Leaf"/>
-			<equipment name="Stainless Axe"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="Kreln Masher"/>
-			<equipment name="Chest Plate"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Kreln Horn"/>
-			<equipment name="Kelossian Crusher"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="Hammer"/>
-			<equipment name="Spark of Tyr"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Yew Bolt Thrower"/>
-			<equipment name="Shazad'amok"/>
-			<equipment name="Dragon Glass"/>
-			<equipment name="Stainless Axe"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Star Sword"/>
-			<equipment name="Eagle Ring"/>
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Kelossian Crusher"/>
-			<equipment name="Demon Edge"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Earth Hammer"/>
-			<equipment name="Angel's Sword"/>
-			<equipment name="Stainless Axe"/>
-			<equipment name="Fanged Harp"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Wandering Spearman" stars="3">
-		<set name="Purple">
-			<equipment name="Rough Hewn Axe"/>
-			<equipment name="Heaven's Halberd"/>
-			<equipment name="Blade Mail"/>
-			<equipment name="Dirks of Cicero"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Training Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Moonglow"/>
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Jammer Grips"/>
-			<equipment name="Bulwak War Drum"/>
-			<equipment name="Hammer"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Yew Bolt Thrower"/>
-			<equipment name="Stainless Axe"/>
-			<equipment name="Pipe"/>
-			<equipment name="Sanadorian Warden Helm"/>
-			<equipment name="Spear"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Kreln Horn"/>
-			<equipment name="Moonglow"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Brazer of Zarrad"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Crusade Shield"/>
-			<equipment name="Titan's Axe"/>
-			<equipment name="Marksman's Ring"/>
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Raven's Beak"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Thunder Sword"/>
-			<equipment name="Gullak Aertahn"/>
-			<equipment name="Kelossian Crusher"/>
-			<equipment name="Demon Edge"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="War Chief" stars="2">
-		<set name="Purple">
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Mote"/>
-			<equipment name="Gol'can Tir"/>
-			<equipment name="Ogre Axe"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Moonglow"/>
-			<equipment name="Kelossian Crusher"/>
-			<equipment name="Jammer Grips"/>
-			<equipment name="Ascendant of Kron Medal"/>
-			<equipment name="Wrist of Boaz"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Raven's Beak"/>
-			<equipment name="Heaven's Halberd"/>
-			<equipment name="Stone of Boaz"/>
-			<equipment name="Mask of Madness"/>
-			<equipment name="Death Kite"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Gullak Aertahn"/>
-			<equipment name="Kreln Horn"/>
-			<equipment name="Blade Mail"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Moon of Lulithan"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Crusade Shield"/>
-			<equipment name="Titan's Axe"/>
-			<equipment name="Rough Hewn Axe"/>
-			<equipment name="Stainless Axe"/>
-			<equipment name="Pipe"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Book of The Sun"/>
-			<equipment name="Kreln Horn"/>
-			<equipment name="Holy Garment"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Warrior Monk" stars="3">
-		<set name="Purple">
-			<equipment name="Nedan Bone Chest"/>
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Nedan's Tear"/>
-			<equipment name="Transmer of Amuns"/>
-			<equipment name="Wrist of Boaz"/>
-			<equipment name="Phase Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Dragon Glass"/>
-			<equipment name="Jachin's Stone Rod"/>
-			<equipment name="Bully Stick"/>
-			<equipment name="Simple Band"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Kreln Horn"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Shazad'amok"/>
-			<equipment name="Mote"/>
-			<equipment name="Brazer of Zarrad"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Moonglow"/>
-			<equipment name="Yew Bolt Thrower"/>
-			<equipment name="Sol'sketh"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Eul's Scepter of Divinity"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Nightless Staff"/>
-			<equipment name="Titan's Axe"/>
-			<equipment name="Bag of Holding"/>
-			<equipment name="Dragon's Scale"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Book of The Sun"/>
-			<equipment name="Staff of Rawlis"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="Demon's Arrow"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
-	<hero name="Wind Master" stars="3">
-		<set name="Purple">
-			<equipment name="Sol'sketh"/>
-			<equipment name="Ball Lightning"/>
-			<equipment name="Kreln Masher"/>
-			<equipment name="Chest Plate"/>
-			<equipment name="Pendant of Kenaris"/>
-			<equipment name="Phase Boots"/>
-		</set>
-		<set name="Purple+1">
-			<equipment name="Bag of Holding"/>
-			<equipment name="Kelossian Crusher"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="Corvus Amok"/>
-			<equipment name="Spear"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+2">
-			<equipment name="Raven's Beak"/>
-			<equipment name="Shazad'amok"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Nedan's Tear"/>
-			<equipment name="Spear"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+3">
-			<equipment name="Yew Bolt Thrower"/>
-			<equipment name="Copper Cudgel"/>
-			<equipment name="Nedan Bone Chest"/>
-			<equipment name="Eul's Scepter of Divinity"/>
-			<equipment name="Pale Gazer"/>
-			<equipment name="Hazad'ar Boots"/>
-		</set>
-		<set name="Purple+4">
-			<equipment name="Star Sword"/>
-			<equipment name="Crystal Ball"/>
-			<equipment name="Stainless Axe"/>
-			<equipment name="Gullak Aertahn"/>
-			<equipment name="Bloody Eye"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-		<set name="Orange">
-<!--   		<equipment name="?" /> --->
-			<equipment name="Thunder Sword"/>
-			<equipment name="Silver Lance"/>
-			<equipment name="Ice Staff"/>
-			<equipment name="Queen's Dress"/>
-			<equipment name="All Around Shoes"/>
-		</set>
-	</hero>
+    <hero name="Psychopath" stars="1">
+        <set name="Purple">
+            <equipment name="Emerald Fork"/>
+            <equipment name="Pipe"/>
+            <equipment name="Charges of Shadow Wardens LV 2"/>
+            <equipment name="Mark of Corvus"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Swiftboots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Charges of Shadow Wardens LV 3"/>
+            <equipment name="Bag of Holding"/>
+            <equipment name="Dragon Glass"/>
+            <equipment name="Jachin's Stone Rod"/>
+            <equipment name="Pure Earth"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Jachin's Ruby LV 3"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Mark of Corvus"/>
+            <equipment name="Bulwak War-Drum"/>
+            <equipment name="Pendant of Kenaris"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Moonglow"/>
+            <equipment name="Jachin's Ruby Level 4"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Jachin's Stone Rod"/>
+            <equipment name="Hood of Jachin"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Crusade Shield"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Destruction Amulet"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Emerald Ring"/>
+            <equipment name="Bag of Holding"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Emerald Pendant"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Rifleman" stars="1">
+        <set name="Purple">
+            <equipment name="Stainless Axe"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Spark of Tyr"/>
+            <equipment name="Longsword"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Kreln Leaf"/>
+            <equipment name="Demon Edge"/>
+            <equipment name="Mote"/>
+            <equipment name="Dirks of Cicero"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Kreln Horn"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Nedan's Tear"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Spear"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Kreln Leaf"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Nedan's Tear"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Star Sword"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Void Crystal"/>
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Earth Hammer"/>
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Savage One" stars="2">
+        <set name="Purple">
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="Dirks of Cicero"/>
+            <equipment name="Nedan's Tear"/>
+            <equipment name="Bulwak War-Drum"/>
+            <equipment name="Wrist of Boaz"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Moonglow"/>
+            <equipment name="Demon Edge"/>
+            <equipment name="Spark of Tyr"/>
+            <equipment name="Hammer"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Kreln Horn"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Fireseed"/>
+            <equipment name="Fireseed"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Moon of Lulithan"/>
+            <equipment name="Moon of Lulithan"/>
+            <equipment name="Mote"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Deceiver's Sword"/>
+            <equipment name="Titan's Axe"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Moonglow"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Book of the Sun"/>
+            <equipment name="Dragon's Scale"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Demon Edge"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Shadow Shaman" stars="2">
+        <set name="Purple">
+            <equipment name="Pendant of the Quinnard LV 3"/>
+            <equipment name="Charges of Shadow Wardens LV 2"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Pendant of Kenaris"/>
+            <equipment name="Swiftboots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Pipe"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Mark of Corvus"/>
+            <equipment name="Bully Stick"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Kreln Horn"/>
+            <equipment name="Emerald Fork"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Mote"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Charges of Shadow Wardens LV 3"/>
+            <equipment name="Pendant of the Quinnard Level 4"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Shazad'amok"/>
+            <equipment name="Jachin's Stone Rod"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Crystal Tower"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Wizard's Hat"/>
+            <equipment name="Dragon Glass"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Dark Moon Amulet"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Emerald Fork"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Shadowleaf" stars="1">
+        <set name="Purple">
+            <equipment name="Hammer"/>
+            <equipment name="Spark of Tyr"/>
+            <equipment name="Heaven's Halberd"/>
+            <equipment name="Nedan's Tear"/>
+            <equipment name="Kreln Masher"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Blade of Alacrity"/>
+            <equipment name="Longsword"/>
+            <equipment name="Kreln Leaf"/>
+            <equipment name="Lulithan's Toothpick"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Bramblestick"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="Mote"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Vastro Tooth"/>
+            <equipment name="Mote"/>
+            <equipment name="Kreln Horn"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Star Sword"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Demon Edge"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Emerald Fork"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Thunder Sword"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Demon's Arrow"/>
+            <equipment name="Silver Lance"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Shallows Keeper" stars="3">
+        <set name="Purple">
+            <equipment name="Dragon Glass"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Fireseed"/>
+            <equipment name="War Signet of Kreln"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Pipe"/>
+            <equipment name="Chest Scale"/>
+            <equipment name="Transmer of Amuns"/>
+            <equipment name="Wrist of Boaz"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Moonglow"/>
+            <equipment name="Kreln Horn"/>
+            <equipment name="Dirks of Cicero"/>
+            <equipment name="Death Kite"/>
+            <equipment name="War Signet of Kreln"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Moonglow"/>
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Pipe"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Blade Mail"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Crusade Shield"/>
+            <equipment name="Titan's Axe"/>
+            <equipment name="Dragon's Scale"/>
+            <equipment name="Kreln Horn"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Immortal Guardian"/>
+            <equipment name="Raven's Beak"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Silencer" stars="2">
+        <set name="Purple">
+            <equipment name="Sol'sketh"/>
+            <equipment name="Pipe"/>
+            <equipment name="Dragon Glass"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Swiftboots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Bulwak War-Drum"/>
+            <equipment name="Bully Stick"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Jachin's Ruby LV 3"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Corvus Amok"/>
+            <equipment name="Bully Stick"/>
+            <equipment name="Mark of Corvus"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Moonglow"/>
+            <equipment name="Jachin's Ruby Level 4"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Nightless Staff"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Bag of Holding"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Dark Moon Amulet"/>
+            <equipment name="Moonglow"/>
+            <equipment name="Wizard's Hat"/>
+            <equipment name="Eternal Icicle"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Sniper" stars="1">
+        <set name="Purple">
+            <equipment name="Stainless Axe"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Spark of Tyr"/>
+            <equipment name="Longsword"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Kreln Leaf"/>
+            <equipment name="Demon Edge"/>
+            <equipment name="Mote"/>
+            <equipment name="Dirks of Cicero"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="The Negotiator"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Nedan's Tear"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Spear"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="Vastro Tooth"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Star Sword"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Wizard's Book"/>
+            <equipment name="Heaven's Halberd"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Thunder Sword"/>
+            <equipment name="Kreln Horn"/>
+            <equipment name="Staff of Rawlis"/>
+            <equipment name="Demon Edge"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Soulhunter" stars="3">
+        <set name="Purple">
+            <equipment name="Pendant of the Quinnard LV 3"/>
+            <equipment name="Pipe"/>
+            <equipment name="Jachin's Ruby LV 2"/>
+            <equipment name="Gol'can Tir"/>
+            <equipment name="Void Gem"/>
+            <equipment name="Blessed Training Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Moonglow"/>
+            <equipment name="Bag of Holding"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Pure Earth"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Pendant of the Quinnard Level 4"/>
+            <equipment name="Jachin's Ruby LV 3"/>
+            <equipment name="Mark of Corvus"/>
+            <equipment name="Ogre Axe"/>
+            <equipment name="Hazad'ar Acolyte Mask"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Jachin's Ruby Level 4"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Jachin's Stone Rod"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Crystal Tower"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Pipe"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Emerald Ring"/>
+            <equipment name="Moonglow"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Succubus" stars="3">
+        <set name="Purple">
+            <equipment name="Jachin's Ruby LV 2"/>
+            <equipment name="Charges of Shadow Wardens LV 2"/>
+            <equipment name="Kreln Amuk"/>
+            <equipment name="Bully Stick"/>
+            <equipment name="Pendant of Kenaris"/>
+            <equipment name="Blessed Training Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Mark of Corvus"/>
+            <equipment name="Bully Stick"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Jachin's Ruby LV 3"/>
+            <equipment name="Charges of Shadow Wardens LV 3" />
+            <equipment name="Emerald Fork" />
+            <equipment name="Ice Staff" />
+            <equipment name="Mark of Corvus" />
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Jachin's Ruby Level 4"/>
+            <equipment name="Moonglow"/>
+            <equipment name="Shazad'amok"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Boaz Startap"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Nightless Staff"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Emerald Fork"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Emerald Ring"/>
+            <equipment name="Wizard's Hat"/>
+            <equipment name="Destruction Amulet"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Swordmaster" stars="3">
+        <set name="Purple">
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Moon of Lulithan"/>
+            <equipment name="Mask of Madness"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Torc of Sight"/>
+            <equipment name="Emerald Training Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Kreln Leaf"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Stone of Boaz"/>
+            <equipment name="Spark of Tyr"/>
+            <equipment name="Sanadorian Warden Helm"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Kreln Horn"/>
+            <equipment name="Dragon Glass"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Jachin's Stone Rod"/>
+            <equipment name="Torc of Sight"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Raven's Beak"/>
+            <equipment name="Moonglow"/>
+            <equipment name="Moon of Lulithan"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Crusade Shield"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Holy Seed"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Earth Hammer"/>
+            <equipment name="Scimitar"/>
+            <equipment name="Corgieran Glaive"/>
+            <equipment name="Fanged Harp"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Tusked Storm" stars="1">
+        <set name="Purple">
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Demon Edge"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Bellath's Fang"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Kreln Leaf"/>
+            <equipment name="Moon of Lulithan"/>
+            <equipment name="Mote"/>
+            <equipment name="Jammer Grips"/>
+            <equipment name="Longsword"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Raven's Beak"/>
+            <equipment name="Pipe"/>
+            <equipment name="Vastro Tooth"/>
+            <equipment name="Hammer"/>
+            <equipment name="Hood of Jachin"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Moonglow"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Deceiver's Sword"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Kreln Horn"/>
+            <equipment name="Moonglow"/>
+            <equipment name="Marksman's Ring"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Thunder Sword"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Demon's Arrow"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Vanguard Warrior" stars="1">
+        <set name="Purple">
+            <equipment name="Ball Lightning"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Gol'can Tir"/>
+            <equipment name="Kreln Masher"/>
+            <equipment name="Dirks of Cicero"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Moonglow"/>
+            <equipment name="Stone of Boaz"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="Nedan's Tear"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Rough Hewn Axe"/>
+            <equipment name="Staff of Rawlis"/>
+            <equipment name="Raven's Beak"/>
+            <equipment name="Jammer Grips"/>
+            <equipment name="Ascendant of Kron Medal"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Kreln Horn"/>
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Heaven's Halberd"/>
+            <equipment name="Moon of Lulithan"/>
+            <equipment name="Blade Mail"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Crusade Shield"/>
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Moonglow"/>
+            <equipment name="Pipe"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Angel's Sword"/>
+            <equipment name="Immortal Guardian"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Demon Edge"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Vengeance Spirit" stars="3">
+        <set name="Purple">
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Hammer"/>
+            <equipment name="Bramblestick"/>
+            <equipment name="Torc of Sight"/>
+            <equipment name="Emerald Training Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Kreln Leaf"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Kreln Masher"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Kreln Horn"/>
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Hammer"/>
+            <equipment name="Spark of Tyr"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Shazad'amok"/>
+            <equipment name="Dragon Glass"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Star Sword"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="Demon Edge"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Earth Hammer"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Fanged Harp"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Wandering Spearman" stars="3">
+        <set name="Purple">
+            <equipment name="Rough Hewn Axe"/>
+            <equipment name="Heaven's Halberd"/>
+            <equipment name="Blade Mail"/>
+            <equipment name="Dirks of Cicero"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Training Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Moonglow"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Jammer Grips"/>
+            <equipment name="Bulwak War-Drum"/>
+            <equipment name="Hammer"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Pipe"/>
+            <equipment name="Sanadorian Warden Helm"/>
+            <equipment name="Spear"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Kreln Horn"/>
+            <equipment name="Moonglow"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Brazer of Zarrad"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Crusade Shield"/>
+            <equipment name="Titan's Axe"/>
+            <equipment name="Marksman's Ring"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Raven's Beak"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Thunder Sword"/>
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="Demon Edge"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="War Chief" stars="2">
+        <set name="Purple">
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Mote"/>
+            <equipment name="Gol'can Tir"/>
+            <equipment name="Ogre Axe"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Moonglow"/>
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="Jammer Grips"/>
+            <equipment name="Ascendant of Kron Medal"/>
+            <equipment name="Wrist of Boaz"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Raven's Beak"/>
+            <equipment name="Heaven's Halberd"/>
+            <equipment name="Stone of Boaz"/>
+            <equipment name="Mask of Madness"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Kreln Horn"/>
+            <equipment name="Blade Mail"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Moon of Lulithan"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Crusade Shield"/>
+            <equipment name="Titan's Axe"/>
+            <equipment name="Rough Hewn Axe"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Pipe"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Book of the Sun"/>
+            <equipment name="Kreln Horn"/>
+            <equipment name="Holy Garment"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Warrior Monk" stars="3">
+        <set name="Purple">
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Nedan's Tear"/>
+            <equipment name="Transmer of Amuns"/>
+            <equipment name="Wrist of Boaz"/>
+            <equipment name="Phase Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Dragon Glass"/>
+            <equipment name="Jachin's Stone Rod"/>
+            <equipment name="Bully Stick"/>
+            <equipment name="Simple Band"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Kreln Horn"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Shazad'amok"/>
+            <equipment name="Mote"/>
+            <equipment name="Brazer of Zarrad"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Moonglow"/>
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Eul's Scepter of Divinity"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Nightless Staff"/>
+            <equipment name="Titan's Axe"/>
+            <equipment name="Bag of Holding"/>
+            <equipment name="Dragon's Scale"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Book of the Sun"/>
+            <equipment name="Staff of Rawlis"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Demon's Arrow"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
+    <hero name="Wind Master" stars="3">
+        <set name="Purple">
+            <equipment name="Sol'sketh"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Kreln Masher"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Pendant of Kenaris"/>
+            <equipment name="Phase Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Corvus Amok"/>
+            <equipment name="Spear"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Raven's Beak"/>
+            <equipment name="Shazad'amok"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Nedan's Tear"/>
+            <equipment name="Spear"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Eul's Scepter of Divinity"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Star Sword"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Bloody Eye"/>
+              <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--           <equipment name="?" /> -->
+            <equipment name="Thunder Sword"/>
+            <equipment name="Silver Lance"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
 </heroes>

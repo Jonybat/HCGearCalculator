@@ -225,6 +225,11 @@
 		<equipment name="Mask of Orrelhim"/>
 	</equipment>
 
+    <equipment name="Blessed Training Boots" color="green">
+        <equipment name="Shoes"/>
+        <equipment name="Gloves of Haste"/>
+        <equipment name="Hood of Dark Sight"/>
+    </equipment>
 	
 	
 	
@@ -881,7 +886,8 @@
 	<equipment name="Crystal Ball Fragment" color="orange"/>
 	<equipment name="Sapphire Staff Fragment" color="orange"/>
 	<equipment name="Titan's Axe Fragment" color="orange"/>	
-	<equipment name="Eagle Ring Fragment" color="orange"/>	
+	<equipment name="Eagle Ring Fragment" color="orange"/>
+    <equipment name="Scimitar Fragment" color="orange"/>
 	
 
 	
@@ -902,7 +908,11 @@
 	<equipment name="Crystal Ball" color="orange">
 		<equipment name="Crystal Ball Fragment" quantity="60"/>
 	</equipment>
-	
+    
+    <equipment name="Scimitar" color="orange">
+	   <equipment name="Scimitar Fragment" quantity="80"/>
+    </equipment>
+    
 	
 	
 	<!-- ORANGE CRAFT -->
@@ -956,7 +966,40 @@
 		<equipment name="Eternal Icicle"/>
 	</equipment>
 	
+    <equipment name="Immortal Guardian" color="orange">
+        <equipment name="Emerald Pendant"/>
+        <equipment name="Holy Garment"/>
+        <equipment name="Moonglow"/>
+    </equipment>
+    
+    <equipment name="Book of the Sun" color="orange">
+        <equipment name="Crystal Ball"/>
+        <equipment name="Rough Hewn Axe"/>
+        <equipment name="Fanged Harp"/>
+        <equipment name="Holy Garment"/>
+    </equipment>
 	
+    <equipment name="Thunder Sword" color="orange">
+        <equipment name="Scimitar"/>
+        <equipment name="Staff of Rawlis"/>
+        <equipment name="Demon's Arrow"/>
+        <equipment name="Eul's Scepter of Divinity"/>
+    </equipment>
+    
+    <equipment name="Emerald Ring" color="orange">
+        <equipment name="Sapphire Staff"/>
+        <equipment name="Jachin's Ruby Level 4"/>
+        <equipment name="Boaz Startap"/>
+        <equipment name="Eul's Scepter of Divinity"/>
+    </equipment>
+
+    <equipment name="Earth Hammer" color="orange">
+        <equipment name="Titan's Axe"/>
+        <equipment name="Scimitar"/>
+        <equipment name="Raven's Beak"/>
+    </equipment>
+    
+    
 	
 	
 	<!-- OTHERS -->
