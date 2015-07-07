@@ -1496,4 +1496,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Machinist">
+		<set name="Purple">
+			<equipment name="Jachin's Ruby Level 2"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Kreln Amuk"/>
+			<equipment name="Pendant of The Quinnard"/>
+			<equipment name="Pure Earth"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Bag of Holding"/>
+			<equipment name="Bloody Eye"/>
+			<equipment name="Ice Staff"/>
+			<equipment name="Bully Stick"/>
+			<equipment name="Ogre Axe"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Jachin's Ruby Level 3"/>
+			<equipment name="Stainless Axe"/>
+			<equipment name="Sol'sketh"/>
+			<equipment name="Bully Stick"/>
+			<equipment name="Mark of Corvus"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Jachin's Ruby Level 4"/>
+			<equipment name="Shazad'amok"/>
+			<equipment name="Emerald Fork"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Nightless Staff"/>
+			<equipment name="Crystal Ball"/>
+			<equipment name="Sol'sketh"/>
+			<equipment name="Destruction Amulet"/>
+			<equipment name="Ice Staff"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Dark Moon Amulet"/>
+			<equipment name="Queen's Dress"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Bloody Eye"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
