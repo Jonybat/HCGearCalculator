@@ -946,4 +946,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+        <hero name="Ferryman">
+        <set name="Purple">
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Demon Edge"/>
+            <equipment name="Mask of Madness"/>
+            <equipment name="Bramblestick"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Kreln Leaf"/>
+            <equipment name="Shazad'amok"/>
+            <equipment name="Spark of Tyr"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Sanadorian Warden Helm"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Kreln Horn"/>
+            <equipment name="The Negotiator"/>
+            <equipment name="Stone of Boaz"/>
+            <equipment name="Nedan's Tear"/>
+            <equipment name="Bramblestick"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Raven's Beak"/>
+            <equipment name="Dragon Glass"/>
+            <equipment name="Vastro Tooth"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Deceiver's Sword"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+    <!--        <equipment name="?" /> --->
+            <equipment name="Thunder Sword"/>
+            <equipment name="Silver Lance"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Corgieran Glaive"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
 </heroes>
