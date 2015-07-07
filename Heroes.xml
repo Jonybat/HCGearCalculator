@@ -2896,4 +2896,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Warrior Monk">
+		<set name="Purple">
+			<equipment name="Nedan Bone Chest"/>
+			<equipment name="Copper Cudgel"/>
+			<equipment name="Nedan's Tear"/>
+			<equipment name="Transmer of Amuns"/>
+			<equipment name="Wrist of Boaz"/>
+			<equipment name="Phase Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Bag of Holding"/>
+			<equipment name="Dragon Glass"/>
+			<equipment name="Jachin's Stone Rod"/>
+			<equipment name="Bully Stick"/>
+			<equipment name="Simple Band"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Kreln Horn"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Shazad'amok"/>
+			<equipment name="Mote"/>
+			<equipment name="Brazer of Zarrad"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Moonglow"/>
+			<equipment name="Yew Bolt Thrower"/>
+			<equipment name="Sol'sketh"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Eul's Scepter of Divinity"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Nightless Staff"/>
+			<equipment name="Titan's Axe"/>
+			<equipment name="Bag of Holding"/>
+			<equipment name="Dragon's Scale"/>
+			<equipment name="Bloody Eye"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Book of The Sun"/>
+			<equipment name="Staff of Rawlis"/>
+			<equipment name="Queen's Dress"/>
+			<equipment name="Demon's Arrow"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
