@@ -1146,4 +1146,54 @@
 	<!--   		<equipment name="?" /> --->
 		</set>
 	</hero>
+	<hero name="Ice Mage">
+		<set name="Purple">
+			<equipment name="Ball Lightning"/>
+			<equipment name="Rod of Atos"/>
+			<equipment name="Jachin's Ruby"/>
+			<equipment name="Boaz Startap"/>
+			<equipment name="Pure Earth"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Bag of Holding"/>
+			<equipment name="Ice Staff"/>
+			<equipment name="Jachin's Ruby Level 2"/>
+			<equipment name="Geometry of Fire"/>
+			<equipment name="Death Kite"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Pipe"/>
+			<equipment name="Dragon Glass"/>
+			<equipment name="Jachin's Ruby Level 3"/>
+			<equipment name="Bloody Eye"/>
+			<equipment name="Mark of Corvus"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Moonglow"/>
+			<equipment name="Sol'sketh"/>
+			<equipment name="Jachin's Ruby Level 4"/>
+			<equipment name="Eul's Scepter of Divinity"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Nightless Staff"/>
+			<equipment name="Crystal Ball"/>
+			<equipment name="Queen's Dress"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Emerald Fork"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Emerald Ring"/>
+			<equipment name="Shazad'amok"/>
+			<equipment name="Wizard's Hat"/>
+			<equipment name="Ice Staff"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
