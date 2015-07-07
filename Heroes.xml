@@ -1946,4 +1946,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Poisoned One">
+		<set name="Purple">
+			<equipment name="Copper Cudgel"/>
+			<equipment name="Nedan Bone Chest"/>
+			<equipment name="Dirks of Cicero"/>
+			<equipment name="Bulwak War Drum"/>
+			<equipment name="Hole Stompers"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Staff of Rawlis"/>
+			<equipment name="Pipe"/>
+			<equipment name="Spear"/>
+			<equipment name="Death Kite"/>
+			<equipment name="Torc of Sight"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Gullak Aertahn"/>
+			<equipment name="Yew Bolt Thrower"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Bramblestick"/>
+			<equipment name="Torc of Sight"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Kreln Leaf"/>
+			<equipment name="Moonglow"/>
+			<equipment name="Copper Cudgel"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Death Kite"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Deceiver's Sword"/>
+			<equipment name="Eagle Ring"/>
+			<equipment name="Raven's Beak"/>
+			<equipment name="Dragon Glass"/>
+			<equipment name="Kelossian Crusher"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Thunder Sword"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Copper Cudgel"/>
+			<equipment name="Demon's Arrow"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
