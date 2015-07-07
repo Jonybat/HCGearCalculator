@@ -2846,4 +2846,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="War Chief">
+		<set name="Purple">
+			<equipment name="Copper Cudgel"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Mote"/>
+			<equipment name="Gol'can Tir"/>
+			<equipment name="Ogre Axe"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Moonglow"/>
+			<equipment name="Kelossian Crusher"/>
+			<equipment name="Jammer Grips"/>
+			<equipment name="Ascendant of Kron Medal"/>
+			<equipment name="Wrist of Boaz"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Raven's Beak"/>
+			<equipment name="Heaven's Halberd"/>
+			<equipment name="Stone of Boaz"/>
+			<equipment name="Mask of Madness"/>
+			<equipment name="Death Kite"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Gullak Aertahn"/>
+			<equipment name="Kreln Horn"/>
+			<equipment name="Blade Mail"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Moon of Lulithan"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Crusade Shield"/>
+			<equipment name="Titan's Axe"/>
+			<equipment name="Rough Hewn Axe"/>
+			<equipment name="Stainless Axe"/>
+			<equipment name="Pipe"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Book of The Sun"/>
+			<equipment name="Kreln Horn"/>
+			<equipment name="Holy Garment"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
