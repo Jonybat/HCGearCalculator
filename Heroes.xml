@@ -546,4 +546,54 @@
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
+    <hero name="Death Mage">
+        <set name="Purple"/>
+            <equipment name="Sol'Sketh"/>
+            <equipment name="Emerald Fork"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Gul'Tak Tir"/>
+            <equipment name="Pendant of Kenaris"/>
+            <equipment name="Blessed Training Boots"/>
+        </set>
+        <set name="Purple+1"/>
+            <equipment name="Bag of Holding"/>
+            <equipment name="Charges of Shadow Wardens Level 2"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Pendant of The Quinnard"/>
+            <equipment name="Boaz Startap"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2"/>
+            <equipment name="The Negotiator"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Bulwak War Drum"/>
+            <equipment name="Mark of Corvus"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3"/>
+            <equipment name="Moonglow"/>
+            <equipment name="Charges of Shadow Wardens Level 3"/>
+            <equipment name="Dragon Glass"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Brazer of Zarrad"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4"/>
+            <equipment name="Nightless Staff"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Bag of Holding"/>
+            <equipment name="Sol'Sketh"/>
+            <equipment name="Wizard's Hat"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange"/>
+<!--             <equipment name="?"/> -->
+            <equipment name="Emerald Ring"/>
+            <equipment name="Destruction Amulet"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
 </heroes>
