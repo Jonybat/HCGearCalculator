@@ -896,4 +896,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Fallen Dominion">
+		<set name="Purple">
+			<equipment name="Kelossian Crusher"/>
+			<equipment name="Fanged Harp"/>
+			<equipment name="Jachin's Ruby"/>
+			<equipment name="Vastro Tooth"/>
+			<equipment name="Sanadorian Warden Helm"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Kreln Leaf"/>
+			<equipment name="Copper Cudgel"/>
+			<equipment name="Staff of Rawlis"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Hole Stompers"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Moonglow"/>
+			<equipment name="Raven's Beak"/>
+			<equipment name="Bloody Eye"/>
+			<equipment name="Dirks of Cicero"/>
+			<equipment name="Chest Plate"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Moonglow"/>
+			<equipment name="Gullak Aertahn"/>
+			<equipment name="Shazad'amok"/>
+			<equipment name="Vastro Tooth"/>
+			<equipment name="Death Kite"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Deceiver's Sword"/>
+			<equipment name="Eagle Ring"/>
+			<equipment name="Raven's Beak"/>
+			<equipment name="Kreln Horn"/>
+			<equipment name="Marksman's Ring"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Earth Hammer"/>
+			<equipment name="Stainless Axe"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Silver Lance"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
