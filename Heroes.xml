@@ -2046,4 +2046,54 @@
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
+    <hero name="Psychic Sword">
+        <set name="Purple">
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Brazer of Zarrad"/>
+            <equipment name="Bulwak War Drum"/>
+            <equipment name="Hole Stompers"/>
+            <equipment name="Emerald Training Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Corvus Amok"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Torc of Sight"/>
+            <equipment name="Emerald Training Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Dirks of Cicero"/>
+            <equipment name="Bulwak War Drum"/>
+            <equipment name="Torc of Sight"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Kreln Leaf"/>
+            <equipment name="Kreln Horn"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Brazer of Zarrad"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Star Sword"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Heaven's Halberd"/>
+            <equipment name="Staff of Rawlis"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+    <!--        <equipment name="?" /> --->
+            <equipment name="Thunder Sword"/>
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Corgieran Glaive"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
 </heroes>
