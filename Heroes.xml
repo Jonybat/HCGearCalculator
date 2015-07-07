@@ -1746,4 +1746,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Ninja Assassin">
+		<set name="Purple">
+			<equipment name="Emerald Training Boots"/>
+			<equipment name="Spark of Tyr"/>
+			<equipment name="Nedan Bone Chest"/>
+			<equipment name="Hole Stompers"/>
+			<equipment name="Moon of Lulithan"/>
+			<equipment name="Copper Cudgel"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Kreln Leaf"/>
+			<equipment name="Demon Edge"/>
+			<equipment name="Stone of Boaz"/>
+			<equipment name="Mote"/>
+			<equipment name="Bulwak War Drum"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Hazad'ar Boots"/>
+			<equipment name="Hood of Jachin"/>
+			<equipment name="Spark of Tyr"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Yew Bolt Thrower"/>
+			<equipment name="Raven's Beak"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Hazad'ar Boots"/>
+			<equipment name="Sanadorian Warden Helm"/>
+			<equipment name="Stainless Axe"/>
+			<equipment name="Kelossian Crusher"/>
+			<equipment name="Kreln Horn"/>
+			<equipment name="Gullak Aertahn"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="All Around Shoes"/>
+			<equipment name="Bloody Eye"/>
+			<equipment name="Stainless Axe"/>
+			<equipment name="Yew Bolt Thrower"/>
+			<equipment name="Eagle Ring"/>
+			<equipment name="Star Sword"/>
+		</set>
+		<set name="Orange">
+			<equipment name="All Around Shoes"/>
+			<equipment name="Nedan's Tear"/>
+			<equipment name="Kreln Horn"/>
+			<equipment name="Angel's Sword"/>
+			<equipment name="Thunder Sword"/>
+	<!--   		<equipment name="?" /> --->
+		</set>
+	</hero>
 </heroes>
