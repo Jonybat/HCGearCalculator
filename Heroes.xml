@@ -696,4 +696,54 @@
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
+    <hero name="Disease Bringer">
+        <set name="Purple">
+            <equipment name="Dragon Glass"/>
+            <equipment name="Ice Staff"/>
+            <equipment name="Ogre Axe"/>
+            <equipment name="Pure Earth"/>
+            <equipment name="Mask of Orrelhim"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Bag of Holding"/>
+            <equipment name="Pendant of The Quinnard Level 3"/>
+            <equipment name="Mark of Corvus"/>
+            <equipment name="Gol'Can Tir"/>
+            <equipment name="Recovery Towel"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Moonglow"/>
+            <equipment name="Jachin's Ruby Level 3"/>
+            <equipment name="Charges of Shadow Wardens"/>
+            <equipment name="Bulwak War Drum"/>
+            <equipment name="Pendant of Kenaris"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Jachin's Ruby Level 4"/>
+            <equipment name="Pendant of The Quinnard Level 4"/>
+            <equipment name="Jachin's Stone Rod"/>
+            <equipment name="Geometry of Fire"/>
+            <equipment name="Brazer of Zarrad"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Crystal Tower"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Destruction Amulet"/>
+            <equipment name="Wizard's Hat"/>
+            <equipment name="Sol'Sketh"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--             <equipment name="?"/> -->
+            <equipment name="Emerald Ring"/>
+            <equipment name="Queen's Dress"/>
+            <equipment name="Emerald Fork"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
 </heroes>
