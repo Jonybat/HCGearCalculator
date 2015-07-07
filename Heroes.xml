@@ -746,4 +746,54 @@
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
+    <hero name="Drunken Master">
+        <set name="Purple">
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Kreln Masher"/>
+            <equipment name="Dirks of Cicero"/>
+            <equipment name="Hazad'ar Acolyte Mask"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Moonglow"/>
+            <equipment name="Kelossian Crusher"/>
+            <equipment name="Pipe"/>
+            <equipment name="Stone of Boaz"/>
+            <equipment name="Mote"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Raven's Beak"/>
+            <equipment name="Rough Hewn Axe"/>
+            <equipment name="Heaven's Halberd"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Jammer Grips"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Kreln Horn"/>
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Moon of Lulithan"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Crusade Shield"/>
+            <equipment name="Titan's Axe"/>
+            <equipment name="Raven's Beak"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Pipe"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Orange">
+<!--             <equipment name="?"/> -->
+            <equipment name="Thunder Sword"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Demon Edge"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
 </heroes>
