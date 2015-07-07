@@ -1696,4 +1696,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Necromancer">
+		<set name="Purple">
+			<equipment name="Charges of Shadow Wardens Level 2"/>
+			<equipment name="Jachin's Ruby Level 2"/>
+			<equipment name="Corvus Amok"/>
+			<equipment name="Gol'can Tir"/>
+			<equipment name="Pure Earth"/>
+			<equipment name="Swiftboots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Charges of Shadow Wardens Level 3"/>
+			<equipment name="Ice Staff"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Boaz Startap"/>
+			<equipment name="Pendant of The Quinnard"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="The Negotiator"/>
+			<equipment name="Jachin's Ruby Level 3"/>
+			<equipment name="Pipe"/>
+			<equipment name="Mark of Corvus"/>
+			<equipment name="Ogre Axe"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Bag of Holding"/>
+			<equipment name="Jachin's Ruby Level 4"/>
+			<equipment name="Sol'sketh"/>
+			<equipment name="Jachin's Stone Rod"/>
+			<equipment name="Pendant of The Quinnard"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Nightless Staff"/>
+			<equipment name="Crystal Ball"/>
+			<equipment name="Queen's Dress"/>
+			<equipment name="The Negotiator"/>
+			<equipment name="Ice Staff"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Dark Moon Amulet"/>
+			<equipment name="Destruction Amulet"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Bloody Eye"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
