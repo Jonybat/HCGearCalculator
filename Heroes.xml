@@ -1546,4 +1546,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Master Mage">
+		<set name="Purple">
+			<equipment name="Ball Lightning"/>
+			<equipment name="Ice Staff"/>
+			<equipment name="Corvus Amok"/>
+			<equipment name="Bully Stick"/>
+			<equipment name="Pendant of Kenaris"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Bag of Holding"/>
+			<equipment name="Shazad'amok"/>
+			<equipment name="Bloody Eye"/>
+			<equipment name="Mark of Corvus"/>
+			<equipment name="Hood of Dark Sight"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="The Negotiator"/>
+			<equipment name="Emerald Fork"/>
+			<equipment name="Ice Staff"/>
+			<equipment name="Kreln Amuk"/>
+			<equipment name="Hood of Dark Sight"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Moonglow"/>
+			<equipment name="Sol'sketh"/>
+			<equipment name="Dragon Glass"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Boaz Startap"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Nightless Staff"/>
+			<equipment name="Crystal Ball"/>
+			<equipment name="Queen's Dress"/>
+			<equipment name="Ice Staff"/>
+			<equipment name="Shazad'amok"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Dark Moon Amulet"/>
+			<equipment name="Bag of Holding"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Bloody Eye"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
