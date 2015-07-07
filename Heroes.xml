@@ -1996,4 +1996,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+    <hero name="Professional Killer">
+        <set name="Purple">
+            <equipment name="Shazad'amok"/>
+            <equipment name="Sol'sketh"/>
+            <equipment name="Dirks of Cicero"/>
+            <equipment name="Magic Wand"/>
+            <equipment name="Torc of Sight"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Kreln Leaf"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Bramblestick"/>
+            <equipment name="Torc of Sight"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="Stone of Boaz"/>
+            <equipment name="Spark of Tyr"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Raven's Beak"/>
+            <equipment name="Kreln Horn"/>
+            <equipment name="Stainless Axe"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Spear"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Star Sword"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Pipe"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+    <!--        <equipment name="?" /> --->
+            <equipment name="Thunder Sword"/>
+            <equipment name="Fanged Harp"/>
+            <equipment name="Silver Lance"/>
+            <equipment name="Copper Cudgel"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
 </heroes>
