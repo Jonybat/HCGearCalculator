@@ -1446,4 +1446,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Lunar Guardian">
+		<set name="Purple">
+			<equipment name="Copper Cudgel"/>
+			<equipment name="Stainless Axe"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Hazad'ar Acolyte Mask"/>
+			<equipment name="Corax's Sight"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Kreln Leaf"/>
+			<equipment name="Dragon Glass"/>
+			<equipment name="Vastro Tooth"/>
+			<equipment name="Longsword"/>
+			<equipment name="Torc of Sight"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Kreln Horn"/>
+			<equipment name="Yew Bolt Thrower"/>
+			<equipment name="Dirks of Cicero"/>
+			<equipment name="Spark of Tyr"/>
+			<equipment name="Hole Stompers"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Moonglow"/>
+			<equipment name="The Negotiator"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Jachin's Stone Rod"/>
+			<equipment name="Sanadorian Warden Helm"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Deceiver's Sword"/>
+			<equipment name="Eagle Ring"/>
+			<equipment name="Staff of Rawlis"/>
+			<equipment name="Void Crystal"/>
+			<equipment name="Kelossian Crusher"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Thunder Sword"/>
+			<equipment name="Gullak Aertahn"/>
+			<equipment name="Fanged Harp"/>
+			<equipment name="Demon Edge"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
