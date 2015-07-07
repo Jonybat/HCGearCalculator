@@ -1396,4 +1396,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Lightning Spirit">
+		<set name="Purple">
+			<equipment name="Sol'sketh"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Kreln Masher"/>
+			<equipment name="Chest Plate"/>
+			<equipment name="Pendant of Kenaris"/>
+			<equipment name="Blessed Training Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Bag of Holding"/>
+			<equipment name="Kelossian Crusher"/>
+			<equipment name="Bloody Eye"/>
+			<equipment name="Corvus Amok"/>
+			<equipment name="Spear"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Jachin's Ruby Level 3"/>
+			<equipment name="Shazad'amok"/>
+			<equipment name="Sol'sketh"/>
+			<equipment name="Bag of Holding"/>
+			<equipment name="Spear"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Jachin's Ruby Level 4"/>
+			<equipment name="Sol'sketh"/>
+			<equipment name="Bag of Holding"/>
+			<equipment name="Geometry of Fire"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Nightless Staff"/>
+			<equipment name="Crystal Ball"/>
+			<equipment name="Jachin's Ruby Level 4"/>
+			<equipment name="Gullak Aertahn"/>
+			<equipment name="Geometry of Fire"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Emerald Ring"/>
+			<equipment name="Silver Lance"/>
+			<equipment name="Destruction Amulet"/>
+			<equipment name="Queen's Dress"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
