@@ -2496,4 +2496,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Soulhunter">
+		<set name="Purple">
+			<equipment name="Pendant of The Quinnard Level 3"/>
+			<equipment name="Pipe"/>
+			<equipment name="Jachin's Ruby Level 2"/>
+			<equipment name="Gol'can Tir"/>
+			<equipment name="Void Gem"/>
+			<equipment name="Blessed Training Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Moonglow"/>
+			<equipment name="Bag of Holding"/>
+			<equipment name="Ice Staff"/>
+			<equipment name="Pure Earth"/>
+			<equipment name="Chest Plate"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Pendant of The Quinnard Level 4"/>
+			<equipment name="Jachin's Ruby Level 3"/>
+			<equipment name="Mark of Corvus"/>
+			<equipment name="Ogre Axe"/>
+			<equipment name="Hazad'ar Acolyte Mask"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Gullak Aertahn"/>
+			<equipment name="Jachin's Ruby Level 4"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Jachin's Stone Rod"/>
+			<equipment name="Death Kite"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Crystal Tower"/>
+			<equipment name="Crystal Ball"/>
+			<equipment name="Queen's Dress"/>
+			<equipment name="Pipe"/>
+			<equipment name="Bloody Eye"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Emerald Ring"/>
+			<equipment name="Moonglow"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Ice Staff"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
