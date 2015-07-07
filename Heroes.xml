@@ -2796,4 +2796,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Wandering Spearman">
+		<set name="Purple">
+			<equipment name="Rough Hewn Axe"/>
+			<equipment name="Heaven's Halberd"/>
+			<equipment name="Blade Mail"/>
+			<equipment name="Dirks of Cicero"/>
+			<equipment name="Death Kite"/>
+			<equipment name="Training Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Moonglow"/>
+			<equipment name="Copper Cudgel"/>
+			<equipment name="Jammer Grips"/>
+			<equipment name="Bulwak War Drum"/>
+			<equipment name="Hammer"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Yew Bolt Thrower"/>
+			<equipment name="Stainless Axe"/>
+			<equipment name="Pipe"/>
+			<equipment name="Sanadorian Warden Helm"/>
+			<equipment name="Spear"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Kreln Horn"/>
+			<equipment name="Moonglow"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Brazer of Zarrad"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Crusade Shield"/>
+			<equipment name="Titan's Axe"/>
+			<equipment name="Marksman's Ring"/>
+			<equipment name="Copper Cudgel"/>
+			<equipment name="Raven's Beak"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Thunder Sword"/>
+			<equipment name="Gullak Aertahn"/>
+			<equipment name="Kelossian Crusher"/>
+			<equipment name="Demon Edge"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
