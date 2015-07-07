@@ -1246,4 +1246,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Iron Hoof">
+		<set name="Purple">
+			<equipment name="Ball Lightning"/>
+			<equipment name="Pipe"/>
+			<equipment name="Nedan's Tear"/>
+			<equipment name="Gul'tak Tir"/>
+			<equipment name="Fireseed"/>
+			<equipment name="Training Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Bag of Holding"/>
+			<equipment name="Dragon Glass"/>
+			<equipment name="Transmer of Amuns"/>
+			<equipment name="Spark of Tyr"/>
+			<equipment name="Death Kite"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Kreln Horn"/>
+			<equipment name="Rough Hewn Axe"/>
+			<equipment name="Heaven's Halberd"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Sanadorian Warden Helm"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Moonglow"/>
+			<equipment name="Gullak Aertahn"/>
+			<equipment name="Pipe"/>
+			<equipment name="Moon of Lulithan"/>
+			<equipment name="Death Kite"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Crusade Shield"/>
+			<equipment name="Titan's Axe"/>
+			<equipment name="Moonglow"/>
+			<equipment name="Yew Bolt Thrower"/>
+			<equipment name="Rough Hewn Axe"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Immortal Guardian"/>
+			<equipment name="Dragon's Scale"/>
+			<equipment name="Gullak Aertahn"/>
+			<equipment name="Eternal Icicle"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
