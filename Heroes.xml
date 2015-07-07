@@ -2346,4 +2346,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Shallows Keeper">
+		<set name="Purple">
+			<equipment name="Dragon Glass"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Chest Plate"/>
+			<equipment name="Fireseed"/>
+			<equipment name="War Signet of Kreln"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Bag of Holding"/>
+			<equipment name="Pipe"/>
+			<equipment name="Chest Scale"/>
+			<equipment name="Transmer of Amuns"/>
+			<equipment name="Wrist of Boaz"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Moonglow"/>
+			<equipment name="Kreln Horn"/>
+			<equipment name="Dirks of Cicero"/>
+			<equipment name="Death Kite"/>
+			<equipment name="War Signet of Kreln"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Moonglow"/>
+			<equipment name="Gullak Aertahn"/>
+			<equipment name="Pipe"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Blade Mail"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Crusade Shield"/>
+			<equipment name="Titan's Axe"/>
+			<equipment name="Dragon's Scale"/>
+			<equipment name="Kreln Horn"/>
+			<equipment name="Stainless Axe"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Immortal Guardian"/>
+			<equipment name="Raven's Beak"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Bloody Eye"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
