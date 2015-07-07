@@ -2946,4 +2946,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Wind Master">
+		<set name="Purple">
+			<equipment name="Sol'sketh"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Kreln Masher"/>
+			<equipment name="Chest Plate"/>
+			<equipment name="Pendant of Kenaris"/>
+			<equipment name="Phase Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Bag of Holding"/>
+			<equipment name="Kelossian Crusher"/>
+			<equipment name="Bloody Eye"/>
+			<equipment name="Corvus Amok"/>
+			<equipment name="Spear"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Raven's Beak"/>
+			<equipment name="Shazad'amok"/>
+			<equipment name="Ice Staff"/>
+			<equipment name="Nedan's Tear"/>
+			<equipment name="Spear"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Yew Bolt Thrower"/>
+			<equipment name="Copper Cudgel"/>
+			<equipment name="Nedan Bone Chest"/>
+			<equipment name="Eul's Scepter of Divinity"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Star Sword"/>
+			<equipment name="Crystal Ball"/>
+			<equipment name="Stainless Axe"/>
+			<equipment name="Gullak Aertahn"/>
+			<equipment name="Bloody Eye"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Thunder Sword"/>
+			<equipment name="Silver Lance"/>
+			<equipment name="Ice Staff"/>
+			<equipment name="Queen's Dress"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
