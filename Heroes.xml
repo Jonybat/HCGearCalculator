@@ -2596,4 +2596,54 @@
 			<equipment name="All Around Shoes"/>
 		</set>
 	</hero>
+	<hero name="Swordmaster">
+		<set name="Purple">
+			<equipment name="Copper Cudgel"/>
+			<equipment name="Moon of Lulithan"/>
+			<equipment name="Mask of Madness"/>
+			<equipment name="Death Kite"/>
+			<equipment name="Torc of Sight"/>
+			<equipment name="Emerald Training Boots"/>
+		</set>
+		<set name="Purple+1">
+			<equipment name="Kreln Leaf"/>
+			<equipment name="Nedan Bone Chest"/>
+			<equipment name="Stone of Boaz"/>
+			<equipment name="Spark of Tyr"/>
+			<equipment name="Sanadorian Warden Helm"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+2">
+			<equipment name="Kreln Horn"/>
+			<equipment name="Dragon Glass"/>
+			<equipment name="Stainless Axe"/>
+			<equipment name="Jachin's Stone Rod"/>
+			<equipment name="Torc of Sight"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+3">
+			<equipment name="Raven's Beak"/>
+			<equipment name="Moonglow"/>
+			<equipment name="Moon of Lulithan"/>
+			<equipment name="Pale Gazer"/>
+			<equipment name="Death Kite"/>
+			<equipment name="Hazad'ar Boots"/>
+		</set>
+		<set name="Purple+4">
+			<equipment name="Crusade Shield"/>
+			<equipment name="Eagle Ring"/>
+			<equipment name="Ball Lightning"/>
+			<equipment name="Holy Seed"/>
+			<equipment name="Bloody Eye"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+		<set name="Orange">
+	<!--   		<equipment name="?" /> --->
+			<equipment name="Earth Hammer"/>
+			<equipment name="Scimitar"/>
+			<equipment name="Corgieran Glaive"/>
+			<equipment name="Fanged Harp"/>
+			<equipment name="All Around Shoes"/>
+		</set>
+	</hero>
 </heroes>
