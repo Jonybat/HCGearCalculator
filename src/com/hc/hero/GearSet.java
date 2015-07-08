@@ -1,5 +1,8 @@
 package com.hc.hero;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.hc.gear.AbstractEquipment;
 
 /**
@@ -11,8 +14,8 @@ public class GearSet {
     public final static int MAX_NUMBER_EQUIPMENT_PER_SET = 6;
 
     private String name;
-    private int index;
-    private AbstractEquipment[] set = new AbstractEquipment[MAX_NUMBER_EQUIPMENT_PER_SET];
+    private List<AbstractEquipment> set = new ArrayList<>(
+            MAX_NUMBER_EQUIPMENT_PER_SET);
 
     public GearSet(String name) {
         if (name == null
@@ -28,27 +31,15 @@ public class GearSet {
             throw new NullPointerException(
                     "Can't add null entry to a set");
         }
-        if (index > MAX_NUMBER_EQUIPMENT_PER_SET) {
+        if (set.size() == MAX_NUMBER_EQUIPMENT_PER_SET) {
             throw new IllegalStateException(
                     "Can't add more equipments: Set is full");
         }
-        set[index++] = equipment;
-    }
-
-    /**
-     * Returns {@linkplain AbstractEquipment} at the {@code index} position.
-     *
-     * @param index
-     * @return AbstractEquipment entry at the {@code index} position
-     */
-    public AbstractEquipment get(int index) {
-        return set[index];
+        set.add(equipment);
     }
 
     /**
      * Returns true if this set contains the {@code equipment}. <br />
-     * The {@code equipment} is compared by it's
-     * {@linkplain AbstractEquipment#name() name} against those in the set.
      *
      * @param equipment
      * @return true if this set contains the {@code equipment}
@@ -57,12 +48,8 @@ public class GearSet {
         if (equipment == null) {
             return false;
         }
-        for (int i = 0; i < index; i++) {
-            if (equipment.name().equals(set[i].name())) {
-                return true;
-            }
-        }
-        return false;
+
+        return set.contains(equipment);
     }
 
     /**
