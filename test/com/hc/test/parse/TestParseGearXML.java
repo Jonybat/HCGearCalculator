@@ -13,7 +13,7 @@ public class TestParseGearXML extends AbstractEquipmentTest {
      */
     @Test
     public void testParseGlovesOfHaste() {
-        String glovesOfHasteString = "Name: Gloves of Haste\tColor:green\nChildren:";
+        String glovesOfHasteString = "Name: Gloves of Haste\tColor:green";
         assertEquals(glovesOfHasteString, glovesOfHaste.toString());
     }
 
@@ -22,7 +22,7 @@ public class TestParseGearXML extends AbstractEquipmentTest {
      */
     @Test
     public void testParseDeceiversSword() {
-        String deceiversSwordString = "Name: Deceiver's Sword\tColor:orange\nChildren: 1 Kreln Horn 1 Silver Lance 1 Titan's Axe";
+        String deceiversSwordString = "Name: Deceiver's Sword\tColor:orange";
         assertEquals(deceiversSwordString, deceiversSword.toString());
     }
 

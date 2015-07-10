@@ -100,14 +100,48 @@ public class AbstractEquipment {
 
     /**
      *
-     * Returns Map of needed {@code equipment} required to craft this equipment.<br />
+     * Returns map of needed {@code equipment} required to craft this equipment.<br />
+     * The map contains only the first level materials this {@code equipment}
+     * needs.<br />
+     * <br />
+     *
+     *
      * The map returned uses {@link AbstractEquipment} as key, and the number of
      * that equipment needed to be crafted as value.
      *
-     * @return Map of needed {@code equipment} required to craft this equipment
+     * @return map of needed {@code equipment} required to craft this equipment
      */
     public Map<AbstractEquipment, Integer> materials() {
         return Collections.unmodifiableMap(materials);
+    }
+
+    /**
+     * Returns true if this equipment or any of its materials requires the
+     * {@code material} to be crafted. <br />
+     *
+     *
+     * @param material
+     * @return true if this equipment or any of its materials requires the
+     *         {@code material} to be crafted
+     */
+    public boolean requires(AbstractEquipment material) {
+        if (material == null) {
+            return false;
+        }
+
+        if (materials.containsKey(material)) {
+            return true;
+        }
+
+        for (AbstractEquipment mat : materials.keySet()) {
+            if (mat.isRaw()) {
+                continue;
+            }
+            if (requires(mat)) {
+                return true;
+            }
+        }
+        return false;
     }
 
     /**
@@ -138,17 +172,7 @@ public class AbstractEquipment {
     @Override
     public String toString() {
 
-        String s = String.format("Name: %s\tColor:%s\nChildren:", name,
-                color);
-        StringBuilder sb = new StringBuilder();
-        sb.append(s);
-        for (Map.Entry<AbstractEquipment, Integer> entry : materials
-                .entrySet()) {
-
-            String name = entry.getKey().name();
-            int quantity = entry.getValue();
-            sb.append(" ").append(quantity).append(" ").append(name);
-        }
-        return sb.toString();
+        String s = String.format("Name: %s\tColor:%s", name, color);
+        return s;
     }
 }
