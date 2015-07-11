@@ -76,5 +76,7 @@ public class TestCalculateRequiredRawMaterials extends
         _assertEquals(35, krelnHornReelFragment, rawMaterials);
         _assertEquals(50, roughHewnAxeFragment, rawMaterials);
         assertEquals(4, rawMaterials.entrySet().size());
+        _assertEquals(2, sanadorianWardenHelm, inventory);
+        _assertEquals(0, krelnHornReelFragment, inventory);
     }
 }
