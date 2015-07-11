@@ -1,6 +1,7 @@
 package com.hc.test;
 
 import static com.hc.gear.EquipmentConstants.ALL_AROUND_SHOES;
+import static com.hc.gear.EquipmentConstants.BAG_OF_HOLDING;
 import static com.hc.gear.EquipmentConstants.BALL_LIGHTNING;
 import static com.hc.gear.EquipmentConstants.CHEST_PLATE;
 import static com.hc.gear.EquipmentConstants.CRUSADE_SHIELD;
@@ -91,6 +92,7 @@ public class AbstractEquipmentTest {
     protected final AbstractEquipment dragonsScale;
     protected final AbstractEquipment emeraldPendant;
     protected final AbstractEquipment holyGarment;
+    protected final AbstractEquipment bagOfHolding;
 
     public AbstractEquipmentTest() {
         gear = getParser().gear();
@@ -130,6 +132,7 @@ public class AbstractEquipmentTest {
         dragonsScale = gear.get(DRAGONS_SCALE);
         emeraldPendant = gear.get(EMERALD_PENDANT);
         holyGarment = gear.get(HOLY_GARMENT);
+        bagOfHolding = gear.get(BAG_OF_HOLDING);
     }
 
     private GearXMLParser getParser() {
