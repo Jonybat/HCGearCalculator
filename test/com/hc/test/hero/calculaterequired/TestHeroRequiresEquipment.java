@@ -25,28 +25,28 @@ public class TestHeroRequiresEquipment extends AbstractHeroTest {
      * Tests that Admiral needs to equip Dirks of Cicero at some point
      */
     @Test
-    public void testAdmiral_Requires_DirksOfCicero() {
-        assertTrue(admiral.requires(dirksOfCicero, false));
+    public void testAdmiral_Equips_DirksOfCicero() {
+        assertTrue(admiral.equips(dirksOfCicero));
     }
 
     /**
      * Tests that Admiral needs to equip Holy Garment at some point
      */
     @Test
-    public void testAdmiral_Requires_HolyGarment() {
-        assertTrue(admiral.requires(holyGarment, false));
+    public void testAdmiral_Equips_HolyGarment() {
+        assertTrue(admiral.equips(holyGarment));
     }
 
     /**
      * Tests that Admiral needs to equip All Around Shoes at some point
      */
     @Test
-    public void testAdmiral_Requires_AllAroundShoes() {
-        assertTrue(admiral.requires(allAroundShoes, false));
+    public void testAdmiral_Equips_AllAroundShoes() {
+        assertTrue(admiral.equips(allAroundShoes));
     }
 
     /**
-     * Tests that Admiral does not need to equip Bag of Holding at any point
+     * Tests that Admiral does not require Bag of Holding at any point
      */
     @Test
     public void testAdmiral_Requires_BagOfHolding() {
@@ -54,65 +54,56 @@ public class TestHeroRequiresEquipment extends AbstractHeroTest {
     }
 
     /**
-     * Tests that Admiral requires (or doesn't require) Dirks of Cicero in
-     * specific set intervals
+     * Tests that Admiral equips Dirks of Cicero in specific set intervals
      */
     @Test
     public void testAdmiral_Requires_DirksOfCicero_filterSets() {
-        assertTrue(admiral.requires(dirksOfCicero, SET_PURPLE, null,
-                false));
-        assertTrue(admiral.requires(dirksOfCicero, null, SET_PURPLE_1,
-                false));
-        assertTrue(admiral.requires(dirksOfCicero, null, SET_PURPLE,
-                false));
-        assertTrue(admiral.requires(dirksOfCicero, SET_PURPLE,
-                SET_PURPLE_1, false));
-        assertTrue(admiral.requires(dirksOfCicero, SET_PURPLE_1,
-                SET_PURPLE, false));
-        assertFalse(admiral.requires(dirksOfCicero, SET_ORANGE,
-                SET_ORANGE, false));
-        assertFalse(admiral.requires(dirksOfCicero, SET_ORANGE, null,
-                false));
+        assertTrue(admiral.equips(dirksOfCicero, SET_PURPLE, null));
+        assertTrue(admiral.equips(dirksOfCicero, null, SET_PURPLE_1));
+        assertTrue(admiral.equips(dirksOfCicero, null, SET_PURPLE));
+        assertTrue(admiral.equips(dirksOfCicero, SET_PURPLE,
+                SET_PURPLE_1));
+        assertTrue(admiral.equips(dirksOfCicero, SET_PURPLE_1,
+                SET_PURPLE));
+        assertFalse(admiral.equips(dirksOfCicero, SET_ORANGE,
+                SET_ORANGE));
+        assertFalse(admiral.equips(dirksOfCicero, SET_ORANGE, null));
     }
 
     /**
-     * Tests that Admiral requires (or doesn't require) All Around Shoes in
-     * specific set intervals
+     * Tests that Admiral equips All Around Shoes in specific set intervals
      */
     @Test
     public void testAdmiral_Requires_AllAroundShoes_filterSets() {
-        assertTrue(admiral.requires(allAroundShoes, SET_ORANGE, null,
-                false));
-        assertTrue(admiral.requires(allAroundShoes, null, SET_ORANGE,
-                false));
-        assertFalse(admiral.requires(allAroundShoes, SET_PURPLE_3,
-                SET_PURPLE_3, false));
-        assertTrue(admiral.requires(allAroundShoes, SET_PURPLE_4,
-                SET_PURPLE_4, false));
-        assertTrue(admiral.requires(allAroundShoes, SET_ORANGE,
-                SET_ORANGE, false));
-        assertFalse(admiral.requires(allAroundShoes, null,
-                SET_PURPLE_2, false));
-        assertFalse(admiral.requires(allAroundShoes, SET_PURPLE_2,
-                SET_PURPLE, false));
+        assertTrue(admiral.equips(allAroundShoes, SET_ORANGE, null));
+        assertTrue(admiral.equips(allAroundShoes, null, SET_ORANGE));
+        assertFalse(admiral.equips(allAroundShoes, SET_PURPLE_3,
+                SET_PURPLE_3));
+        assertTrue(admiral.equips(allAroundShoes, SET_PURPLE_4,
+                SET_PURPLE_4));
+        assertTrue(admiral.equips(allAroundShoes, SET_ORANGE,
+                SET_ORANGE));
+        assertFalse(admiral.equips(allAroundShoes, null, SET_PURPLE_2));
+        assertFalse(admiral.equips(allAroundShoes, SET_PURPLE_2,
+                SET_PURPLE));
     }
 
     /**
      * Tests that Pilot needs to equip Demon Edge at some point
      */
     @Test
-    public void testPilot_Requires_DemonEdge() {
-        assertTrue(pilot.requires(demonEdge, false));
+    public void testPilot_Equips_DemonEdge() {
+        assertTrue(pilot.equips(demonEdge));
     }
 
     /**
-     * Tests that Admiral does not need to equip Demon Edge at some point, but
-     * needs Demon Edge to craft something else
+     * Tests that Admiral does equip Demon Edge at any point, but requires it to
+     * craft something else
      */
     @Test
     public void testAdmiral_Requires_DemonEdge() {
-        assertFalse(admiral.requires(demonEdge, false));
-        assertTrue(admiral.requires(demonEdge, true));
+        assertFalse(admiral.equips(demonEdge));
+        assertTrue(admiral.requires(demonEdge));
     }
 
     /**
@@ -122,7 +113,7 @@ public class TestHeroRequiresEquipment extends AbstractHeroTest {
     public void testGetHeroesThat_Require_DemonEdge() {
 
         List<AbstractHero> heroes = HCGearCalculator.getInstance()
-                .getHeroesThatRequire(demonEdge, false);
+                .getHeroesThatEquip(demonEdge);
 
         AbstractHero[] expectedHeroesArray = new AbstractHero[] {
                 ancientProtector, arcaneSapper, cleric, cloudWalker,

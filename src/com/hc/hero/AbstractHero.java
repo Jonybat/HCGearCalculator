@@ -21,9 +21,6 @@ public interface AbstractHero {
 
     /**
      * Returns true if this hero ever requires the {@code equipment}.<br />
-     * This method has the same behavior as
-     * {@linkplain #requires(AbstractEquipment, String, String)
-     * requires(equipment, (String)null, (String)null)}.
      *
      * @param equipment
      * @return Returns true if this hero ever requires the {@code equipment}
@@ -31,34 +28,21 @@ public interface AbstractHero {
     boolean requires(AbstractEquipment equipment);
 
     /**
-     * Returns true if this hero ever requires the {@code equipment}.<br />
-     * If the {@code checkHigherItems} is true, it also checks whether the hero
-     * ever requires any other equipment that requires the {@code equipment} to
-     * be crafted.<br />
-     * <br />
+     * Returns true if this hero ever equips the {@code equipment}.<br />
      *
      * @param equipment
-     * @param checkHigherItems
      * @return Returns true if this hero ever requires the {@code equipment}
      */
-    boolean requires(AbstractEquipment equipment,
-            boolean checkHigherItems);
+    boolean equips(AbstractEquipment equipment);
 
-    /**
-     * @see {@linkplain #requires(AbstractEquipment, String, String, boolean)}
-     */
     boolean requires(AbstractEquipment equipment, GearSet gearSet1,
             GearSet gearSet2);
 
-    /**
-     * @see {@linkplain #requires(AbstractEquipment, String, String, boolean)}
-     */
-    boolean requires(AbstractEquipment equipment, GearSet gearSet1,
-            GearSet gearSet2, boolean checkHigherItems);
+    boolean equips(AbstractEquipment equipment, GearSet gearSet1,
+            GearSet gearSet2);
 
     /**
-     * Returns true if this hero requires the {@code equipment} or any other
-     * equipment that requires the {@code equipment} between the
+     * Returns true if this hero requires the {@code equipment} between the
      * {@code set1Name} and the {@code set2Name}.<br />
      * <br />
      * If the {@code set1Name} is null, it is considered to be the lowest
@@ -79,7 +63,7 @@ public interface AbstractHero {
             String set2Name);
 
     /**
-     * Returns true if this hero requires the {@code equipment} between the
+     * Returns true if this hero equips the {@code equipment} between the
      * {@code set1Name} and the {@code set2Name}.<br />
      * <br />
      * If the {@code set1Name} is null, it is considered to be the lowest
@@ -89,20 +73,15 @@ public interface AbstractHero {
      * If both {@code set1Name} and {@code set2Name} are null, returns true if
      * the hero ever requires the {@code equipment}. <br />
      * <br />
-     * If the {@code checkHigherItems} is true, it also checks whether the hero
-     * ever requires any other equipment that requires the {@code equipment} to
-     * be crafted.<br />
-     * <br />
      *
      * @param equipment
      * @param set1Name
      * @param set2Name
-     * @param checkHigherItems
      * @return true if this hero requires the {@code equipment} between the
      *         {@code set1Name} and the {@code set2Name}
      */
-    boolean requires(AbstractEquipment equipment, String set1Name,
-            String set2Name, boolean checkHigherItems);
+    boolean equips(AbstractEquipment equipment, String set1Name,
+            String set2Name);
 
     /**
      *

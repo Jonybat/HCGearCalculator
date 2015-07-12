@@ -99,52 +99,54 @@ public class HCGearCalculator {
     }
 
     /**
-     * Returns list of heroes that require the {@code equipment} at any point -
-     * or any other item that requires the {@code equipment} to be crafted.
+     * Returns list of heroes that equip the {@code equipment} at any point.
      *
      * @param equipment
-     * @return list of heroes that require the {@code equipment} at any point -
-     *         or any other item that requires the {@code equipment} to be
-     *         crafted
+     *            the equipment name
+     * @return list of heroes that equip the {@code equipment} at any point
      */
-    public List<AbstractHero> getHeroesThatRequire(
-            AbstractEquipment equipment) {
-
-        return getHeroesThatRequire(equipment, true);
+    public List<AbstractHero> getHeroesThatEquip(String equipment) {
+        return getHeroesThatEquip(gear.get(equipment));
     }
 
     /**
-     * Returns list of heroes that require the {@code equipment} at any point.<br />
-     * If the {@code or any other item that requires the {@code equipment} to
-     * be crafted.
-     *
-     * @param equipment
-     * @return list of heroes that require the {@code equipment} at any point -
-     *         or any other item that requires the {@code equipment} to be
-     *         crafted
-     */
-    /**
      * * Returns list of heroes that require the {@code equipment} at any point.<br />
-     * If the {@code checkHigherItems} is true, it also returns the heroes that
-     * need other items that require the {@code equipment}.
      *
      * @param equipment
-     * @param checkHigherItems
      * @return Returns list of heroes that require the {@code equipment} at any
      *         point
      */
     public List<AbstractHero> getHeroesThatRequire(
-            AbstractEquipment equipment, boolean checkHigherItems) {
+            AbstractEquipment equipment) {
 
         if (equipment == null) {
             return new ArrayList<>();
         }
 
-        List<AbstractHero> list = heroes
-                .values()
-                .stream()
-                .filter(hero -> hero.requires(equipment,
-                        checkHigherItems)).collect(Collectors.toList());
+        List<AbstractHero> list = heroes.values().stream()
+                .filter(hero -> hero.requires(equipment))
+                .collect(Collectors.toList());
+        list.sort(new AbstractHeroNameComparator());
+        return list;
+    }
+
+    /**
+     * * Returns list of heroes that equip the {@code equipment} at any point.<br />
+     *
+     * @param equipment
+     * @return Returns list of heroes that equip the {@code equipment} at any
+     *         point
+     */
+    public List<AbstractHero> getHeroesThatEquip(
+            AbstractEquipment equipment) {
+
+        if (equipment == null) {
+            return new ArrayList<>();
+        }
+
+        List<AbstractHero> list = heroes.values().stream()
+                .filter(hero -> hero.equips(equipment))
+                .collect(Collectors.toList());
         list.sort(new AbstractHeroNameComparator());
         return list;
     }

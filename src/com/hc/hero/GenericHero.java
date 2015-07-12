@@ -57,23 +57,25 @@ public class GenericHero implements AbstractHero {
 
     @Override
     public boolean requires(AbstractEquipment equipment) {
+        return requires(equipment, (String) null, (String) null, false);
+    }
 
+    @Override
+    public boolean equips(AbstractEquipment equipment) {
         return requires(equipment, (String) null, (String) null, true);
     }
 
     @Override
     public boolean requires(AbstractEquipment equipment,
-            boolean checkHigherItems) {
+            GearSet gearSet1, GearSet gearSet2) {
 
-        return requires(equipment, (String) null, (String) null,
-                checkHigherItems);
+        String set1Name = gearSet1 == null ? null : gearSet1.name();
+        String set2Name = gearSet2 == null ? null : gearSet2.name();
+        return requires(equipment, set1Name, set2Name, false);
     }
 
-    /**
-     * @see {@linkplain #requires(AbstractEquipment, String, String)}
-     */
     @Override
-    public boolean requires(AbstractEquipment equipment,
+    public boolean equips(AbstractEquipment equipment,
             GearSet gearSet1, GearSet gearSet2) {
 
         String set1Name = gearSet1 == null ? null : gearSet1.name();
@@ -81,28 +83,22 @@ public class GenericHero implements AbstractHero {
         return requires(equipment, set1Name, set2Name, true);
     }
 
-    /**
-     * @see {@linkplain #requires(AbstractEquipment, String, String, boolean)}
-     */
-    @Override
-    public boolean requires(AbstractEquipment equipment,
-            GearSet gearSet1, GearSet gearSet2, boolean checkHigherItems) {
-
-        String set1Name = gearSet1 == null ? null : gearSet1.name();
-        String set2Name = gearSet2 == null ? null : gearSet2.name();
-        return requires(equipment, set1Name, set2Name, checkHigherItems);
-    }
-
     @Override
     public boolean requires(AbstractEquipment equipment,
             String set1Name, String set2Name) {
 
-        return requires(equipment, set1Name, set2Name, true);
+        return requires(equipment, set1Name, set2Name, false);
     }
 
     @Override
-    public boolean requires(AbstractEquipment equipment,
-            String set1Name, String set2Name, boolean checkHigherItems) {
+    public boolean equips(AbstractEquipment equipment, String set1Name,
+            String set2Name) {
+
+        return requires(equipment, set1Name, set2Name, true);
+    }
+
+    private boolean requires(AbstractEquipment equipment,
+            String set1Name, String set2Name, boolean searchequippedOnly) {
 
         if (set1Name == null) {
             set1Name = GearSetNameConstants.LOWEST_SET;
@@ -122,29 +118,29 @@ public class GenericHero implements AbstractHero {
         List<String> setsBetween = GearSetNameConstants.getSetsBetween(
                 set1Name, set2Name);
 
-        return requires(equipment, setsBetween, checkHigherItems);
+        return requires(equipment, setsBetween, searchequippedOnly);
     }
 
     /**
      * Returns true if the hero requires the {@code equipment} in any of the
      * {@code sets}.<br />
-     * If the {@code checkHigherItems} is true, it also checks whether the hero
-     * ever requires any other equipment that requires the {@code equipment} to
-     * be crafted.<br />
+     * If the {@code searchequippedOnly} is true, it also checks whether the
+     * hero ever requires any other equipment that requires the
+     * {@code equipment} to be crafted.<br />
      * <br />
      * For example, if one hero never requires <b>Demon Edge</b>, but does
      * require <b>All Around Shoes</b>, which requires <b>Demon Edge</b> to be
-     * crafted, this method returns true when the {@code checkHigherItems} is
+     * crafted, this method returns true when the {@code searchequippedOnly} is
      * true, and false otherwise.
      *
      * @param equipment
      * @param sets
-     * @param checkHigherItems
+     * @param searchequippedOnly
      * @return true if the hero requires the {@code equipment} in any of the
      *         {@code sets}
      */
     private boolean requires(AbstractEquipment equipment,
-            List<String> sets, boolean checkHigherItems) {
+            List<String> sets, boolean searchequippedOnly) {
 
         long count = sets.stream().map(setName -> getSet(setName))
                 .filter(Optional::isPresent).map(Optional::get)
@@ -154,7 +150,7 @@ public class GenericHero implements AbstractHero {
             return true;
         }
 
-        if (!checkHigherItems) {
+        if (searchequippedOnly) {
             return false;
         }
 
