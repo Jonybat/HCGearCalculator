@@ -1,4 +1,4 @@
-package com.hc.test;
+package com.hc.test.hero;
 
 import static com.hc.gear.HeroConstants.ADMIRAL;
 
@@ -12,6 +12,7 @@ import org.xml.sax.SAXException;
 
 import com.hc.hero.AbstractHero;
 import com.hc.hero.parse.HeroXMLParser;
+import com.hc.test.gear.AbstractEquipmentTest;
 
 /**
  * Common base for all unit tests using heroes, providing easy to use equipment

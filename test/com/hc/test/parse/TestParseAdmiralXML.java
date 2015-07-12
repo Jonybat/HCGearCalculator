@@ -9,7 +9,7 @@ import org.junit.Test;
 
 import com.hc.hero.GearSet;
 import com.hc.hero.GearSetNameConstants;
-import com.hc.test.AbstractHeroTest;
+import com.hc.test.hero.AbstractHeroTest;
 
 public class TestParseAdmiralXML extends AbstractHeroTest {
 

@@ -1,4 +1,4 @@
-package com.hc.test.calculaterequired;
+package com.hc.test.hero.calculaterequired;
 
 import static com.hc.hero.GearSetNameConstants.SET_ORANGE;
 import static com.hc.hero.GearSetNameConstants.SET_PURPLE;
@@ -11,7 +11,7 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.hc.test.AbstractHeroTest;
+import com.hc.test.hero.AbstractHeroTest;
 
 public class TestHeroRequiresEquipment extends AbstractHeroTest {
 

@@ -1,4 +1,4 @@
-package com.hc.test.calculaterequired;
+package com.hc.test.gear.calculaterequired;
 
 import static org.junit.Assert.assertEquals;
 
@@ -10,7 +10,7 @@ import org.junit.Test;
 import com.hc.gear.AbstractEquipment;
 import com.hc.gear.calculator.IncrementerHashMap;
 import com.hc.gear.calculator.RequiredRawMaterialsCalculator;
-import com.hc.test.AbstractEquipmentTest;
+import com.hc.test.gear.AbstractEquipmentTest;
 
 public class TestCalculateRequiredRawMaterials extends
         AbstractEquipmentTest {

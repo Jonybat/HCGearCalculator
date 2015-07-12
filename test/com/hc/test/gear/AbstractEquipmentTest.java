@@ -1,4 +1,4 @@
-package com.hc.test;
+package com.hc.test.gear;
 
 import static com.hc.gear.EquipmentConstants.ALL_AROUND_SHOES;
 import static com.hc.gear.EquipmentConstants.BAG_OF_HOLDING;
