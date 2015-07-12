@@ -79,6 +79,7 @@
 	<equipment name="Ascendant of Kron Medal Reel" color="green"/>
 	<equipment name="Transmer of Amuns Reel" color="green"/>
 	<equipment name="Chulashi'ta-ok Reel" color="green"/>
+    <equipment name="Pendant of Quinnard Reel" color="green"/>
 
 
 	
@@ -105,7 +106,7 @@
 	
 	<!-- GREEN CRAFT -->
     <equipment name="Pendant of Quinnard" color="green">
-        <equipment name="Pendant of Quinnard"/>
+        <equipment name="Pendant of Quinnard Reel"/>
         <equipment name="Recovery towel"/>
         <equipment name="Inho Berry"/>
     </equipment>
