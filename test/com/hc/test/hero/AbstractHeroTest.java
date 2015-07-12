@@ -43,8 +43,6 @@ import com.hc.test.gear.AbstractEquipmentTest;
  */
 public class AbstractHeroTest extends AbstractEquipmentTest {
 
-    private HCGearCalculator calculator;
-
     private Map<String, AbstractHero> heroes;
 
     protected final AbstractHero admiral;
@@ -74,7 +72,7 @@ public class AbstractHeroTest extends AbstractEquipmentTest {
         super();
 
         heroes = getParser().heroes();
-        calculator = new HCGearCalculator(getGear(), heroes);
+        HCGearCalculator.setup(getGear(), heroes);
 
         admiral = heroes.get(ADMIRAL);
         ancientProtector = heroes.get(ANCIENT_PROTECTOR);
@@ -119,11 +117,4 @@ public class AbstractHeroTest extends AbstractEquipmentTest {
         return Collections.unmodifiableMap(heroes);
     }
 
-    /**
-     *
-     * @return {@linkplain HCGearCalculator} instance
-     */
-    protected HCGearCalculator calculator() {
-        return calculator;
-    }
 }

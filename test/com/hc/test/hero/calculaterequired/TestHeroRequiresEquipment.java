@@ -14,6 +14,7 @@ import java.util.List;
 
 import org.junit.Test;
 
+import com.hc.HCGearCalculator;
 import com.hc.hero.AbstractHero;
 import com.hc.test.hero.AbstractHeroTest;
 
@@ -77,8 +78,8 @@ public class TestHeroRequiresEquipment extends AbstractHeroTest {
     @Test
     public void testGetHeroesThatRequireDemonEdge() {
 
-        List<AbstractHero> heroes = calculator().getHeroesThatRequire(
-                demonEdge);
+        List<AbstractHero> heroes = HCGearCalculator.getInstance()
+                .getHeroesThatRequire(demonEdge);
 
         AbstractHero[] expectedHeroesArray = new AbstractHero[] {
                 ancientProtector, arcaneSapper, cleric, cloudWalker,

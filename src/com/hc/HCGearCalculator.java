@@ -12,10 +12,12 @@ import com.hc.hero.AbstractHeroNameComparator;
 
 public class HCGearCalculator {
 
+    private static HCGearCalculator instance;
+
     private Map<String, AbstractEquipment> gear;
     private Map<String, AbstractHero> heroes;
 
-    public HCGearCalculator(Map<String, AbstractEquipment> gear,
+    private HCGearCalculator(Map<String, AbstractEquipment> gear,
             Map<String, AbstractHero> heroes) {
 
         if (gear == null) {
@@ -26,6 +28,28 @@ public class HCGearCalculator {
         }
         this.gear = gear;
         this.heroes = heroes;
+    }
+
+    public static HCGearCalculator getInstance() {
+        return instance;
+    }
+
+    /**
+     * Instantiates the {@code HCGearCalculator} singleton if needed.
+     *
+     * @param gear
+     * @param heroes
+     */
+    public static void setup(Map<String, AbstractEquipment> gear,
+            Map<String, AbstractHero> heroes) {
+
+        if (instance == null) {
+            synchronized (HCGearCalculator.class) {
+                if (instance == null) {
+                    instance = new HCGearCalculator(gear, heroes);
+                }
+            }
+        }
     }
 
     /**
