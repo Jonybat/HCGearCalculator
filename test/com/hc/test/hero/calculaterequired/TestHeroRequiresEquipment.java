@@ -21,27 +21,27 @@ import com.hc.test.hero.AbstractHeroTest;
 public class TestHeroRequiresEquipment extends AbstractHeroTest {
 
     @Test
-    public void testAdmiralRequiresDirksOfCicero() {
+    public void testAdmiral_Requires_DirksOfCicero() {
         assertTrue(admiral.requires(dirksOfCicero));
     }
 
     @Test
-    public void testAdmiralRequiresHolyGarment() {
+    public void testAdmiral_Requires_HolyGarment() {
         assertTrue(admiral.requires(holyGarment));
     }
 
     @Test
-    public void testAdmiralRequiresAllAroundShoes() {
+    public void testAdmiral_Requires_AllAroundShoes() {
         assertTrue(admiral.requires(allAroundShoes));
     }
 
     @Test
-    public void testAdmiralRequiresBagOfHolding() {
+    public void testAdmiral_Requires_BagOfHolding() {
         assertFalse(admiral.requires(bagOfHolding));
     }
 
     @Test
-    public void testAdmiralRequiresDirksOfCicero_filterSets() {
+    public void testAdmiral_Requires_DirksOfCicero_filterSets() {
         assertTrue(admiral.requires(dirksOfCicero, SET_PURPLE, null));
         assertTrue(admiral.requires(dirksOfCicero, null, SET_PURPLE_1));
         assertTrue(admiral.requires(dirksOfCicero, null, SET_PURPLE));
@@ -55,7 +55,7 @@ public class TestHeroRequiresEquipment extends AbstractHeroTest {
     }
 
     @Test
-    public void testAdmiralRequiresAllAroundShoes_filterSets() {
+    public void testAdmiral_Requires_AllAroundShoes_filterSets() {
         assertTrue(admiral.requires(allAroundShoes, SET_ORANGE, null));
         assertTrue(admiral.requires(allAroundShoes, null, SET_ORANGE));
         assertFalse(admiral.requires(allAroundShoes, SET_PURPLE_3,
@@ -71,15 +71,20 @@ public class TestHeroRequiresEquipment extends AbstractHeroTest {
     }
 
     @Test
-    public void testPilotRequiresDemonEdge() {
+    public void testPilot_Requires_DemonEdge() {
         assertTrue(pilot.requires(demonEdge));
     }
 
     @Test
-    public void testGetHeroesThatRequireDemonEdge() {
+    public void testAdmiral_Requires_DemonEdge() {
+        assertTrue(admiral.requires(demonEdge));
+    }
+
+    @Test
+    public void testGetHeroesThat_Require_DemonEdge() {
 
         List<AbstractHero> heroes = HCGearCalculator.getInstance()
-                .getHeroesThatRequire(demonEdge);
+                .getHeroesThatRequire(demonEdge, false);
 
         AbstractHero[] expectedHeroesArray = new AbstractHero[] {
                 ancientProtector, arcaneSapper, cleric, cloudWalker,

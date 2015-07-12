@@ -1,8 +1,11 @@
 package com.hc.hero;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
+import java.util.Set;
 
 import com.hc.gear.AbstractEquipment;
 import com.hc.hero.parse.HeroXMLParser;
@@ -15,6 +18,11 @@ public class GenericHero implements AbstractHero {
     private int stars;
 
     private List<GearSet> sets = new ArrayList<>();
+
+    /**
+     * Reference to map with existing gear
+     */
+    private static Map<String, AbstractEquipment> gear = new HashMap<>();
 
     public GenericHero(String name, int stars) {
 
@@ -47,18 +55,18 @@ public class GenericHero implements AbstractHero {
         return stars;
     }
 
-    /**
-     * Returns true if this hero ever requires the {@code equipment}.<br />
-     * This method has the same behaviour as
-     * {@linkplain #requires(AbstractEquipment, String, String)
-     * requires(equipment, (String)null, (String)null)}.
-     *
-     * @param equipment
-     * @return Returns true if this hero ever requires the {@code equipment}
-     */
     @Override
     public boolean requires(AbstractEquipment equipment) {
-        return requires(equipment, (String) null, (String) null);
+
+        return requires(equipment, (String) null, (String) null, true);
+    }
+
+    @Override
+    public boolean requires(AbstractEquipment equipment,
+            boolean checkHigherItems) {
+
+        return requires(equipment, (String) null, (String) null,
+                checkHigherItems);
     }
 
     /**
@@ -70,29 +78,31 @@ public class GenericHero implements AbstractHero {
 
         String set1Name = gearSet1 == null ? null : gearSet1.name();
         String set2Name = gearSet2 == null ? null : gearSet2.name();
-        return requires(equipment, set1Name, set2Name);
+        return requires(equipment, set1Name, set2Name, true);
     }
 
     /**
-     * Returns true if this hero requires the {@code equipment} between the
-     * {@code set1Name} and the {@code set2Name}.<br />
-     * <br />
-     * If the {@code set1Name} is null, it is considered to be the lowest
-     * possible set.<br />
-     * If the {@code set2Name} is null, it is considered to be the highest
-     * possible set.<br />
-     * That said, if both {@code set1Name} and {@code set2Name} are null,
-     * returns true if the hero ever requires the {@code equipment}.
-     *
-     * @param equipment
-     * @param set1Name
-     * @param set2Name
-     * @return true if this hero requires the {@code equipment} between the
-     *         {@code set1Name} and the {@code set2Name}
+     * @see {@linkplain #requires(AbstractEquipment, String, String, boolean)}
      */
     @Override
     public boolean requires(AbstractEquipment equipment,
+            GearSet gearSet1, GearSet gearSet2, boolean checkHigherItems) {
+
+        String set1Name = gearSet1 == null ? null : gearSet1.name();
+        String set2Name = gearSet2 == null ? null : gearSet2.name();
+        return requires(equipment, set1Name, set2Name, checkHigherItems);
+    }
+
+    @Override
+    public boolean requires(AbstractEquipment equipment,
             String set1Name, String set2Name) {
+
+        return requires(equipment, set1Name, set2Name, true);
+    }
+
+    @Override
+    public boolean requires(AbstractEquipment equipment,
+            String set1Name, String set2Name, boolean checkHigherItems) {
 
         if (set1Name == null) {
             set1Name = GearSetNameConstants.LOWEST_SET;
@@ -112,30 +122,57 @@ public class GenericHero implements AbstractHero {
         List<String> setsBetween = GearSetNameConstants.getSetsBetween(
                 set1Name, set2Name);
 
-        return requires(equipment, setsBetween);
+        return requires(equipment, setsBetween, checkHigherItems);
     }
 
     /**
      * Returns true if the hero requires the {@code equipment} in any of the
      * {@code sets}.<br />
-     * Note this method only searches the equipment the hero uses.<br />
+     * If the {@code checkHigherItems} is true, it also checks whether the hero
+     * ever requires any other equipment that requires the {@code equipment} to
+     * be crafted.<br />
      * <br />
      * For example, if one hero never requires <b>Demon Edge</b>, but does
      * require <b>All Around Shoes</b>, which requires <b>Demon Edge</b> to be
-     * crafted, this method returns false.
+     * crafted, this method returns true when the {@code checkHigherItems} is
+     * true, and false otherwise.
      *
      * @param equipment
      * @param sets
+     * @param checkHigherItems
      * @return true if the hero requires the {@code equipment} in any of the
      *         {@code sets}
      */
     private boolean requires(AbstractEquipment equipment,
-            List<String> sets) {
+            List<String> sets, boolean checkHigherItems) {
 
         long count = sets.stream().map(t -> getSet(t))
                 .filter(Optional::isPresent).map(Optional::get)
                 .filter(t -> t.contains(equipment)).count();
-        return count != 0;
+
+        if (count != 0) {
+            return true;
+        }
+
+        if (!checkHigherItems) {
+            return false;
+        }
+
+        Set<AbstractEquipment> higherEquipments = equipment
+                .requiredBy();
+
+        for (AbstractEquipment higherEquipment : higherEquipments) {
+
+            count = sets.stream().map(t -> getSet(t))
+                    .filter(Optional::isPresent).map(Optional::get)
+                    .filter(t -> t.contains(higherEquipment)).count();
+
+            if (count != 0) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     /**
@@ -203,5 +240,18 @@ public class GenericHero implements AbstractHero {
         }
         GenericHero that = (GenericHero) obj;
         return name.equals(that.name);
+    }
+
+    /**
+     *
+     * Keeps a reference to the existing gear
+     *
+     * @param gear
+     */
+    public static void setGear(Map<String, AbstractEquipment> gear) {
+        if (gear == null || gear.entrySet().isEmpty()) {
+            return;
+        }
+        GenericHero.gear = gear;
     }
 }

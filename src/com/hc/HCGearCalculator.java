@@ -7,8 +7,10 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import com.hc.gear.AbstractEquipment;
+import com.hc.gear.GenericEquipment;
 import com.hc.hero.AbstractHero;
 import com.hc.hero.AbstractHeroNameComparator;
+import com.hc.hero.GenericHero;
 
 public class HCGearCalculator {
 
@@ -28,6 +30,9 @@ public class HCGearCalculator {
         }
         this.gear = gear;
         this.heroes = heroes;
+
+        GenericHero.setGear(gear);
+        GenericEquipment.setGear(gear);
     }
 
     public static HCGearCalculator getInstance() {
@@ -79,8 +84,7 @@ public class HCGearCalculator {
         if (material == null) {
             return new ArrayList<>();
         }
-        return gear.values().stream().filter(t -> t.requires(material))
-                .collect(Collectors.toList());
+        return new ArrayList<>(material.requiredBy());
     }
 
     /**
@@ -103,12 +107,18 @@ public class HCGearCalculator {
     public List<AbstractHero> getHeroesThatRequire(
             AbstractEquipment equipment) {
 
+        return getHeroesThatRequire(equipment, true);
+    }
+
+    public List<AbstractHero> getHeroesThatRequire(
+            AbstractEquipment equipment, boolean checkHigherItems) {
+
         if (equipment == null) {
             return new ArrayList<>();
         }
 
         List<AbstractHero> list = heroes.values().stream()
-                .filter(t -> t.requires(equipment))
+                .filter(t -> t.requires(equipment, checkHigherItems))
                 .collect(Collectors.toList());
         list.sort(new AbstractHeroNameComparator());
         return list;

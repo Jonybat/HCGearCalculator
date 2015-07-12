@@ -15,27 +15,29 @@ public class GenericHeroWithCache extends GenericHero {
 
     @Override
     public boolean requires(AbstractEquipment equipment,
-            String set1Name, String set2Name) {
+            String set1Name, String set2Name, boolean checkHigherItems) {
 
-        EquipmentFilterKey key = getKey(equipment, set1Name, set2Name);
+        EquipmentFilterKey key = getKey(equipment, set1Name, set2Name,
+                checkHigherItems);
         Boolean cached = cache.get(key);
         if (cached != null) {
             return cached.booleanValue();
         }
 
-        boolean requires = super
-                .requires(equipment, set1Name, set2Name);
+        boolean requires = super.requires(equipment, set1Name,
+                set2Name, checkHigherItems);
         cache.put(key, Boolean.valueOf(requires));
         return requires;
     }
 
     private EquipmentFilterKey getKey(AbstractEquipment equipment,
-            String set1Name, String set2Name) {
+            String set1Name, String set2Name, boolean checkHigherItems) {
 
         EquipmentFilterKey key = new EquipmentFilterKey();
         key.equipment = equipment;
         key.set1Name = set1Name;
         key.set2Name = set2Name;
+        key.checkHigherItems = checkHigherItems;
         return key;
     }
 
@@ -43,6 +45,7 @@ public class GenericHeroWithCache extends GenericHero {
         private AbstractEquipment equipment;
         private String set1Name;
         private String set2Name;
+        private boolean checkHigherItems;
 
         @Override
         public int hashCode() {
@@ -50,9 +53,11 @@ public class GenericHeroWithCache extends GenericHero {
                     .hashCode();
             int set2NameHashcode = set2Name == null ? 0 : set2Name
                     .hashCode();
+            int checkHigherItemsCode = checkHigherItems ? 1 : 2;
 
             return equipment.hashCode() + 31 * set1NameHashcode + 2
-                    * 31 * set2NameHashcode;
+                    * 31 * set2NameHashcode + 3 * 31
+                    * checkHigherItemsCode;
         }
 
         @Override

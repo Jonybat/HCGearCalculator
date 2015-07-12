@@ -2,9 +2,12 @@ package com.hc.gear;
 
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 import java.util.SortedMap;
 import java.util.TreeMap;
+import java.util.stream.Collectors;
 
 import com.hc.gear.parse.GearXMLParser;
 
@@ -19,6 +22,11 @@ public class GenericEquipment implements AbstractEquipment {
     private String type;
 
     private int xmlLineNumber;
+
+    /**
+     * Reference to map with existing gear
+     */
+    private static Map<String, AbstractEquipment> gear = new HashMap<>();
 
     public GenericEquipment(String name, String color,
             Map<String, Integer> materials, String type) {
@@ -92,6 +100,42 @@ public class GenericEquipment implements AbstractEquipment {
     }
 
     @Override
+    public Set<AbstractEquipment> requiredBy() {
+
+        Set<AbstractEquipment> equipmentThatRequires = new HashSet<>();
+        Set<AbstractEquipment> materialsChecked = new HashSet<>();
+        fillEquipmentThatRequires(equipmentThatRequires, this,
+                materialsChecked);
+        equipmentThatRequires.remove(this);
+        return equipmentThatRequires;
+    }
+
+    private void fillEquipmentThatRequires(
+            Set<AbstractEquipment> equipmentThatRequires,
+            AbstractEquipment material,
+            Set<AbstractEquipment> materialsChecked) {
+
+        if (materialsChecked.contains(material)) {
+            return;
+        }
+
+        materialsChecked.add(material);
+
+        Set<AbstractEquipment> equipmentThatRequiresMaterial = gear
+                .values().stream().filter(t -> t.requires(material))
+                .collect(Collectors.toSet());
+        // gear.get(EquipmentConstants.DRAGONS_SCALE)
+
+        // equipmentThatRequiresMaterial.iterator().next().requires(material)
+        equipmentThatRequires.addAll(equipmentThatRequiresMaterial);
+
+        for (AbstractEquipment equipment : equipmentThatRequiresMaterial) {
+            fillEquipmentThatRequires(equipmentThatRequires, equipment,
+                    materialsChecked);
+        }
+    }
+
+    @Override
     public Map<AbstractEquipment, Integer> materials() {
         return Collections.unmodifiableMap(materials);
     }
@@ -102,7 +146,7 @@ public class GenericEquipment implements AbstractEquipment {
             return false;
         }
 
-        if (materials.containsKey(material)) {
+        if (material == this || materials.containsKey(material)) {
             return true;
         }
 
@@ -110,7 +154,7 @@ public class GenericEquipment implements AbstractEquipment {
             if (mat.isRaw()) {
                 continue;
             }
-            if (requires(mat)) {
+            if (mat.requires(material)) {
                 return true;
             }
         }
@@ -159,4 +203,16 @@ public class GenericEquipment implements AbstractEquipment {
         return s;
     }
 
+    /**
+     *
+     * Keeps a reference to the existing gear
+     *
+     * @param gear
+     */
+    public static void setGear(Map<String, AbstractEquipment> gear) {
+        if (gear == null || gear.entrySet().isEmpty()) {
+            return;
+        }
+        GenericEquipment.gear = gear;
+    }
 }

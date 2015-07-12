@@ -1,6 +1,7 @@
 package com.hc.gear;
 
 import java.util.Map;
+import java.util.Set;
 
 public interface AbstractEquipment {
     /**
@@ -51,4 +52,10 @@ public interface AbstractEquipment {
      *         found or bought as is.
      */
     boolean isRaw();
+
+    /**
+     *
+     * @return set of equipments that require this material to be crafted
+     */
+    Set<AbstractEquipment> requiredBy();
 }
