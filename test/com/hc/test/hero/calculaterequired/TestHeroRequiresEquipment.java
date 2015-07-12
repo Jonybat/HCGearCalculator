@@ -6,6 +6,7 @@ import static com.hc.hero.GearSetNameConstants.SET_PURPLE_1;
 import static com.hc.hero.GearSetNameConstants.SET_PURPLE_2;
 import static com.hc.hero.GearSetNameConstants.SET_PURPLE_3;
 import static com.hc.hero.GearSetNameConstants.SET_PURPLE_4;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
@@ -97,8 +98,7 @@ public class TestHeroRequiresEquipment extends AbstractHeroTest {
                 .asList(expectedHeroesArray);
 
         assertTrue(heroes.containsAll(expectedHeroes));
-        assertTrue(heroes.size() == expectedHeroes.size());
-
+        assertEquals(expectedHeroes.size(), heroes.size());
     }
 
 }

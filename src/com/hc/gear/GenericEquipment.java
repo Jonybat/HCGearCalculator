@@ -99,6 +99,10 @@ public class GenericEquipment implements AbstractEquipment {
         }
     }
 
+    /**
+     * Requires {@linkplain #gear} to have been initializated with existing gear
+     * through {@linkplain #setGear(Map)}.
+     */
     @Override
     public Set<AbstractEquipment> requiredBy() {
 
