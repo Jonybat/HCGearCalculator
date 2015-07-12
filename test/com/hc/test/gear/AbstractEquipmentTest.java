@@ -7,6 +7,7 @@ import static com.hc.gear.EquipmentConstants.CHEST_PLATE;
 import static com.hc.gear.EquipmentConstants.CRUSADE_SHIELD;
 import static com.hc.gear.EquipmentConstants.DEATH_KITE;
 import static com.hc.gear.EquipmentConstants.DECEIVERS_SWORD;
+import static com.hc.gear.EquipmentConstants.DEMON_EDGE;
 import static com.hc.gear.EquipmentConstants.DIRKS_OF_CICERO;
 import static com.hc.gear.EquipmentConstants.DRAGONS_SCALE;
 import static com.hc.gear.EquipmentConstants.DRAGON_GLASS;
@@ -93,6 +94,7 @@ public class AbstractEquipmentTest {
     protected final AbstractEquipment emeraldPendant;
     protected final AbstractEquipment holyGarment;
     protected final AbstractEquipment bagOfHolding;
+    protected final AbstractEquipment demonEdge;
 
     public AbstractEquipmentTest() {
         gear = getParser().gear();
@@ -133,6 +135,7 @@ public class AbstractEquipmentTest {
         emeraldPendant = gear.get(EMERALD_PENDANT);
         holyGarment = gear.get(HOLY_GARMENT);
         bagOfHolding = gear.get(BAG_OF_HOLDING);
+        demonEdge = gear.get(DEMON_EDGE);
     }
 
     private GearXMLParser getParser() {

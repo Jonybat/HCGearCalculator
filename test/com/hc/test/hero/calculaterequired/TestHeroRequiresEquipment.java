@@ -9,8 +9,12 @@ import static com.hc.hero.GearSetNameConstants.SET_PURPLE_4;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+import java.util.Arrays;
+import java.util.List;
+
 import org.junit.Test;
 
+import com.hc.hero.AbstractHero;
 import com.hc.test.hero.AbstractHeroTest;
 
 public class TestHeroRequiresEquipment extends AbstractHeroTest {
@@ -63,6 +67,32 @@ public class TestHeroRequiresEquipment extends AbstractHeroTest {
                 .requires(allAroundShoes, null, SET_PURPLE_2));
         assertFalse(admiral.requires(allAroundShoes, SET_PURPLE_2,
                 SET_PURPLE));
+    }
+
+    @Test
+    public void testPilotRequiresDemonEdge() {
+        assertTrue(pilot.requires(demonEdge));
+    }
+
+    @Test
+    public void testGetHeroesThatRequireDemonEdge() {
+
+        List<AbstractHero> heroes = calculator().getHeroesThatRequire(
+                demonEdge);
+
+        AbstractHero[] expectedHeroesArray = new AbstractHero[] {
+                ancientProtector, arcaneSapper, cleric, cloudWalker,
+                depthsVoice, drunkenMaster, emberBlade, ferryman,
+                hiddenNeedle, lunarGuardian, mountain, ninjaAssassin,
+                pilot, rifleman, savageOne, shadowleaf, sniper,
+                tuskedStorm, vanguardWarrior, vengeanceSpirit,
+                wanderingSpearman };
+        List<AbstractHero> expectedHeroes = Arrays
+                .asList(expectedHeroesArray);
+
+        assertTrue(heroes.containsAll(expectedHeroes));
+        assertTrue(heroes.size() == expectedHeroes.size());
+
     }
 
 }
