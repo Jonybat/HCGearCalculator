@@ -124,9 +124,7 @@ public class GenericEquipment implements AbstractEquipment {
         Set<AbstractEquipment> equipmentThatRequiresMaterial = gear
                 .values().stream().filter(t -> t.requires(material))
                 .collect(Collectors.toSet());
-        // gear.get(EquipmentConstants.DRAGONS_SCALE)
 
-        // equipmentThatRequiresMaterial.iterator().next().requires(material)
         equipmentThatRequires.addAll(equipmentThatRequiresMaterial);
 
         for (AbstractEquipment equipment : equipmentThatRequiresMaterial) {
