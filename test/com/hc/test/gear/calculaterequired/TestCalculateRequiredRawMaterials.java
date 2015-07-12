@@ -8,7 +8,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import com.hc.gear.AbstractEquipment;
-import com.hc.gear.calculator.IncrementerHashMap;
+import com.hc.gear.calculator.Inventory;
 import com.hc.gear.calculator.RequiredRawMaterialsCalculator;
 import com.hc.test.gear.AbstractEquipmentTest;
 
@@ -63,7 +63,7 @@ public class TestCalculateRequiredRawMaterials extends
     @Test
     public void testCalculateDeceiversSwordRawMaterials_HavingSanadorianWardenHelm_KrelnHornReelFragment() {
 
-        IncrementerHashMap inventory = new IncrementerHashMap();
+        Inventory inventory = new Inventory();
         inventory.put(sanadorianWardenHelm, 3);
         inventory.put(krelnHornReelFragment, 15);
 

@@ -5,7 +5,7 @@ import java.util.Iterator;
 
 import com.hc.gear.AbstractEquipment;
 
-public class IncrementerHashMap extends
+public class Inventory extends
         HashMap<AbstractEquipment, Integer> {
 
     /**

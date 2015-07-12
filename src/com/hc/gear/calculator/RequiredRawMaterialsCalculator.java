@@ -19,7 +19,7 @@ public class RequiredRawMaterialsCalculator {
     public Map<AbstractEquipment, Integer> getMissingRawMaterials(
             AbstractEquipment equipment) {
 
-        IncrementerHashMap map = new IncrementerHashMap();
+        Inventory map = new Inventory();
         map.put(equipment, 1);
         return getMissingRawMaterials(map, null);
     }
@@ -37,10 +37,10 @@ public class RequiredRawMaterialsCalculator {
      *            map of owned equipment
      * @return missing raw materials map to craft the {@code equipment}
      */
-    public IncrementerHashMap getMissingRawMaterials(
-            AbstractEquipment equipment, IncrementerHashMap inventory) {
+    public Inventory getMissingRawMaterials(
+            AbstractEquipment equipment, Inventory inventory) {
 
-        IncrementerHashMap gear = new IncrementerHashMap();
+        Inventory gear = new Inventory();
         gear.put(equipment, 1);
         return getMissingRawMaterials(gear, inventory);
     }
@@ -57,17 +57,17 @@ public class RequiredRawMaterialsCalculator {
      *            map of owned equipment
      * @return missing raw materials map to craft the {@code gear}
      */
-    public IncrementerHashMap getMissingRawMaterials(
-            IncrementerHashMap gear, IncrementerHashMap inventory) {
+    public Inventory getMissingRawMaterials(
+            Inventory gear, Inventory inventory) {
 
         if (inventory == null) {
-            inventory = new IncrementerHashMap();
+            inventory = new Inventory();
         }
         if (gear == null) {
-            return new IncrementerHashMap();
+            return new Inventory();
         }
 
-        IncrementerHashMap requiredMaterials = new IncrementerHashMap();
+        Inventory requiredMaterials = new Inventory();
         Set<Map.Entry<AbstractEquipment, Integer>> entries = gear
                 .entrySet();
 
@@ -99,8 +99,8 @@ public class RequiredRawMaterialsCalculator {
      *            materials to craft it.
      */
     private void addRequiredMaterial(AbstractEquipment material,
-            Integer quantity, IncrementerHashMap inventory,
-            IncrementerHashMap requiredMaterials) {
+            Integer quantity, Inventory inventory,
+            Inventory requiredMaterials) {
 
         quantity = removeFromInventoryIfAble(material, quantity,
                 inventory);
@@ -136,7 +136,7 @@ public class RequiredRawMaterialsCalculator {
      */
     private Integer removeFromInventoryIfAble(
             AbstractEquipment material, Integer quantity,
-            IncrementerHashMap inventory) {
+            Inventory inventory) {
 
         int itemsInInventory = inventory.get(material);
 
