@@ -13,6 +13,8 @@ import static com.hc.gear.EquipmentConstants.DIRKS_OF_CICERO;
 import static com.hc.gear.EquipmentConstants.DRAGONS_SCALE;
 import static com.hc.gear.EquipmentConstants.DRAGON_GLASS;
 import static com.hc.gear.EquipmentConstants.EMERALD_PENDANT;
+import static com.hc.gear.EquipmentConstants.EMERALD_RING;
+import static com.hc.gear.EquipmentConstants.EULS_SCEPTER_OF_DIVINITY;
 import static com.hc.gear.EquipmentConstants.FIRESEED;
 import static com.hc.gear.EquipmentConstants.GLOVES_OF_HASTE;
 import static com.hc.gear.EquipmentConstants.GULLAK_AERTAHN;
@@ -33,6 +35,7 @@ import static com.hc.gear.EquipmentConstants.ROUGH_HEWN_AXE_FRAGMENT;
 import static com.hc.gear.EquipmentConstants.SANADORIAN_WARDEN_HELM;
 import static com.hc.gear.EquipmentConstants.SILVER_LANCE_FRAGMENT;
 import static com.hc.gear.EquipmentConstants.SPARK_OF_TYR;
+import static com.hc.gear.EquipmentConstants.THUNDER_SWORD;
 import static com.hc.gear.EquipmentConstants.TITANS_AXE;
 import static com.hc.gear.EquipmentConstants.TITANS_AXE_FRAGMENT;
 import static com.hc.gear.EquipmentConstants.TUSK_SIGIL;
@@ -92,6 +95,8 @@ public class AbstractEquipmentTest {
     protected final AbstractEquipment kelossianCrusher;
     protected final AbstractEquipment crusadeShield;
     protected final AbstractEquipment titansAxe;
+    protected final AbstractEquipment thunderSword;
+    protected final AbstractEquipment emeraldRing;
     protected final AbstractEquipment heavensHalberd;
     protected final AbstractEquipment allAroundShoes;
     protected final AbstractEquipment immortalGuardian;
@@ -101,6 +106,7 @@ public class AbstractEquipmentTest {
     protected final AbstractEquipment bagOfHolding;
     protected final AbstractEquipment demonEdge;
     protected final AbstractEquipment copperCudgel;
+    protected final AbstractEquipment eulsScepterOfDivinity;
 
     public AbstractEquipmentTest() {
         gear = getGearParser().gear();
@@ -108,10 +114,13 @@ public class AbstractEquipmentTest {
         HCGearCalculator.setup(getGear(), heroes);
 
         deceiversSword = gear.get(DECEIVERS_SWORD);
+        emeraldRing = gear.get(EMERALD_RING);
+        eulsScepterOfDivinity = gear.get(EULS_SCEPTER_OF_DIVINITY);
         glovesOfHaste = gear.get(GLOVES_OF_HASTE);
         titansAxeFragment = gear.get(TITANS_AXE_FRAGMENT);
         krelnHornReelFragment = gear.get(KRELN_HORN_REEL_FRAGMENT);
         roughHewnAxeFragment = gear.get(ROUGH_HEWN_AXE_FRAGMENT);
+        thunderSword = gear.get(THUNDER_SWORD);
         tuskSigil = gear.get(TUSK_SIGIL);
         helmofMagnusThorne = gear.get(HELM_OF_MAGNUS_THORNE);
         silverLanceFragment = gear.get(SILVER_LANCE_FRAGMENT);

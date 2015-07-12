@@ -12,8 +12,7 @@ import org.junit.Test;
 import com.hc.gear.AbstractEquipment;
 import com.hc.test.gear.AbstractEquipmentTest;
 
-public class TestEquipmentRequiredBy extends
-        AbstractEquipmentTest {
+public class TestEquipmentRequiredBy extends AbstractEquipmentTest {
 
     /**
      * Tests that Demon Edge is required to craft Copper Cudgel, Yew Bolt
@@ -44,5 +43,26 @@ public class TestEquipmentRequiredBy extends
                 .requiredBy();
 
         assertEquals(0, requiredByYewBoltThrower.size());
+    }
+
+    /**
+     * Tests that Yew Bolt Thrower is required to craft Thunder Sword and
+     * Emerald Ring
+     */
+    @Test
+    public void testEulsScepterOfDivinityRequiredBy() {
+        Set<AbstractEquipment> requiredByEulsScepterOfDivinity = eulsScepterOfDivinity
+                .requiredBy();
+
+        AbstractEquipment[] higherItems = new AbstractEquipment[] {
+                thunderSword, emeraldRing };
+        List<AbstractEquipment> expectedRequiredByEulsScepterOfDivinity = Arrays
+                .asList(higherItems);
+
+        assertTrue(requiredByEulsScepterOfDivinity
+                .containsAll(expectedRequiredByEulsScepterOfDivinity));
+        assertEquals(expectedRequiredByEulsScepterOfDivinity.size(),
+                requiredByEulsScepterOfDivinity.size());
+
     }
 }
