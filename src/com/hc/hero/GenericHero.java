@@ -146,9 +146,9 @@ public class GenericHero implements AbstractHero {
     private boolean requires(AbstractEquipment equipment,
             List<String> sets, boolean checkHigherItems) {
 
-        long count = sets.stream().map(t -> getSet(t))
+        long count = sets.stream().map(setName -> getSet(setName))
                 .filter(Optional::isPresent).map(Optional::get)
-                .filter(t -> t.contains(equipment)).count();
+                .filter(gearSet -> gearSet.contains(equipment)).count();
 
         if (count != 0) {
             return true;
@@ -192,7 +192,8 @@ public class GenericHero implements AbstractHero {
      */
     @Override
     public Optional<GearSet> getSet(String name) {
-        return sets.stream().filter(t -> t.name().equals(name))
+        return sets.stream()
+                .filter(gearSet -> gearSet.name().equals(name))
                 .findFirst();
     }
 

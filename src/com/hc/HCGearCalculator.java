@@ -127,7 +127,7 @@ public class HCGearCalculator {
      * * Returns list of heroes that require the {@code equipment} at any point.<br />
      * If the {@code checkHigherItems} is true, it also returns the heroes that
      * need other items that require the {@code equipment}.
-     * 
+     *
      * @param equipment
      * @param checkHigherItems
      * @return Returns list of heroes that require the {@code equipment} at any
@@ -140,9 +140,11 @@ public class HCGearCalculator {
             return new ArrayList<>();
         }
 
-        List<AbstractHero> list = heroes.values().stream()
-                .filter(t -> t.requires(equipment, checkHigherItems))
-                .collect(Collectors.toList());
+        List<AbstractHero> list = heroes
+                .values()
+                .stream()
+                .filter(hero -> hero.requires(equipment,
+                        checkHigherItems)).collect(Collectors.toList());
         list.sort(new AbstractHeroNameComparator());
         return list;
     }
