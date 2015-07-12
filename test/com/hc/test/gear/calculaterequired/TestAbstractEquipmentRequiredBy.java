@@ -15,6 +15,10 @@ import com.hc.test.gear.AbstractEquipmentTest;
 public class TestAbstractEquipmentRequiredBy extends
         AbstractEquipmentTest {
 
+    /**
+     * Tests that Demon Edge is required to craft Copper Cudgel, Yew Bolt
+     * Thrower, All Around Shoes and nothing else
+     */
     @Test
     public void testDemonEdgeRequiredBy() {
         AbstractEquipment[] higherItems = new AbstractEquipment[] {
@@ -29,6 +33,5 @@ public class TestAbstractEquipmentRequiredBy extends
                 .containsAll(expectedRequiredByDemonEdge));
         assertEquals(expectedRequiredByDemonEdge.size(),
                 requiredByDemonEdge.size());
-
     }
 }

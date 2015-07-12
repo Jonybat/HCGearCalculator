@@ -13,6 +13,9 @@ import com.hc.test.hero.AbstractHeroTest;
 
 public class TestParseAdmiralXML extends AbstractHeroTest {
 
+    /**
+     * Tests Admiral was correctly parsed from the xml
+     */
     @Test
     public void testParseAdmiral() {
         assertEquals(1, admiral.stars());
