@@ -57,7 +57,7 @@ public class TestHeroRequiresEquipment extends AbstractHeroTest {
      * Tests that Admiral equips Dirks of Cicero in specific set intervals
      */
     @Test
-    public void testAdmiral_Requires_DirksOfCicero_filterSets() {
+    public void testAdmiral_Equips_DirksOfCicero_filterSets() {
         assertTrue(admiral.equips(dirksOfCicero, SET_PURPLE, null));
         assertTrue(admiral.equips(dirksOfCicero, null, SET_PURPLE_1));
         assertTrue(admiral.equips(dirksOfCicero, null, SET_PURPLE));
@@ -74,7 +74,7 @@ public class TestHeroRequiresEquipment extends AbstractHeroTest {
      * Tests that Admiral equips All Around Shoes in specific set intervals
      */
     @Test
-    public void testAdmiral_Requires_AllAroundShoes_filterSets() {
+    public void testAdmiral_Equips_AllAroundShoes_filterSets() {
         assertTrue(admiral.equips(allAroundShoes, SET_ORANGE, null));
         assertTrue(admiral.equips(allAroundShoes, null, SET_ORANGE));
         assertFalse(admiral.equips(allAroundShoes, SET_PURPLE_3,
@@ -110,7 +110,7 @@ public class TestHeroRequiresEquipment extends AbstractHeroTest {
      * Tests which heroes need to equip Demon Edge at some point
      */
     @Test
-    public void testGetHeroesThat_Require_DemonEdge() {
+    public void testGetHeroesThat_Equip_DemonEdge() {
 
         List<AbstractHero> heroes = HCGearCalculator.getInstance()
                 .getHeroesThatEquip(demonEdge);
