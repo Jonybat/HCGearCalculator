@@ -98,7 +98,7 @@ public class GenericHero implements AbstractHero {
     }
 
     private boolean requires(AbstractEquipment equipment,
-            String set1Name, String set2Name, boolean searchequippedOnly) {
+            String set1Name, String set2Name, boolean searchEquippedOnly) {
 
         if (set1Name == null) {
             set1Name = GearSetNameConstants.LOWEST_SET;
@@ -118,7 +118,7 @@ public class GenericHero implements AbstractHero {
         List<String> setsBetween = GearSetNameConstants.getSetsBetween(
                 set1Name, set2Name);
 
-        return requires(equipment, setsBetween, searchequippedOnly);
+        return requires(equipment, setsBetween, searchEquippedOnly);
     }
 
     /**
@@ -128,19 +128,18 @@ public class GenericHero implements AbstractHero {
      * hero ever requires any other equipment that requires the
      * {@code equipment} to be crafted.<br />
      * <br />
-     * For example, if one hero never requires <b>Demon Edge</b>, but does
-     * require <b>All Around Shoes</b>, which requires <b>Demon Edge</b> to be
-     * crafted, this method returns true when the {@code searchequippedOnly} is
-     * true, and false otherwise.
+     * For example, if one hero never equips <b>Demon Edge</b>, but needs it to
+     * craft <b>All Around Shoes</b> this method returns false when the
+     * {@code searchEquippedOnly} is true, and true otherwise.
      *
      * @param equipment
      * @param sets
-     * @param searchequippedOnly
+     * @param searchEquippedOnly
      * @return true if the hero requires the {@code equipment} in any of the
      *         {@code sets}
      */
     private boolean requires(AbstractEquipment equipment,
-            List<String> sets, boolean searchequippedOnly) {
+            List<String> sets, boolean searchEquippedOnly) {
 
         long count = sets.stream().map(setName -> getSet(setName))
                 .filter(Optional::isPresent).map(Optional::get)
@@ -150,7 +149,7 @@ public class GenericHero implements AbstractHero {
             return true;
         }
 
-        if (searchequippedOnly) {
+        if (searchEquippedOnly) {
             return false;
         }
 
