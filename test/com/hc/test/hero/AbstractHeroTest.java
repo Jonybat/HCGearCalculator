@@ -23,17 +23,7 @@ import static com.hc.gear.HeroConstants.VANGUARD_WARRIOR;
 import static com.hc.gear.HeroConstants.VENGEANCE_SPIRIT;
 import static com.hc.gear.HeroConstants.WANDERING_SPEARMAN;
 
-import java.io.IOException;
-import java.util.Collections;
-import java.util.Map;
-
-import javax.xml.parsers.ParserConfigurationException;
-
-import org.xml.sax.SAXException;
-
-import com.hc.HCGearCalculator;
 import com.hc.hero.AbstractHero;
-import com.hc.hero.parse.HeroXMLParser;
 import com.hc.test.gear.AbstractEquipmentTest;
 
 /**
@@ -42,8 +32,6 @@ import com.hc.test.gear.AbstractEquipmentTest;
  *
  */
 public class AbstractHeroTest extends AbstractEquipmentTest {
-
-    private Map<String, AbstractHero> heroes;
 
     protected final AbstractHero admiral;
     protected final AbstractHero ancientProtector;
@@ -71,50 +59,28 @@ public class AbstractHeroTest extends AbstractEquipmentTest {
     public AbstractHeroTest() {
         super();
 
-        heroes = getParser().heroes();
-        HCGearCalculator.setup(getGear(), heroes);
-
-        admiral = heroes.get(ADMIRAL);
-        ancientProtector = heroes.get(ANCIENT_PROTECTOR);
-        arcaneSapper = heroes.get(ARCANE_SAPPER);
-        cleric = heroes.get(CLERIC);
-        cloudWalker = heroes.get(CLOUD_WALKER);
-        depthsVoice = heroes.get(DEPTHS_VOICE);
-        drunkenMaster = heroes.get(DRUNKEN_MASTER);
-        emberBlade = heroes.get(EMBER_BLADE);
-        ferryman = heroes.get(FERRYMAN);
-        hiddenNeedle = heroes.get(HIDDEN_NEEDLE);
-        lunarGuardian = heroes.get(LUNAR_GUARDIAN);
-        mountain = heroes.get(MOUNTAIN);
-        ninjaAssassin = heroes.get(NINJA_ASSASSIN);
-        pilot = heroes.get(PILOT);
-        rifleman = heroes.get(RIFLEMAN);
-        savageOne = heroes.get(SAVAGE_ONE);
-        shadowleaf = heroes.get(SHADOWLEAF);
-        sniper = heroes.get(SNIPER);
-        tuskedStorm = heroes.get(TUSKED_STORM);
-        vanguardWarrior = heroes.get(VANGUARD_WARRIOR);
-        vengeanceSpirit = heroes.get(VENGEANCE_SPIRIT);
-        wanderingSpearman = heroes.get(WANDERING_SPEARMAN);
-    }
-
-    private HeroXMLParser getParser() {
-        try {
-            return new HeroXMLParser("Heroes.xml", getGear());
-        } catch (ParserConfigurationException | SAXException
-                | IOException e) {
-            // assume the file is there and has correct syntax
-            e.printStackTrace();
-            return null;
-        }
-    }
-
-    /**
-     *
-     * @return unmodifiable copy of the parsed heroes
-     */
-    protected Map<String, AbstractHero> getHeroes() {
-        return Collections.unmodifiableMap(heroes);
+        admiral = getHeroes().get(ADMIRAL);
+        ancientProtector = getHeroes().get(ANCIENT_PROTECTOR);
+        arcaneSapper = getHeroes().get(ARCANE_SAPPER);
+        cleric = getHeroes().get(CLERIC);
+        cloudWalker = getHeroes().get(CLOUD_WALKER);
+        depthsVoice = getHeroes().get(DEPTHS_VOICE);
+        drunkenMaster = getHeroes().get(DRUNKEN_MASTER);
+        emberBlade = getHeroes().get(EMBER_BLADE);
+        ferryman = getHeroes().get(FERRYMAN);
+        hiddenNeedle = getHeroes().get(HIDDEN_NEEDLE);
+        lunarGuardian = getHeroes().get(LUNAR_GUARDIAN);
+        mountain = getHeroes().get(MOUNTAIN);
+        ninjaAssassin = getHeroes().get(NINJA_ASSASSIN);
+        pilot = getHeroes().get(PILOT);
+        rifleman = getHeroes().get(RIFLEMAN);
+        savageOne = getHeroes().get(SAVAGE_ONE);
+        shadowleaf = getHeroes().get(SHADOWLEAF);
+        sniper = getHeroes().get(SNIPER);
+        tuskedStorm = getHeroes().get(TUSKED_STORM);
+        vanguardWarrior = getHeroes().get(VANGUARD_WARRIOR);
+        vengeanceSpirit = getHeroes().get(VENGEANCE_SPIRIT);
+        wanderingSpearman = getHeroes().get(WANDERING_SPEARMAN);
     }
 
 }
