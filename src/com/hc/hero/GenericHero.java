@@ -250,4 +250,9 @@ public class GenericHero implements AbstractHero {
         }
         GenericHero.gear = gear;
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

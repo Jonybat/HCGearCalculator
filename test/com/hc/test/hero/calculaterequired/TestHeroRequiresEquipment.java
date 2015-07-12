@@ -57,7 +57,7 @@ public class TestHeroRequiresEquipment extends AbstractHeroTest {
      * Tests that Admiral equips Dirks of Cicero in specific set intervals
      */
     @Test
-    public void testAdmiral_Equips_DirksOfCicero_filterSets() {
+    public void testAdmiral_Equips_DirksOfCicero_filterSets_several() {
         assertTrue(admiral.equips(dirksOfCicero, SET_PURPLE, null));
         assertTrue(admiral.equips(dirksOfCicero, null, SET_PURPLE_1));
         assertTrue(admiral.equips(dirksOfCicero, null, SET_PURPLE));
@@ -74,7 +74,7 @@ public class TestHeroRequiresEquipment extends AbstractHeroTest {
      * Tests that Admiral equips All Around Shoes in specific set intervals
      */
     @Test
-    public void testAdmiral_Equips_AllAroundShoes_filterSets() {
+    public void testAdmiral_Equips_AllAroundShoes_filterSets_several() {
         assertTrue(admiral.equips(allAroundShoes, SET_ORANGE, null));
         assertTrue(admiral.equips(allAroundShoes, null, SET_ORANGE));
         assertFalse(admiral.equips(allAroundShoes, SET_PURPLE_3,
@@ -122,6 +122,31 @@ public class TestHeroRequiresEquipment extends AbstractHeroTest {
                 pilot, rifleman, savageOne, shadowleaf, sniper,
                 tuskedStorm, vanguardWarrior, vengeanceSpirit,
                 wanderingSpearman };
+        List<AbstractHero> expectedHeroes = Arrays
+                .asList(expectedHeroesArray);
+
+        assertTrue(heroes.containsAll(expectedHeroes));
+        assertEquals(expectedHeroes.size(), heroes.size());
+    }
+
+    /**
+     * Tests which heroes require Yew Bolt Thrower between sets Purple+2 and
+     * Orange
+     */
+    @Test
+    public void testGetHeroesThat_Require_YewBoltThrower_FilterSets_P2_Orange() {
+        List<AbstractHero> heroes = HCGearCalculator.getInstance()
+                .getHeroesThatRequire(yewBoltThrower);
+
+        AbstractHero[] expectedHeroesArray = new AbstractHero[] {
+                admiral, ancientProtector, arcaneSapper, commando,
+                deathgore, depthsVoice, drunkenMaster, emberBlade,
+                ferryman, hiddenNeedle, ironHoof, lightningElemental,
+                lunarGuardian, mountain, ninjaAssassin, pilot,
+                poisonedOne, professionalKiller, psychicSword,
+                rifleman, savageOne, shadowleaf, sniper, tuskedStorm,
+                vanguardWarrior, vengeanceSpirit, wanderingSpearman,
+                warriorMonk, windMaster };
         List<AbstractHero> expectedHeroes = Arrays
                 .asList(expectedHeroesArray);
 
