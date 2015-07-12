@@ -16,6 +16,8 @@ import org.xml.sax.helpers.DefaultHandler;
 import com.hc.gear.AbstractEquipment;
 import com.hc.hero.AbstractHero;
 import com.hc.hero.GearSet;
+import com.hc.hero.GenericHero;
+import com.hc.hero.GenericHeroWithCache;
 
 /**
  * Parses xml file describing existing heroes.<br />
@@ -101,7 +103,7 @@ public class HeroXMLParser extends DefaultHandler {
                         "Hero %s already exists", name));
             }
             int stars = Integer.parseInt(attributes.getValue("stars"));
-            hero = new AbstractHero(name, stars);
+            hero = new GenericHeroWithCache(name, stars);
             heroes.put(name, hero);
         } catch (NumberFormatException e) {
             String msg = String
@@ -140,7 +142,7 @@ public class HeroXMLParser extends DefaultHandler {
         try {
             String name = attributes.getValue("name");
             set = new GearSet(name);
-            hero.add(set);
+            ((GenericHero) hero).add(set);
         } catch (IllegalArgumentException e) {
             String msg = String.format("%s in line %d", e.getMessage(),
                     locator.getLineNumber());

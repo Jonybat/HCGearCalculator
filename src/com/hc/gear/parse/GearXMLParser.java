@@ -14,6 +14,8 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 import com.hc.gear.AbstractEquipment;
+import com.hc.gear.GenericEquipment;
+import com.hc.gear.GenericEquipmentWithCache;
 
 /**
  * Parses xml file describing existing gear.<br />
@@ -56,7 +58,7 @@ public class GearXMLParser extends DefaultHandler {
 
     private void setupGear() {
         for (AbstractEquipment equipment : gear.values()) {
-            equipment.setup(gear);
+            ((GenericEquipment) equipment).setup(gear);
         }
     }
 
@@ -143,8 +145,8 @@ public class GearXMLParser extends DefaultHandler {
         String type = attributes.get("type");
 
         try {
-            AbstractEquipment equipment = new AbstractEquipment(name,
-                    color, children, type);
+            GenericEquipment equipment = new GenericEquipmentWithCache(
+                    name, color, children, type);
             gear.put(name, equipment);
             equipment.setXmlLineNumber(linenumber);
         } catch (NullPointerException e) {
