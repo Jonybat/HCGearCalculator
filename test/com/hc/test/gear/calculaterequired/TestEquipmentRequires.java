@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import com.hc.test.gear.AbstractEquipmentTest;
 
-public class TestAbstractEquipmentRequires extends
+public class TestEquipmentRequires extends
         AbstractEquipmentTest {
 
     /**

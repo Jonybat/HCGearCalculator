@@ -12,7 +12,7 @@ import org.junit.Test;
 import com.hc.gear.AbstractEquipment;
 import com.hc.test.gear.AbstractEquipmentTest;
 
-public class TestAbstractEquipmentRequiredBy extends
+public class TestEquipmentRequiredBy extends
         AbstractEquipmentTest {
 
     /**
@@ -33,5 +33,16 @@ public class TestAbstractEquipmentRequiredBy extends
                 .containsAll(expectedRequiredByDemonEdge));
         assertEquals(expectedRequiredByDemonEdge.size(),
                 requiredByDemonEdge.size());
+    }
+
+    /**
+     * Tests that nothing requires Yew Bolt Thrower to be crafted
+     */
+    @Test
+    public void testYewBoldThrowerRequiredBy() {
+        Set<AbstractEquipment> requiredByYewBoltThrower = yewBoltThrower
+                .requiredBy();
+
+        assertEquals(0, requiredByYewBoltThrower.size());
     }
 }
