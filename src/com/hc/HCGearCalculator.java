@@ -99,10 +99,13 @@ public class HCGearCalculator {
     }
 
     /**
-     * Returns list of heroes that require the {@code equipment} at any point.
+     * Returns list of heroes that require the {@code equipment} at any point -
+     * or any other item that requires the {@code equipment} to be crafted.
      *
      * @param equipment
-     * @return list of heroes that require the {@code equipment} at any point
+     * @return list of heroes that require the {@code equipment} at any point -
+     *         or any other item that requires the {@code equipment} to be
+     *         crafted
      */
     public List<AbstractHero> getHeroesThatRequire(
             AbstractEquipment equipment) {
@@ -110,6 +113,26 @@ public class HCGearCalculator {
         return getHeroesThatRequire(equipment, true);
     }
 
+    /**
+     * Returns list of heroes that require the {@code equipment} at any point.<br />
+     * If the {@code or any other item that requires the {@code equipment} to
+     * be crafted.
+     *
+     * @param equipment
+     * @return list of heroes that require the {@code equipment} at any point -
+     *         or any other item that requires the {@code equipment} to be
+     *         crafted
+     */
+    /**
+     * * Returns list of heroes that require the {@code equipment} at any point.<br />
+     * If the {@code checkHigherItems} is true, it also returns the heroes that
+     * need other items that require the {@code equipment}.
+     * 
+     * @param equipment
+     * @param checkHigherItems
+     * @return Returns list of heroes that require the {@code equipment} at any
+     *         point
+     */
     public List<AbstractHero> getHeroesThatRequire(
             AbstractEquipment equipment, boolean checkHigherItems) {
 
