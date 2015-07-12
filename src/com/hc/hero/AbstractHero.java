@@ -112,7 +112,12 @@ public class AbstractHero {
 
     /**
      * Returns true if the hero requires the {@code equipment} in any of the
-     * {@code sets}.
+     * {@code sets}.<br />
+     * Note this method only searches the equipment the hero uses.<br />
+     * <br />
+     * For example, if one hero never requires <b>Demon Edge</b>, but does
+     * require <b>All Around Shoes</b>, which requires <b>Demon Edge</b> to be
+     * crafted, this method returns false.
      *
      * @param equipment
      * @param sets
@@ -122,11 +127,9 @@ public class AbstractHero {
     private boolean requires(AbstractEquipment equipment,
             List<String> sets) {
 
-        long count = sets
-                .stream()
-                .map(t -> getSet(t))
-                .filter(t -> t.isPresent()
-                        && t.get().contains(equipment)).count();
+        long count = sets.stream().map(t -> getSet(t))
+                .filter(Optional::isPresent).map(Optional::get)
+                .filter(t -> t.contains(equipment)).count();
         return count != 0;
     }
 
