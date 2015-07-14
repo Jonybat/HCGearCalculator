@@ -49,6 +49,22 @@
             <equipment name="Holy Garment"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--             <equipment name="?"/> -->
+            <equipment name="Firebolt Axe"/>
+            <equipment name="Titan's Axe"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Demon Garment"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--             <equipment name="?"/> -->
+            <equipment name="Immortal Flag"/>
+            <equipment name="Force of Gods"/>
+            <equipment name="Dragon Armor"/>
+            <equipment name="Crusade Sword"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Ancient Protector" stars="3">
         <set name="Purple">

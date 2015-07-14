@@ -16,9 +16,11 @@ public class GearSetNameConstants {
     public final static String SET_PURPLE_3 = "Purple+3";
     public final static String SET_PURPLE_4 = "Purple+4";
     public final static String SET_ORANGE = "Orange";
+    public final static String SET_ORANGE_1 = "Orange+1";
+    public final static String SET_ORANGE_2 = "Orange+2";
 
     public final static String LOWEST_SET = SET_PURPLE;
-    public final static String HIGHEST_SET = SET_ORANGE;
+    public final static String HIGHEST_SET = SET_ORANGE_2;
 
     // weights used to know if a set is higher or lower than another
     private static List<String> existingSets = new ArrayList<>();
@@ -30,6 +32,8 @@ public class GearSetNameConstants {
         existingSets.add(SET_PURPLE_3);
         existingSets.add(SET_PURPLE_4);
         existingSets.add(SET_ORANGE);
+        existingSets.add(SET_ORANGE_1);
+        existingSets.add(SET_ORANGE_2);
 
         existingSets.sort(new GearSetNameComparator());
     }
