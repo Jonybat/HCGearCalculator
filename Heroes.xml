@@ -1904,12 +1904,28 @@
             <equipment name="Star Sword"/>
         </set>
         <set name="Orange">
-            <equipment name="All Around Shoes"/>
-            <equipment name="Nedan's Tear"/>
-            <equipment name="Kreln Horn"/>
-            <equipment name="Angel's Sword"/>
-            <equipment name="Thunder Sword"/>
 <!--           <equipment name="?" /> -->
+            <equipment name="Thunder Sword"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Kreln Horn"/>
+            <equipment name="Nedan's Tear"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Firebolt Axe"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Earth Helm"/>
+            <equipment name="Demon's Arrow"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Crossed Swords"/>
+            <equipment name="Wind Dagger"/>
+            <equipment name="Ghost Spear"/>
+            <equipment name="Crusade Sword"/>
+            <equipment name="All Around Shoes"/>
         </set>
     </hero>
     <hero name="Old Curse" stars="2">
