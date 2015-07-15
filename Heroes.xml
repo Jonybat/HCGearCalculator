@@ -1963,6 +1963,22 @@
             <equipment name="Ball Lightning"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Nether Grudge"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Angel's Feather"/>
+            <equipment name="Demon Garment"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Armageddon Axe"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Flaming Orb"/>
+            <equipment name="Fiend Wills"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Pilot" stars="2">
         <set name="Purple">
