@@ -1441,6 +1441,22 @@
             <equipment name="Sol'sketh"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Burning Hammer"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Angel's Feather"/>
+            <equipment name="Wizard's Book"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Essence of Spirits"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Flaming Orb"/>
+            <equipment name="Holy Bible"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Iron Hoof" stars="3">
         <set name="Purple">
