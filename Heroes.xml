@@ -879,6 +879,22 @@
             <equipment name="Demon Edge"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--             <equipment name="?"/> -->
+            <equipment name="Firebolt Axe"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Demon Garment"/>
+            <equipment name="Demon's Arrow"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--             <equipment name="?"/> -->
+            <equipment name="Immortal Flag"/>
+            <equipment name="Force of Gods"/>
+            <equipment name="Dragon Armor"/>
+            <equipment name="Crusade Sword"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Ember Blade" stars="1">
         <set name="Purple">
