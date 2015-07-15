@@ -2321,6 +2321,22 @@
             <equipment name="Copper Cudgel"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+    <!--        <equipment name="?" /> -->
+            <equipment name="Wraith Dagger"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Kylin Blood"/>
+            <equipment name="Demon Garment"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+    <!--        <equipment name="?" /> -->
+            <equipment name="Crossed Swords"/>
+            <equipment name="Wind Dagger"/>
+            <equipment name="Ghost Spear"/>
+            <equipment name="Crusade Sword"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Psychic Sword" stars="2">
         <set name="Purple">
