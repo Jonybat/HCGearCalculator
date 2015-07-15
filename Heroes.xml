@@ -897,6 +897,22 @@
             <equipment name="Fanged Harp"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+    <!--         <equipment name="?"/> -->
+            <equipment name="Firebolt Axe"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Kylin Blood"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+    <!--         <equipment name="?"/> -->
+            <equipment name="Armageddon Axe"/>
+            <equipment name="Wind Dagger"/>
+            <equipment name="Ghost Spear"/>
+            <equipment name="Dragon Relic"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Emberstar" stars="1">
         <set name="Purple">
