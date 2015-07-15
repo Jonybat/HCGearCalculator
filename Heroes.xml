@@ -829,6 +829,22 @@
             <equipment name="Bloody Eye"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--             <equipment name="?"/> -->
+            <equipment name="Nether Grudge"/>
+            <equipment name="Angel's Feather"/>
+            <equipment name="Destruction Amulet"/>
+            <equipment name="Wizard's Book"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--             <equipment name="?"/> -->
+            <equipment name="Armageddon Axe"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Flaming Orb"/>
+            <equipment name="Fiend Wills"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Drunken Master" stars="3">
         <set name="Purple">
