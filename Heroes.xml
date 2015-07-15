@@ -2605,6 +2605,22 @@
             <equipment name="Silver Lance"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Wraith Dagger"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Demon's Arrow"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Crossed Swords"/>
+            <equipment name="Wind Dagger"/>
+            <equipment name="Dragon Armor"/>
+            <equipment name="Crusade Sword"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Shallows Keeper" stars="3">
         <set name="Purple">
