@@ -481,6 +481,22 @@
             <equipment name="Bloody Eye"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--             <equipment name="?"/> -->
+            <equipment name="Firebolt Axe"/>
+            <equipment name="Void Crystal"/>
+            <equipment name="Kylin Blood"/>
+            <equipment name="Demon's Arrow"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--             <equipment name="?"/> -->
+            <equipment name="Armageddon Axe"/>
+            <equipment name="Wind Dagger"/>
+            <equipment name="Flaming Orb"/>
+            <equipment name="Holy Bible"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Death Bringer" stars="3">
         <set name="Purple">
