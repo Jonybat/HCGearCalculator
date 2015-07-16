@@ -165,6 +165,22 @@
             <equipment name="Demon's Arrow"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--             <equipment name="?"/> -->
+            <equipment name="Firebolt Axe"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Kylin Blood"/>
+            <equipment name="Demon's Arrow"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--             <equipment name="?"/> -->
+            <equipment name="Immortal Flag"/>
+            <equipment name="Wind Dagger"/>
+            <equipment name="Ghost Spear"/>
+            <equipment name="Crusade Sword"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Bear Warrior" stars="3">
         <set name="Purple">
@@ -315,6 +331,22 @@
             <equipment name="Bloody Eye"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+    <!--         <equipment name="?"/> -->
+            <equipment name="Burning Hammer"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Angel's Feather"/>
+            <equipment name="Holy Seed"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+    <!--         <equipment name="?"/> -->
+            <equipment name="Essence of Spirits"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Underworld Book"/>
+            <equipment name="Fiend Wills"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Cleric" stars="1">
         <set name="Purple">
@@ -363,6 +395,22 @@
             <equipment name="Shadow Book"/>
             <equipment name="Holy Garment"/>
             <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+1">
+<!--             <equipment name="?"/> -->
+            <equipment name="Force of Protection"/>
+            <equipment name="Titan's Axe"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Holy Bible"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--             <equipment name="?"/> -->
+            <equipment name="Lucifer's Wings"/>
+            <equipment name="Force of Gods"/>
+            <equipment name="Dragon Armor"/>
+            <equipment name="Dragon Relic"/>
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
@@ -465,6 +513,22 @@
             <equipment name="Bloody Eye"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--             <equipment name="?"/> -->
+            <equipment name="Firebolt Axe"/>
+            <equipment name="Void Crystal"/>
+            <equipment name="Kylin Blood"/>
+            <equipment name="Demon's Arrow"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--             <equipment name="?"/> -->
+            <equipment name="Armageddon Axe"/>
+            <equipment name="Wind Dagger"/>
+            <equipment name="Flaming Orb"/>
+            <equipment name="Holy Bible"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Death Bringer" stars="3">
         <set name="Purple">
@@ -565,6 +629,22 @@
             <equipment name="Eternal Icicle"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--             <equipment name="?"/> -->
+            <equipment name="Force of Protection"/>
+            <equipment name="Titan's Axe"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Earth Helm"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--             <equipment name="?"/> -->
+            <equipment name="Lucifer's Wings"/>
+            <equipment name="Force of Gods"/>
+            <equipment name="Dragon Armor"/>
+            <equipment name="Dragon Relic"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Death Mage" stars="2">
         <set name="Purple">
@@ -613,6 +693,22 @@
             <equipment name="Destruction Amulet"/>
             <equipment name="Queen's Dress"/>
             <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+1">
+<!--             <equipment name="?"/> -->
+            <equipment name="Nether Grudge"/>
+            <equipment name="Holy Bible"/>
+            <equipment name="Demon Garment"/>
+            <equipment name="Wizard's Book"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--             <equipment name="?"/> -->
+            <equipment name="Essence of Spirits"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Flaming Orb"/>
+            <equipment name="Dragon Relic"/>
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
@@ -765,6 +861,22 @@
             <equipment name="Bloody Eye"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--             <equipment name="?"/> -->
+            <equipment name="Nether Grudge"/>
+            <equipment name="Angel's Feather"/>
+            <equipment name="Destruction Amulet"/>
+            <equipment name="Wizard's Book"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--             <equipment name="?"/> -->
+            <equipment name="Armageddon Axe"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Flaming Orb"/>
+            <equipment name="Fiend Wills"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Drunken Master" stars="3">
         <set name="Purple">
@@ -813,6 +925,22 @@
             <equipment name="Angel's Sword"/>
             <equipment name="Ball Lightning"/>
             <equipment name="Demon Edge"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+1">
+<!--             <equipment name="?"/> -->
+            <equipment name="Firebolt Axe"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Demon Garment"/>
+            <equipment name="Demon's Arrow"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--             <equipment name="?"/> -->
+            <equipment name="Immortal Flag"/>
+            <equipment name="Force of Gods"/>
+            <equipment name="Dragon Armor"/>
+            <equipment name="Crusade Sword"/>
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
@@ -865,6 +993,22 @@
             <equipment name="Fanged Harp"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+    <!--         <equipment name="?"/> -->
+            <equipment name="Firebolt Axe"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Kylin Blood"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+    <!--         <equipment name="?"/> -->
+            <equipment name="Armageddon Axe"/>
+            <equipment name="Wind Dagger"/>
+            <equipment name="Ghost Spear"/>
+            <equipment name="Dragon Relic"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Emberstar" stars="1">
         <set name="Purple">
@@ -913,6 +1057,22 @@
             <equipment name="Queen's Dress"/>
             <equipment name="Void Crystal"/>
             <equipment name="Ice Staff"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Nether Grudge"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Angel's Feather"/>
+            <equipment name="Destruction Amulet"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Essence of Spirits"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Flaming Orb"/>
+            <equipment name="Fiend Wills"/>
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
@@ -1115,6 +1275,22 @@
             <equipment name="Ball Lightning"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Burning Hammer"/>
+            <equipment name="Shadow Book"/>
+            <equipment name="Holy Bible"/>
+            <equipment name="Earth Helm"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Lucifer's Wings"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Underworld Book"/>
+            <equipment name="Fiend Wills"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Hidden Needle" stars="3">
         <set name="Purple">
@@ -1263,6 +1439,22 @@
             <equipment name="Emerald Fork"/>
             <equipment name="Ice Staff"/>
             <equipment name="Sol'sketh"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Burning Hammer"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Angel's Feather"/>
+            <equipment name="Wizard's Book"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Essence of Spirits"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Flaming Orb"/>
+            <equipment name="Holy Bible"/>
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
@@ -1415,6 +1607,22 @@
             <equipment name="Ice Staff"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Nether Grudge"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Angel's Feather"/>
+            <equipment name="Demon Garment"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Essence of Spirits"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Flaming Orb"/>
+            <equipment name="Dragon Relic"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Lightning Spirit" stars="1">
         <set name="Purple">
@@ -1563,6 +1771,22 @@
             <equipment name="Queen's Dress"/>
             <equipment name="Ball Lightning"/>
             <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Nether Grudge"/>
+            <equipment name="Angel's Feather"/>
+            <equipment name="Shadow Book"/>
+            <equipment name="Holy Bible"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Essence of Spirits"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Underworld Book"/>
+            <equipment name="Dragon Relic"/>
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
@@ -1715,6 +1939,22 @@
             <equipment name="Ice Staff"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Burning Hammer"/>
+            <equipment name="Angel's Feather"/>
+            <equipment name="Holy Bible"/>
+            <equipment name="Wizard's Book"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Armageddon Axe"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Flaming Orb"/>
+            <equipment name="Fiend Wills"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Necromancer" stars="2">
         <set name="Purple">
@@ -1808,12 +2048,28 @@
             <equipment name="Star Sword"/>
         </set>
         <set name="Orange">
-            <equipment name="All Around Shoes"/>
-            <equipment name="Nedan's Tear"/>
-            <equipment name="Kreln Horn"/>
-            <equipment name="Angel's Sword"/>
-            <equipment name="Thunder Sword"/>
 <!--           <equipment name="?" /> -->
+            <equipment name="Thunder Sword"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Kreln Horn"/>
+            <equipment name="Nedan's Tear"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Firebolt Axe"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Earth Helm"/>
+            <equipment name="Demon's Arrow"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Crossed Swords"/>
+            <equipment name="Wind Dagger"/>
+            <equipment name="Ghost Spear"/>
+            <equipment name="Crusade Sword"/>
+            <equipment name="All Around Shoes"/>
         </set>
     </hero>
     <hero name="Old Curse" stars="2">
@@ -1865,6 +2121,22 @@
             <equipment name="Ball Lightning"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Nether Grudge"/>
+            <equipment name="Shadow Book"/>
+            <equipment name="Holy Bible"/>
+            <equipment name="Wizard's Book"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Armageddon Axe"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Flaming Orb"/>
+            <equipment name="Fiend Wills"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Phoenix" stars="1">
         <set name="Purple">
@@ -1913,6 +2185,22 @@
             <equipment name="Wizard's Hat"/>
             <equipment name="Eternal Icicle"/>
             <equipment name="Ball Lightning"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Nether Grudge"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Angel's Feather"/>
+            <equipment name="Demon Garment"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Armageddon Axe"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Flaming Orb"/>
+            <equipment name="Fiend Wills"/>
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
@@ -2065,6 +2353,22 @@
             <equipment name="Copper Cudgel"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+    <!--        <equipment name="?" /> -->
+            <equipment name="Wraith Dagger"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Kylin Blood"/>
+            <equipment name="Demon Garment"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+    <!--        <equipment name="?" /> -->
+            <equipment name="Crossed Swords"/>
+            <equipment name="Wind Dagger"/>
+            <equipment name="Ghost Spear"/>
+            <equipment name="Crusade Sword"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Psychic Sword" stars="2">
         <set name="Purple">
@@ -2163,6 +2467,22 @@
             <equipment name="Bag of Holding"/>
             <equipment name="Ball Lightning"/>
             <equipment name="Emerald Pendant"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Nether Grudge"/>
+            <equipment name="Titan's Axe"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Earth Helm"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Lucifer's Wings"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Flaming Orb"/>
+            <equipment name="Dragon Relic"/>
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
@@ -2365,6 +2685,22 @@
             <equipment name="Silver Lance"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Wraith Dagger"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Demon's Arrow"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Crossed Swords"/>
+            <equipment name="Wind Dagger"/>
+            <equipment name="Dragon Armor"/>
+            <equipment name="Crusade Sword"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Shallows Keeper" stars="3">
         <set name="Purple">
@@ -2413,6 +2749,22 @@
             <equipment name="Raven's Beak"/>
             <equipment name="Ball Lightning"/>
             <equipment name="Bloody Eye"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Force of Protection"/>
+            <equipment name="Titan's Axe"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Demon Garment"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Spectre Note"/>
+            <equipment name="Force of Gods"/>
+            <equipment name="Dragon Armor"/>
+            <equipment name="Crusade Sword"/>
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
@@ -2765,6 +3117,22 @@
             <equipment name="Demon Edge"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Firebolt Axe"/>
+            <equipment name="Titan's Axe"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Kylin Blood"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Immortal Flag"/>
+            <equipment name="Force of Gods"/>
+            <equipment name="Ghost Spear"/>
+            <equipment name="Crusade Sword"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Vengeance Spirit" stars="3">
         <set name="Purple">
@@ -2913,6 +3281,22 @@
             <equipment name="Kreln Horn"/>
             <equipment name="Holy Garment"/>
             <equipment name="Ball Lightning"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Firebolt Axe"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Demon Garment"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Spectre Note"/>
+            <equipment name="Force of Gods"/>
+            <equipment name="Dragon Armor"/>
+            <equipment name="Crusade Sword"/>
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
