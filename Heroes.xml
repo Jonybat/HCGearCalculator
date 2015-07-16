@@ -1273,6 +1273,22 @@
             <equipment name="Ball Lightning"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Nether Grudge"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Demon Garment"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Essence of Spirits"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Flaming Orb"/>
+            <equipment name="Dragon Relic"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Frost Mage" stars="2">
         <set name="Purple">
