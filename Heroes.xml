@@ -1407,6 +1407,22 @@
             <equipment name="Ice Staff"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Burning Hammer"/>
+            <equipment name="Destruction Amulet"/>
+            <equipment name="Holy Bible"/>
+            <equipment name="Demon Garment"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Lucifer's Wings"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Underworld Book"/>
+            <equipment name="Fiend Wills"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Imperial Executioner" stars="2">
         <set name="Purple">
