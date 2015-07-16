@@ -2615,6 +2615,22 @@
             <equipment name="Bloody Eye"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Wraith Dagger"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Kylin Blood"/>
+            <equipment name="Holy Bible"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Crossed Swords"/>
+            <equipment name="Wind Dagger"/>
+            <equipment name="Ghost Spear"/>
+            <equipment name="Dragon Relic"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Savage One" stars="2">
         <set name="Purple">
