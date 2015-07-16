@@ -1985,6 +1985,22 @@
             <equipment name="Demon Edge"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Force of Protection"/>
+            <equipment name="Titan's Axe"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Earth Helm"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Spectre Note"/>
+            <equipment name="Force of Gods"/>
+            <equipment name="Dragon Armor"/>
+            <equipment name="Crusade Sword"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Mystic" stars="1">
         <set name="Purple">
