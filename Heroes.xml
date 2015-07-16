@@ -3525,6 +3525,22 @@
             <equipment name="Demon's Arrow"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Nether Grudge"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Holy Bible"/>
+            <equipment name="Wizard's Book"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Immortal Flag"/>
+            <equipment name="Force of Gods"/>
+            <equipment name="Flaming Orb"/>
+            <equipment name="Fiend Wills"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Wind Master" stars="3">
         <set name="Purple">
