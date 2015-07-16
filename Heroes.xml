@@ -115,6 +115,22 @@
             <equipment name="Ball Lightning"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--             <equipment name="?"/> -->
+            <equipment name="Force of Protection"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Destruction Amulet"/>
+            <equipment name="Eternal Icicle"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--             <equipment name="?"/> -->
+            <equipment name="Spectre Note"/>
+            <equipment name="Force of Gods"/>
+            <equipment name="Dragon Armor"/>
+            <equipment name="Earth Helm"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Arcane Sapper" stars="1">
         <set name="Purple">
