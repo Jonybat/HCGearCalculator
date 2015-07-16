@@ -1771,6 +1771,22 @@
             <equipment name="Demon Edge"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Wraith Dagger"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Kylin Blood"/>
+            <equipment name="Demon's Arrow"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Immortal Flag"/>
+            <equipment name="Wind Dagger"/>
+            <equipment name="Dragon Armor"/>
+            <equipment name="Crusade Sword"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Machinist" stars="1">
         <set name="Purple">
