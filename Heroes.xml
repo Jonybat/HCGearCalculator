@@ -3061,6 +3061,22 @@
             <equipment name="Ice Staff"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Nether Grudge"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Earth Helm"/>
+            <equipment name="Wizard's Book"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Lucifer's Wings"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Flaming Orb"/>
+            <equipment name="Dragon Relic"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Succubus" stars="3">
         <set name="Purple">
