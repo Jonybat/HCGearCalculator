@@ -10,6 +10,7 @@ import com.hc.gear.AbstractEquipment;
 import com.hc.gear.GenericEquipment;
 import com.hc.hero.AbstractHero;
 import com.hc.hero.AbstractHeroNameComparator;
+import com.hc.hero.GearSet;
 import com.hc.hero.GenericHero;
 
 public class HCGearCalculator {
@@ -110,11 +111,13 @@ public class HCGearCalculator {
     }
 
     /**
-     * * Returns list of heroes that require the {@code equipment} at any point.<br />
+     * Returns list of heroes that require the {@code equipment} at any point.<br />
      *
      * @param equipment
      * @return Returns list of heroes that require the {@code equipment} at any
      *         point
+     *
+     * @see AbstractHero#requires(AbstractEquipment)
      */
     public List<AbstractHero> getHeroesThatRequire(
             AbstractEquipment equipment) {
@@ -126,6 +129,64 @@ public class HCGearCalculator {
         List<AbstractHero> list = heroes.values().stream()
                 .filter(hero -> hero.requires(equipment))
                 .collect(Collectors.toList());
+        list.sort(new AbstractHeroNameComparator());
+        return list;
+    }
+
+    /**
+     * * Returns list of heroes that require the {@code equipment} between the
+     * {@code gearSet1} and the {@code gearSet2}.<br />
+     *
+     * @param equipment
+     * @param gearSet1
+     * @param gearSet2
+     * @return Returns list of heroes that require the {@code equipment} between
+     *         the {@code gearSet1} and the {@code gearSet2}.
+     *
+     * @see AbstractHero#requires(AbstractEquipment, GearSet, GearSet)
+     */
+    public List<AbstractHero> getHeroesThatRequire(
+            AbstractEquipment equipment, GearSet gearSet1,
+            GearSet gearSet2) {
+
+        if (equipment == null) {
+            return new ArrayList<>();
+        }
+
+        List<AbstractHero> list = heroes
+                .values()
+                .stream()
+                .filter(hero -> hero.requires(equipment, gearSet1,
+                        gearSet2)).collect(Collectors.toList());
+        list.sort(new AbstractHeroNameComparator());
+        return list;
+    }
+
+    /**
+     * * Returns list of heroes that require the {@code equipment} between the
+     * {@code set1Name} and the {@code set2Name}.<br />
+     *
+     * @param equipment
+     * @param set1Name
+     * @param set2Name
+     * @return Returns list of heroes that require the {@code equipment} between
+     *         the {@code set1Name} and the {@code set2Name}.
+     *
+     * @see AbstractHero#requires(AbstractEquipment, String, String)
+     */
+    public List<AbstractHero> getHeroesThatRequire(
+            AbstractEquipment equipment, String set1Name,
+            String set2Name) {
+
+        if (equipment == null) {
+            return new ArrayList<>();
+        }
+
+        List<AbstractHero> list = heroes
+                .values()
+                .stream()
+                .filter(hero -> hero.requires(equipment, set1Name,
+                        set2Name)).collect(Collectors.toList());
         list.sort(new AbstractHeroNameComparator());
         return list;
     }
@@ -147,6 +208,64 @@ public class HCGearCalculator {
         List<AbstractHero> list = heroes.values().stream()
                 .filter(hero -> hero.equips(equipment))
                 .collect(Collectors.toList());
+        list.sort(new AbstractHeroNameComparator());
+        return list;
+    }
+
+    /**
+     * * Returns list of heroes that equip the {@code equipment} between the
+     * {@code gearSet1} and the {@code gearSet2}.<br />
+     *
+     * @param equipment
+     * @param gearSet1
+     * @param gearSet2
+     * @return Returns list of heroes that equip the {@code equipment} between
+     *         the {@code gearSet1} and the {@code gearSet2}
+     *
+     * @see AbstractHero#equips(AbstractEquipment, GearSet, GearSet)
+     */
+    public List<AbstractHero> getHeroesThatEquip(
+            AbstractEquipment equipment, GearSet gearSet1,
+            GearSet gearSet2) {
+
+        if (equipment == null) {
+            return new ArrayList<>();
+        }
+
+        List<AbstractHero> list = heroes
+                .values()
+                .stream()
+                .filter(hero -> hero.equips(equipment, gearSet1,
+                        gearSet2)).collect(Collectors.toList());
+        list.sort(new AbstractHeroNameComparator());
+        return list;
+    }
+
+    /**
+     * * Returns list of heroes that equip the {@code equipment} between the
+     * {@code set1Name} and the {@code set2Name}.<br />
+     *
+     * @param equipment
+     * @param set1Name
+     * @param set2Name
+     * @return Returns list of heroes that equip the {@code equipment} between
+     *         the {@code set1Name} and the {@code set2Name}
+     *
+     * @see AbstractHero#equips(AbstractEquipment, String, String)
+     */
+    public List<AbstractHero> getHeroesThatEquip(
+            AbstractEquipment equipment, String set1Name,
+            String set2Name) {
+
+        if (equipment == null) {
+            return new ArrayList<>();
+        }
+
+        List<AbstractHero> list = heroes
+                .values()
+                .stream()
+                .filter(hero -> hero.equips(equipment, set1Name,
+                        set2Name)).collect(Collectors.toList());
         list.sort(new AbstractHeroNameComparator());
         return list;
     }

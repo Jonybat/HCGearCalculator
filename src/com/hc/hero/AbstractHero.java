@@ -31,13 +31,49 @@ public interface AbstractHero {
      * Returns true if this hero ever equips the {@code equipment}.<br />
      *
      * @param equipment
-     * @return Returns true if this hero ever requires the {@code equipment}
+     * @return Returns true if this hero ever equips the {@code equipment}
      */
     boolean equips(AbstractEquipment equipment);
 
+    /**
+     * Returns true if this hero requires the {@code equipment} between the
+     * {@code gearSet1} and the {@code gearSet2}.<br />
+     * <br />
+     * If the {@code gearSet1} is null, it is considered to be the lowest
+     * possible set.<br />
+     * If the {@code gearSet2} is null, it is considered to be the highest
+     * possible set.<br />
+     * If both {@code gearSet1} and {@code gearSet2} are null, returns true if
+     * the hero ever requires the {@code equipment}. <br />
+     * <br />
+     *
+     * @param equipment
+     * @param gearSet1
+     * @param gearSet2
+     * @return true if this hero requires the {@code equipment} between the
+     *         {@code gearSet1} and the {@code gearSet2}
+     */
     boolean requires(AbstractEquipment equipment, GearSet gearSet1,
             GearSet gearSet2);
 
+    /**
+     * Returns true if this hero equips the {@code equipment} between the
+     * {@code gearSet1} and the {@code gearSet2}.<br />
+     * <br />
+     * If the {@code gearSet1} is null, it is considered to be the lowest
+     * possible set.<br />
+     * If the {@code gearSet2} is null, it is considered to be the highest
+     * possible set.<br />
+     * If both {@code gearSet1} and {@code gearSet2} are null, returns true if
+     * the hero ever requires the {@code equipment}. <br />
+     * <br />
+     *
+     * @param equipment
+     * @param gearSet1
+     * @param gearSet2
+     * @return true if this hero equips the {@code equipment} between the
+     *         {@code gearSet1} and the {@code gearSet2}
+     */
     boolean equips(AbstractEquipment equipment, GearSet gearSet1,
             GearSet gearSet2);
 
@@ -71,13 +107,13 @@ public interface AbstractHero {
      * If the {@code set2Name} is null, it is considered to be the highest
      * possible set.<br />
      * If both {@code set1Name} and {@code set2Name} are null, returns true if
-     * the hero ever requires the {@code equipment}. <br />
+     * the hero ever equips the {@code equipment}. <br />
      * <br />
      *
      * @param equipment
      * @param set1Name
      * @param set2Name
-     * @return true if this hero requires the {@code equipment} between the
+     * @return true if this hero equips the {@code equipment} between the
      *         {@code set1Name} and the {@code set2Name}
      */
     boolean equips(AbstractEquipment equipment, String set1Name,

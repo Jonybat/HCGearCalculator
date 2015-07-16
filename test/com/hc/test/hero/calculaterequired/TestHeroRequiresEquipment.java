@@ -136,7 +136,8 @@ public class TestHeroRequiresEquipment extends AbstractHeroTest {
     @Test
     public void testGetHeroesThat_Require_YewBoltThrower_FilterSets_P2_Orange() {
         List<AbstractHero> heroes = HCGearCalculator.getInstance()
-                .getHeroesThatRequire(yewBoltThrower);
+                .getHeroesThatRequire(yewBoltThrower, SET_PURPLE,
+                        SET_ORANGE);
 
         AbstractHero[] expectedHeroesArray = new AbstractHero[] {
                 admiral, ancientProtector, arcaneSapper, commando,
