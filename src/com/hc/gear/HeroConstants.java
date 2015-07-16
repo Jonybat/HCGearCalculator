@@ -20,6 +20,7 @@ public class HeroConstants {
     public final static String DEPTHS_VOICE = "Depths Voice";
     public final static String DISEASE_BRINGER = "Disease Bringer";
     public final static String DRUNKEN_MASTER = "Drunken Master";
+    public final static String DWARF_WARRIOR = "Dwarf Warrior";
     public final static String EMBER_BLADE = "Ember Blade";
     public final static String EMBERSTAR = "Emberstar";
     public final static String FALLEN_DOMINION = "Fallen Dominion";

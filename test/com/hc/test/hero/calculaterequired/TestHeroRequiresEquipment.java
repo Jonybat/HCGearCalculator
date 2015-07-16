@@ -141,13 +141,13 @@ public class TestHeroRequiresEquipment extends AbstractHeroTest {
 
         AbstractHero[] expectedHeroesArray = new AbstractHero[] {
                 admiral, ancientProtector, arcaneSapper, commando,
-                deathgore, depthsVoice, drunkenMaster, emberBlade,
-                ferryman, hiddenNeedle, ironHoof, lightningElemental,
-                lunarGuardian, mountain, ninjaAssassin, pilot,
-                poisonedOne, professionalKiller, psychicSword,
-                rifleman, savageOne, shadowleaf, sniper, tuskedStorm,
-                vanguardWarrior, vengeanceSpirit, wanderingSpearman,
-                warriorMonk, windMaster };
+                deathgore, depthsVoice, drunkenMaster, dwarfWarrior,
+                emberBlade, ferryman, hiddenNeedle, ironHoof,
+                lightningElemental, lunarGuardian, mountain,
+                ninjaAssassin, pilot, poisonedOne, professionalKiller,
+                psychicSword, rifleman, savageOne, shadowleaf, sniper,
+                tuskedStorm, vanguardWarrior, vengeanceSpirit,
+                wanderingSpearman, warriorMonk, windMaster };
         List<AbstractHero> expectedHeroes = Arrays
                 .asList(expectedHeroesArray);
 

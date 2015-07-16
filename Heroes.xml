@@ -976,6 +976,72 @@
             <equipment name="All Around Shoes"/>
         </set>
     </hero>
+    <hero name="Dwarf Warrior" stars="1">
+        <set name="Purple">
+            <equipment name="Ball Lightning"/>
+            <equipment name="Bloody Eye"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Nedan's Tear"/>
+            <equipment name="Fireseed"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+1">
+            <equipment name="Moonglow"/>
+            <equipment name="Pipe"/>
+            <equipment name="Chest Plate"/>
+            <equipment name="Jammer Grips"/>
+            <equipment name="Wrist of Boaz"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+2">
+            <equipment name="Kreln Horn"/>
+            <equipment name="Staff of Rawlis"/>
+            <equipment name="Dragon Glass"/>
+            <equipment name="Moon of Lulithan"/>
+            <equipment name="Death Kite"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+3">
+            <equipment name="Moonglow"/>
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Heaven's Halberd"/>
+            <equipment name="Pale Gazer"/>
+            <equipment name="Blade Mail"/>
+            <equipment name="Hazad'ar Boots"/>
+        </set>
+        <set name="Purple+4">
+            <equipment name="Crusade Shield"/>
+            <equipment name="Titan's Axe"/>
+            <equipment name="Yew Bolt Thrower"/>
+            <equipment name="Moonglow"/>
+            <equipment name="Pipe"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange">
+<!--             <equipment name="?"/> -->
+            <equipment name="Immortal Guardian"/>
+            <equipment name="Gullak Aertahn"/>
+            <equipment name="Ball Lightning"/>
+            <equipment name="Nedan Bone Chest"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+1">
+<!--             <equipment name="?"/> -->
+            <equipment name="Force of Protection"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Shadow Book"/>
+            <equipment name="Demon Garment"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--             <equipment name="?"/> -->
+            <equipment name="Spectre Note"/>
+            <equipment name="Force of Gods"/>
+            <equipment name="Demon Garment"/>
+            <equipment name="Crusade Sword"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+    </hero>
     <hero name="Ember Blade" stars="1">
         <set name="Purple">
             <equipment name="Copper Cudgel"/>

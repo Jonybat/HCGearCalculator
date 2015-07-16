@@ -9,6 +9,7 @@ import static com.hc.gear.HeroConstants.COMMANDO;
 import static com.hc.gear.HeroConstants.DEATHGORE;
 import static com.hc.gear.HeroConstants.DEPTHS_VOICE;
 import static com.hc.gear.HeroConstants.DRUNKEN_MASTER;
+import static com.hc.gear.HeroConstants.DWARF_WARRIOR;
 import static com.hc.gear.HeroConstants.EMBER_BLADE;
 import static com.hc.gear.HeroConstants.FERRYMAN;
 import static com.hc.gear.HeroConstants.HIDDEN_NEEDLE;
@@ -51,6 +52,7 @@ public class AbstractHeroTest extends AbstractEquipmentTest {
     protected final AbstractHero deathgore;
     protected final AbstractHero depthsVoice;
     protected final AbstractHero drunkenMaster;
+    protected final AbstractHero dwarfWarrior;
     protected final AbstractHero emberBlade;
     protected final AbstractHero ferryman;
     protected final AbstractHero hiddenNeedle;
@@ -86,6 +88,7 @@ public class AbstractHeroTest extends AbstractEquipmentTest {
         deathgore = getHeroes().get(DEATHGORE);
         depthsVoice = getHeroes().get(DEPTHS_VOICE);
         drunkenMaster = getHeroes().get(DRUNKEN_MASTER);
+        dwarfWarrior = getHeroes().get(DWARF_WARRIOR);
         emberBlade = getHeroes().get(EMBER_BLADE);
         ferryman = getHeroes().get(FERRYMAN);
         hiddenNeedle = getHeroes().get(HIDDEN_NEEDLE);
