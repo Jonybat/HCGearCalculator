@@ -2899,6 +2899,22 @@
             <equipment name="Demon Edge"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Wraith Dagger"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Kylin Blood"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Crossed Swords"/>
+            <equipment name="Wind Dagger"/>
+            <equipment name="Ghost Spear"/>
+            <equipment name="Dragon Relic"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Soulhunter" stars="3">
         <set name="Purple">
