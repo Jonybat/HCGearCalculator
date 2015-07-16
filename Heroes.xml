@@ -1605,6 +1605,22 @@
             <equipment name="Stainless Axe"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Force of Protection"/>
+            <equipment name="Eagle Ring"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Earth Helm"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Immortal Flag"/>
+            <equipment name="Wind Dagger"/>
+            <equipment name="Dragon Armor"/>
+            <equipment name="Dragon Relic"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Lightning Master" stars="1">
         <set name="Purple">
