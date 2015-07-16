@@ -1175,6 +1175,22 @@
             <equipment name="Corgieran Glaive"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+    <!--        <equipment name="?" /> -->
+            <equipment name="Firebolt Axe"/>
+            <equipment name="Earth Guardian"/>
+            <equipment name="Angel's Sword"/>
+            <equipment name="Earth Helm"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+    <!--        <equipment name="?" /> -->
+            <equipment name="Spectre Note"/>
+            <equipment name="Wind Dagger"/>
+            <equipment name="Ghost Spear"/>
+            <equipment name="Dragon Relic"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Forest Guardian" stars="1">
         <set name="Purple">
