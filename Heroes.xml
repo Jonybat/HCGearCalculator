@@ -3591,5 +3591,21 @@
             <equipment name="Queen's Dress"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Burning Hammer"/>
+            <equipment name="Void Crystal"/>
+            <equipment name="Holy Bible"/>
+            <equipment name="Kylin Blood"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Essence of Spirits"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Underworld Book"/>
+            <equipment name="Fiend Wills"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
 </heroes>
