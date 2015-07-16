@@ -2929,6 +2929,22 @@
             <equipment name="Eternal Icicle"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Nether Grudge"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Angel's Feather"/>
+            <equipment name="Wizard's Book"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Armageddon Axe"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Fiend Wills"/>
+            <equipment name="Dragon Relic"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Sniper" stars="1">
         <set name="Purple">
