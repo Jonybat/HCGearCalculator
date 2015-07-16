@@ -1737,6 +1737,22 @@
             <equipment name="Queen's Dress"/>
             <equipment name="All Around Shoes"/>
         </set>
+        <set name="Orange+1">
+<!--           <equipment name="?" /> -->
+            <equipment name="Burning Hammer"/>
+            <equipment name="Crystal Ball"/>
+            <equipment name="Angel's Feather"/>
+            <equipment name="Holy Bible"/>
+            <equipment name="All Around Shoes"/>
+        </set>
+        <set name="Orange+2">
+<!--           <equipment name="?" /> -->
+            <equipment name="Essence of Spirits"/>
+            <equipment name="Ancient Rune"/>
+            <equipment name="Underworld Book"/>
+            <equipment name="Fiend Wills"/>
+            <equipment name="All Around Shoes"/>
+        </set>
     </hero>
     <hero name="Lunar Guardian" stars="3">
         <set name="Purple">
