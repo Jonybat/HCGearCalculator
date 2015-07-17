@@ -155,4 +155,34 @@ public class TestHeroRequiresEquipment extends AbstractHeroTest {
         assertEquals(expectedHeroes.size(), heroes.size());
     }
 
+    /**
+     * Tests which heroes require Raven's Beak at any point
+     *
+     */
+    @Test
+    public void testGetHeroesThat_Require_RavensBeak() {
+
+        // Earth Hammer requires Raven's Beak to be crafted
+        List<AbstractHero> heroes = HCGearCalculator.getInstance()
+                .getHeroesThatRequire(ravensBeak);
+
+        AbstractHero[] expectedHeroesArray = new AbstractHero[] {
+                arcaneSapper, bearWarrior, cloudWalker, depthsVoice,
+                drunkenMaster, emberBlade, fallenDominion, ferryman,
+                hiddenNeedle, ninjaAssassin, pilot, poisonedOne,
+                professionalKiller, shallowsKeeper, swordmaster,
+                tuskedStorm, vanguardWarrior, wanderingSpearman,
+                warChief, windMaster,
+
+                // Fallen Dominion, Pilot, Rifleman, Swordmaster and Vengeance
+                // Spirit use Earth Hammer
+                rifleman, vengeanceSpirit };
+
+        List<AbstractHero> expectedHeroes = Arrays
+                .asList(expectedHeroesArray);
+
+        assertTrue(heroes.containsAll(expectedHeroes));
+        assertEquals(expectedHeroes.size(), heroes.size());
+    }
+
 }
