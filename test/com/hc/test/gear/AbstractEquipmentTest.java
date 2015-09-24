@@ -12,6 +12,7 @@ import static com.hc.gear.EquipmentConstants.DEMON_EDGE;
 import static com.hc.gear.EquipmentConstants.DIRKS_OF_CICERO;
 import static com.hc.gear.EquipmentConstants.DRAGONS_SCALE;
 import static com.hc.gear.EquipmentConstants.DRAGON_GLASS;
+import static com.hc.gear.EquipmentConstants.EARTH_HAMMER;
 import static com.hc.gear.EquipmentConstants.EMERALD_PENDANT;
 import static com.hc.gear.EquipmentConstants.EMERALD_RING;
 import static com.hc.gear.EquipmentConstants.EULS_SCEPTER_OF_DIVINITY;
@@ -31,6 +32,7 @@ import static com.hc.gear.EquipmentConstants.MOONGLOW;
 import static com.hc.gear.EquipmentConstants.MOON_OF_LULITHAN;
 import static com.hc.gear.EquipmentConstants.PALE_GAZER;
 import static com.hc.gear.EquipmentConstants.PIPE;
+import static com.hc.gear.EquipmentConstants.RAVENS_BEAK;
 import static com.hc.gear.EquipmentConstants.ROUGH_HEWN_AXE_FRAGMENT;
 import static com.hc.gear.EquipmentConstants.SANADORIAN_WARDEN_HELM;
 import static com.hc.gear.EquipmentConstants.SILVER_LANCE_FRAGMENT;
@@ -94,6 +96,7 @@ public class AbstractEquipmentTest {
     protected final AbstractEquipment gullakAertahn;
     protected final AbstractEquipment kelossianCrusher;
     protected final AbstractEquipment crusadeShield;
+    protected final AbstractEquipment ravensBeak;
     protected final AbstractEquipment titansAxe;
     protected final AbstractEquipment thunderSword;
     protected final AbstractEquipment emeraldRing;
@@ -107,6 +110,7 @@ public class AbstractEquipmentTest {
     protected final AbstractEquipment demonEdge;
     protected final AbstractEquipment copperCudgel;
     protected final AbstractEquipment eulsScepterOfDivinity;
+    protected final AbstractEquipment earthHammer;
 
     public AbstractEquipmentTest() {
         gear = getGearParser().gear();
@@ -154,6 +158,8 @@ public class AbstractEquipmentTest {
         bagOfHolding = gear.get(BAG_OF_HOLDING);
         demonEdge = gear.get(DEMON_EDGE);
         copperCudgel = gear.get(COPPER_CUDGEL);
+        ravensBeak = gear.get(RAVENS_BEAK);
+        earthHammer = gear.get(EARTH_HAMMER);
     }
 
     private GearXMLParser getGearParser() {

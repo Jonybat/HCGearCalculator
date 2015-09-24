@@ -136,17 +136,48 @@ public class TestHeroRequiresEquipment extends AbstractHeroTest {
     @Test
     public void testGetHeroesThat_Require_YewBoltThrower_FilterSets_P2_Orange() {
         List<AbstractHero> heroes = HCGearCalculator.getInstance()
-                .getHeroesThatRequire(yewBoltThrower);
+                .getHeroesThatRequire(yewBoltThrower, SET_PURPLE,
+                        SET_ORANGE);
 
         AbstractHero[] expectedHeroesArray = new AbstractHero[] {
                 admiral, ancientProtector, arcaneSapper, commando,
-                deathgore, depthsVoice, drunkenMaster, emberBlade,
-                ferryman, hiddenNeedle, ironHoof, lightningElemental,
-                lunarGuardian, mountain, ninjaAssassin, pilot,
-                poisonedOne, professionalKiller, psychicSword,
-                rifleman, savageOne, shadowleaf, sniper, tuskedStorm,
-                vanguardWarrior, vengeanceSpirit, wanderingSpearman,
-                warriorMonk, windMaster };
+                deathgore, depthsVoice, drunkenMaster, dwarfWarrior,
+                emberBlade, ferryman, hiddenNeedle, ironHoof,
+                lightningElemental, lunarGuardian, mountain,
+                ninjaAssassin, pilot, poisonedOne, professionalKiller,
+                psychicSword, rifleman, savageOne, shadowleaf, sniper,
+                tuskedStorm, vanguardWarrior, vengeanceSpirit,
+                wanderingSpearman, warriorMonk, windMaster };
+        List<AbstractHero> expectedHeroes = Arrays
+                .asList(expectedHeroesArray);
+
+        assertTrue(heroes.containsAll(expectedHeroes));
+        assertEquals(expectedHeroes.size(), heroes.size());
+    }
+
+    /**
+     * Tests which heroes require Raven's Beak at any point
+     *
+     */
+    @Test
+    public void testGetHeroesThat_Require_RavensBeak() {
+
+        // Earth Hammer requires Raven's Beak to be crafted
+        List<AbstractHero> heroes = HCGearCalculator.getInstance()
+                .getHeroesThatRequire(ravensBeak);
+
+        AbstractHero[] expectedHeroesArray = new AbstractHero[] {
+                arcaneSapper, bearWarrior, cloudWalker, depthsVoice,
+                drunkenMaster, emberBlade, fallenDominion, ferryman,
+                hiddenNeedle, ninjaAssassin, pilot, poisonedOne,
+                professionalKiller, shallowsKeeper, swordmaster,
+                tuskedStorm, vanguardWarrior, wanderingSpearman,
+                warChief, windMaster,
+
+                // Fallen Dominion, Pilot, Rifleman, Swordmaster and Vengeance
+                // Spirit use Earth Hammer
+                rifleman, vengeanceSpirit };
+
         List<AbstractHero> expectedHeroes = Arrays
                 .asList(expectedHeroesArray);
 
